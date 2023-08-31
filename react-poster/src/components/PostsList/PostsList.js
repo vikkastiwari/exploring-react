@@ -5,35 +5,36 @@ import Post from "../Post/Post";
 import NewPost from "../NewPost/NewPost";
 import Modal from "../Modal/Modal";
 
-function PostsList(props) {
-  const [enteredValue, setEnteredValue] = useState("");
-  const [enteredNameValue, setEnteredNameValue] = useState("");
+function PostsList({ modalIsVisible, onCloseModal }) {
+  const [posts, setPosts] = useState([]);
 
-  function changeBodyHandler(event) {
-    setEnteredValue(event.target.value);
-  }
-
-  function changeNameHandler(event) {
-    setEnteredNameValue(event.target.value);
+  function addPostHandler(postData) {
+    // technically the best way to use callback
+    // when updation depends on previous state
+    setPosts((exisitingPost) => [postData, ...exisitingPost]);
   }
 
   return (
     <>
-      {props.modalIsVisible ? (
-        <Modal onHideModal={props.onCloseModal}>
-          <NewPost
-            onBodyChange={changeBodyHandler}
-            onNameChange={changeNameHandler}
-            onClose={props.onCloseModal}
-          />
+      {modalIsVisible ? (
+        <Modal onHideModal={onCloseModal}>
+          <NewPost onAddPost={addPostHandler} onClose={onCloseModal} />
         </Modal>
       ) : null}
-      <ul className={classes.posts}>
-        <Post author={enteredNameValue} body={enteredValue} />
-        <Post author={enteredNameValue} body={enteredValue} />
-        <Post author={enteredNameValue} body={enteredValue} />
-        <Post author={enteredNameValue} body={enteredValue} />
-      </ul>
+      {posts.length && ( 
+        <ul className={classes.posts}>
+          {posts.map((post, i) => (
+            <Post key={i} author={post.author} body={post.body} />
+          ))}
+        </ul>
+      )}
+      {!posts.length && (
+        <div style={{textAlign:'center', color:'white'}}>
+          <h2>There are no posts added.</h2>
+          <p>Start adding one!!</p>
+        </div>
+      )}
+      
     </>
   );
 }
