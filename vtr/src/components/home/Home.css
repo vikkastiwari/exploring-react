@@ -1,0 +1,258 @@
+.vtr_tm_section {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+
+.vtr_tm_hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 190px;
+}
+
+
+.vtr_tm_hero .background,
+.vtr_tm_hero .background .image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.vtr_tm_hero .background .image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.vtr_tm_hero .container {
+    height: 100%;
+}
+
+.vtr_tm_hero .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vtr_tm_hero .left {
+    width: 45%;
+    position: relative;
+}
+
+.vtr_tm_hero .left .inner {
+    position: relative;
+    z-index: 2;
+}
+
+.vtr_tm_hero .hello {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.vtr_tm_hero .name {
+    color: #fff;
+    font-size: 65px;
+    line-height: 1.1;
+    margin-bottom: 20px
+}
+
+.vtr_tm_hero .job {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 25px
+}
+
+.vtr_tm_hero .text {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px
+}
+
+.vtr_tm_hero .buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.vtr_tm_hero .vtr_tm_button {
+    width: auto
+}
+
+.vtr_tm_button {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left
+}
+
+.vtr_tm_button a {
+    color: #fff;
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 11px 35px 14px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-family-extra);
+    transition: all .3s ease
+}
+
+.vtr_tm_button a:hover {
+    background-color: var(--secondary-color)
+}
+
+.vtr_tm_hero .social ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.vtr_tm_hero .social ul li {
+    margin: 0 15px 0 0;
+    display: inline-block
+}
+
+.vtr_tm_hero .social ul li:last-child {
+    margin-right: 0
+}
+
+.vtr_tm_hero .social ul li a {
+    text-decoration: none;
+    color: #000
+}
+
+.vtr_tm_hero .stroke_1,.vtr_tm_hero .stroke_2 {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    opacity: .1;
+    font-size: 140px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.vtr_tm_hero .stroke_1 {
+    bottom: 100%;
+    margin-bottom: -74px;
+    left: -185px
+}
+
+.vtr_tm_hero .stroke_2 {
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    top: 100px
+}
+
+.vtr_tm_hero .right {
+    width: 55%;
+    padding-left: 225px;
+}
+
+.vtr_tm_hero .right .image {
+    position: relative;
+}
+
+.vtr_tm_hero .right .image img {
+    position: relative;
+    min-width: 100%;
+    opacity: 0
+}
+
+.vtr_tm_hero .right .image .main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 12px;
+}
+
+.vtr_tm_hero .icon {
+    position: absolute;
+    display: inline-block;
+    background-color: #fff;
+    width: 79px;
+    height: 79px;
+    border-radius: 12px;
+}
+
+.vtr_tm_hero .icon .svg {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.vtr_tm_hero .icon.t1{
+    top: -35px;
+    right: -42px;
+}
+
+.vtr_tm_hero .icon.t2{
+    bottom: 39px;
+    left: -30px;
+}
+
+.vtr_tm_hero .icon.node {
+    width: 120px;
+    height: 79px;
+}
+
+.vtr_tm_hero .icon .svg {
+    width: 85px;
+}
+
+.vtr_tm_hero .icon.t3{
+    bottom: -24px;
+    right: -34px;
+}
+
+.vtr_tm_down {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    z-index: 5;
+}
+
+.vtr_tm_down svg #wheel {
+    -webkit-animation: scroll 2s ease infinite;
+    animation: scroll 2s ease infinite
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        transform: translateY(0)
+    }
+
+    30% {
+        transform: translateY(60px)
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0)
+    }
+
+    30% {
+        transform: translateY(60px)
+    }
+}

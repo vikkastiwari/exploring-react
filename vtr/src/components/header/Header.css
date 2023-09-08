@@ -1,0 +1,79 @@
+.vtr_tm_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 25px 0;
+    transition: all .3s ease;
+}
+
+.vtr_tm_header.animate {
+    padding: 25px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.1)
+}
+
+.vtr_tm_header .header_inner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.vtr_tm_header .logo img {
+    max-width: 150px
+}
+
+.vtr_tm_header .logo .light {
+    display: block
+}
+
+.vtr_tm_header .menu ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center
+}
+
+.vtr_tm_header .menu ul li {
+    margin: 0 35px 0 0
+}
+
+.vtr_tm_header .menu ul li:last-child {
+    margin-right: 0
+}
+
+.vtr_tm_header .menu ul li a {
+    color: #fff;
+    font-family: var(--font-family-extra);
+    display: block;
+    font-weight: 600;
+    transition: all .3s ease
+}
+
+.vtr_tm_header .menu ul li.current a,
+.vtr_tm_header.animate .menu ul li.current a {
+    color: var(--secondary-color)
+}
+
+.vtr_tm_header .menu ul li.download_cv a {
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+    padding: 7px 30px 8px;
+    transition: all .3s ease
+}
+
+.vtr_tm_header .menu ul li.download_cv a:hover {
+    background-color: var(--primary-color)
+}
+
+.vtr_tm_header.animate .menu ul li a {
+    color: #000
+}
+
+.vtr_tm_header.animate .menu ul li.download_cv a {
+    color: #fff
+}

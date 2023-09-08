@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #142eb5;
+    --secondary-color: #0e207f;
+    --font-family-main: "Open Sans",sans-serif;
+    --font-family-extra: "Barlow",sans-serif;
+}
+
+a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline: none
+}
+
+body,html {
+    overflow-x: hidden
+}
+
+body {
+    width: 100%;
+    font-family: var(--font-family-main);
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0;
+    word-wrap: break-word;
+    font-weight: 400;
+    background-color: #fff;
+    color: #54545f
+}
+
+body::-webkit-scrollbar {
+    width: 11px
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #999 #fff
+}
+
+body:-webkit-scrollbar-track {
+    background: #fff
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 6px;
+    border: 3px solid #fff
+}
+
+.container {
+    max-width: 1070px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0 20px;
+    position: relative;
+    clear: both
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    line-height: 1.3;
+    font-family: var(--font-family-extra);
+    color: #000
+}
+
+h1 {
+    font-size: 45px
+}
+
+h2 {
+    font-size: 36px
+}
+
+h3 {
+    font-size: 30px
+}
+
+h4 {
+    font-size: 24px
+}
+
+h5 {
+    font-size: 20px
+}
+
+h6 {
+    font-size: 16px
+}
+
+svg {
+    fill: currentcolor
+}
+
+img {
+    vertical-align: middle
+}
+
+a{
+    text-decoration: none;
+}
+
+a,i {
+    border: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+/* HELPER CLASS */
+
+.vtr-fs-16 {
+    font-size: 16px;
+}
+
+.vtr-color-white {
+    color: rgba(255, 255, 255, 0.8);
+}
