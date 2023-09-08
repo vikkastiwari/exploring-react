@@ -2,10 +2,8 @@ import { useState, useEffect } from "react";
 
 import classes from "./PostsList.module.css";
 import Post from "../Post/Post";
-import NewPost from "../NewPost/NewPost";
-import Modal from "../Modal/Modal";
 
-function PostsList({ modalIsVisible, onCloseModal }) {
+function PostsList() {
   const [posts, setPosts] = useState([]);
   const [isFetching, setIsFetching] = useState(false);
   const [isError, setIsError] = useState(false);
@@ -67,14 +65,9 @@ function PostsList({ modalIsVisible, onCloseModal }) {
       setPosts((exisitingPost) => [postData, ...exisitingPost]);
     }
   }
-
+  
   return (
     <>
-      {modalIsVisible ? (
-        <Modal onHideModal={onCloseModal}>
-          <NewPost onAddPost={addPostHandler} onClose={onCloseModal} />
-        </Modal>
-      ) : null}
       {!isError && !isFetching && posts.length && ( 
         <ul className={classes.posts}>
           {posts.map((post, i) => (

@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
+import Modal from "../../components/Modal/Modal";
 import classes from './NewPost.module.css';
 
 function NewPost({onAddPost, onClose}) {
@@ -26,20 +28,22 @@ function NewPost({onAddPost, onClose}) {
   }
 
   return (
-    <form className={classes.form} onSubmit={submitHandler}>
-      <p>
-        <label htmlFor="body">Text</label>
-        <textarea id="body" required rows={3} onChange={changeBodyHandler} />
-      </p>
-      <p>
-        <label htmlFor="name">Your name</label>
-        <input type="text" id="name" required onChange={changeNameHandler} />
-      </p>
-      <p className={classes.actions}>
-        <button type='button' onClick={onClose}>Cancel</button>
-        <button type='submit'>Submit</button>
-      </p>
-    </form>
+    <Modal>
+      <form className={classes.form} onSubmit={submitHandler}>
+        <p>
+          <label htmlFor="body">Text</label>
+          <textarea id="body" required rows={3} onChange={changeBodyHandler} />
+        </p>
+        <p>
+          <label htmlFor="name">Your name</label>
+          <input type="text" id="name" required onChange={changeNameHandler} />
+        </p>
+        <p className={classes.actions}>
+          <Link type='button' to='/'>Cancel</Link>
+          <button type='submit'>Submit</button>
+        </p>
+      </form>
+    </Modal>
   );
 }
 
