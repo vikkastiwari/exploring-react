@@ -7,6 +7,7 @@ import Posts, { loader as PostsLoader } from "./routes/Posts";
 import reportWebVitals from "./reportWebVitals";
 import RootLayout from "./routes/RootLayout";
 import NewPost, { action as SubmitAction} from "./routes/NewPost/NewPost";
+import PostDetails, { loader as PostDetailsLoader } from "./routes/postDetails/postDetails";
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Posts />, // this element is rendered only after PostsLoader call is resolved
         loader: PostsLoader, // this exposes data in Posts component and respectively in its nested component
-        children: [{ path: "/create-posts", element: <NewPost />, action:SubmitAction }],
+        children: [
+          { path: "create-posts", element: <NewPost />, action:SubmitAction },
+          { path: ":id", element: <PostDetails />, loader:PostDetailsLoader }
+        ],
       },
     ],
   },
