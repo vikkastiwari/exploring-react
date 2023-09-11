@@ -120,3 +120,26 @@ a:hover {
 .vtr-color-white {
     color: rgba(255, 255, 255, 0.8);
 }
+
+.vtr_tm_button {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left
+}
+
+.vtr_tm_button a {
+    color: #fff;
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 11px 35px 14px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-family-extra);
+    transition: all .3s ease
+}
+
+.vtr_tm_button a:hover {
+    background-color: var(--secondary-color)
+}
