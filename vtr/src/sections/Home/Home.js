@@ -9,12 +9,13 @@ import { ReactComponent as AngularIcon } from "../../assets/icons/tech/angular.s
 import { ReactComponent as ReactIcon } from "../../assets/icons/tech/reactjs.svg";
 import { ReactComponent as NodeIcon } from "../../assets/icons/tech/nodejs.svg";
 import { ReactComponent as DownIcon } from "../../assets/icons/misc/down.svg";
+import Section from "../../components/Section/Section";
 
 
 function Home() {
   return (
     <>
-      <div className="vtr_tm_section" id="home">
+      <Section>
         <div className="vtr_tm_hero">
           <div className="background">
             <div
@@ -95,7 +96,7 @@ function Home() {
             </a>
           </div>
         </div>
-      </div>
+      </Section>
     </>
   );
 }

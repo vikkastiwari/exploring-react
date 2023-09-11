@@ -1,0 +1,94 @@
+.vtr_tm_features {
+    margin-bottom: 157px
+}
+
+.vtr_tm_features,.vtr_tm_features .features_list {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left
+}
+
+.vtr_tm_features .features_list ul {
+    margin: 0 0 0 -70px;
+    list-style-type: none
+}
+
+.vtr_tm_features .features_list ul li {
+    margin: 0 0 70px;
+    width: 33.3333%;
+    float: left;
+    padding-left: 70px
+}
+
+.vtr_tm_features .features_list ul li .list_inner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative
+}
+
+.vtr_tm_features .features_list ul li .short {
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+    position: relative
+}
+
+.vtr_tm_features .features_list ul li .short:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #cacdd3;
+    left: 0;
+    bottom: 0
+}
+
+.vtr_tm_features .features_list ul li .short:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #8d8d8e;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: all .3s ease
+}
+
+.vtr_tm_features .features_list ul li .list_inner:hover .short:after {
+    width: 100%
+}
+
+.vtr_tm_features .features_list ul li .short .title {
+    padding-right: 20px
+}
+
+.vtr_tm_features .features_list ul li .short span {
+    display: inline-block;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-family-extra);
+    margin-bottom: 5px
+}
+
+.vtr_tm_features .features_list ul li .short h3 {
+    font-size: 24px
+}
+
+.vtr_tm_features .features_list ul li .svg {
+    width: 60px;
+    height: 60px
+}
+
+.vtr_tm_features .features_list ul li .text {
+    width: 100%;
+    float: left
+}
