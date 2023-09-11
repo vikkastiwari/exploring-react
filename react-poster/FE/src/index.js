@@ -3,10 +3,11 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import "./index.css";
-import Posts from "./routes/Posts";
+import Posts, { loader as PostsLoader } from "./routes/Posts";
 import reportWebVitals from "./reportWebVitals";
 import RootLayout from "./routes/RootLayout";
-import NewPost from "./routes/NewPost/NewPost";
+import NewPost, { action as SubmitAction} from "./routes/NewPost/NewPost";
+import PostDetails, { loader as PostDetailsLoader } from "./routes/postDetails/postDetails";
 
 const router = createBrowserRouter([
   {
@@ -15,8 +16,12 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Posts />,
-        children: [{ path: "/create-posts", element: <NewPost /> }],
+        element: <Posts />, // this element is rendered only after PostsLoader call is resolved
+        loader: PostsLoader, // this exposes data in Posts component and respectively in its nested component
+        children: [
+          { path: "create-posts", element: <NewPost />, action:SubmitAction },
+          { path: ":id", element: <PostDetails />, loader:PostDetailsLoader }
+        ],
       },
     ],
   },
