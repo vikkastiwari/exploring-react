@@ -6,11 +6,19 @@ import thumb_1x1 from "../../assets/img/thumb/1-1.jpg";
 import about_1 from "../../assets/img/about/about-1.jpg";
 import about_2 from "../../assets/img/about/about-2.jpg";
 
-function About() {
+const About = () => {
   return (
     <Section>
       <div className="devman_tm_about">
         <div className="container">
+          <div class="vtr_tm_main_title" data-text-align="center">
+            <span>About</span>
+            <h3>My Amazing Works</h3>
+            <p>
+              Dliquip ex ea commo do conse namber onequa ute irure dolor in
+              reprehen derit in voluptate
+            </p>
+          </div>
           <div className="about_inner">
             <div className="left">
               <div className="image_wrap">
@@ -49,7 +57,7 @@ function About() {
                       viewBox="-1 0 258 258"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
-                      xmlnsXlink="http://www.w3.org/1999/xlink"
+                      xmlnsxlink="http://www.w3.org/1999/xlink"
                       preserveAspectRatio="xMidYMid"
                       id="null"
                       className="svg replaced-svg"
@@ -89,16 +97,16 @@ function About() {
                     <svg
                       version="1.1"
                       id="null"
-                      xmlnsDc="http://purl.org/dc/elements/1.1/"
-                      xmlnsCc="http://creativecommons.org/ns#"
-                      xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                      xmlnsSvg="http://www.w3.org/2000/svg"
-                      xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                      xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
-                      sodipodiDocname="wordpress.svg"
-                      inkscapeVersion="0.48.4 r9939"
+                      xmlnsdc="http://purl.org/dc/elements/1.1/"
+                      xmlnscc="http://creativecommons.org/ns#"
+                      xmlnsrdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlnssvg="http://www.w3.org/2000/svg"
+                      xmlnssodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                      xmlnsinkscape="http://www.inkscape.org/namespaces/inkscape"
+                      sodipodidocname="wordpress.svg"
+                      inkscapeversion="0.48.4 r9939"
                       xmlns="http://www.w3.org/2000/svg"
-                      xmlnsXlink="http://www.w3.org/1999/xlink"
+                      xmlnsxlink="http://www.w3.org/1999/xlink"
                       x="0px"
                       y="0px"
                       width="1200px"
@@ -110,7 +118,7 @@ function About() {
                     >
                       <path
                         id="path26266"
-                        inkscapeConnectorCurvature="0"
+                        inkscapeconnectorcurvature="0"
                         d="M599.314,1200C264.241,1193.561,2.343,918.889,0,599.314
 	C6.515,264.491,279.729,2.343,599.314,0C934.157,6.694,1197.654,279.298,1200,599.314
 	C1193.381,934.406,919.318,1197.654,599.314,1200z M599.314,42.514C288.196,48.64,43.307,302.232,41.143,599.314
@@ -149,7 +157,7 @@ function About() {
                       viewBox="0 0 17 17"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
-                      xmlnsXlink="http://www.w3.org/1999/xlink"
+                      xmlnsxlink="http://www.w3.org/1999/xlink"
                       id="null"
                       className="svg replaced-svg"
                     >
