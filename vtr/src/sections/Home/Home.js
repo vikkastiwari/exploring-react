@@ -12,7 +12,7 @@ import { ReactComponent as DownIcon } from "../../assets/icons/misc/down.svg";
 import Section from "../../components/Section/Section";
 
 
-function Home() {
+const Home = () => {
   return (
     <>
       <Section>

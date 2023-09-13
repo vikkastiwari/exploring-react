@@ -1,0 +1,142 @@
+.vtr_tm_services {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    /* padding-top: 178px; */
+    margin-bottom: 160px;
+    position: relative
+}
+
+.vtr_tm_services .service_list {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    /* padding-top: 86px */
+}
+
+.vtr_tm_services .service_list ul {
+    margin: 0 0 0 -25px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 3
+}
+
+.vtr_tm_services .service_list ul li {
+    margin: 0 0 25px;
+    width: 50%;
+    float: left;
+    padding-left: 25px
+}
+
+.vtr_tm_services .service_list ul li .list_inner {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    float: left;
+    position: relative;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 18px 10px 100px 19px  rgba(10,15,70,.07);
+    padding: 65px 65px 65px 195px
+}
+
+.vtr_tm_services .service_list ul li.simple .list_inner {
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0 60px 0 0;
+    background-color: transparent
+}
+
+.vtr_tm_services .service_list ul li.text {
+    text-align: center;
+    padding: 0 100px
+}
+
+.vtr_tm_services .service_list .title {
+    width: 100%;
+    float: left;
+    margin-bottom: 19px
+}
+
+.vtr_tm_services .service_list .title h3 {
+    font-size: 30px;
+    margin-bottom: 16px
+}
+
+.vtr_tm_services .service_list .price {
+    font-weight: 500;
+    font-size: 21px;
+    color: #000;
+    font-family: Jost,sans-serif
+}
+
+.vtr_tm_services .service_list .price span {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.vtr_tm_services .service_list .icon {
+    position: absolute;
+    left: 65px;
+    top: 65px;
+    width: 95px;
+    height: 95px;
+    background-color: rgb(20 46 181 / 0.4);
+    border-radius: 50%;
+}
+
+.vtr_tm_services .service_list .icon .svg {
+    width: 45px;
+    height: 45px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    z-index: 2;
+    color: var(--primary-color);
+}
+
+.vtr_tm_services .service_list .icon .back {
+    position: absolute;
+    max-width: 95px;
+    top: 0
+}
+
+.vtr_tm_services .service_list .wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%
+}
+
+.vtr_tm_services .service_list .wrapper h3 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -.2px;
+    margin-bottom: 35px
+}
+
+.vtr_tm_services .popup_service_image,.vtr_tm_services .service_hidden_details {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    z-index: -111
+}
+
+.vtr_tm_services .service_list .title h3 {
+    font-size: 25px;
+    margin-bottom: 10px
+}
+
+.vtr_tm_services .service_list .price {
+    font-size: 18px
+}
+
+.vtr_tm_services .service_list .price span {
+    font-size: 20px
+}

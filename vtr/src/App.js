@@ -4,6 +4,7 @@ import About from './sections/About/About';
 import Features from './sections/Features/Features';
 import Header from './sections/Header/Header';
 import Home from './sections/Home/Home';
+import Services from './sections/Services/Services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Features />
       <About />
+      <Services />
     </div>
   );
 }

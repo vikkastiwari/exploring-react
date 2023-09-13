@@ -2,10 +2,11 @@ import '../../css/general.css'
 import './Header.css';
 import logo from '../../assets/img/logo/logo.png';
 
-function Header() {
+const Header = () => {
   return (
     <>
-      <div className="vtr_tm_header">
+      {/* animate */}
+      <div className="vtr_tm_header ">
         <div className="container">
           <div className="header_inner">
             <div className="logo">
