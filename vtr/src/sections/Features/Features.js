@@ -10,7 +10,7 @@ const Features = () => {
       <Section>
         <div className="vtr_tm_features">
           <div className="container">
-            <div class="vtr_tm_main_title" data-text-align="center">
+            <div className="vtr_tm_main_title" data-text-align="center">
               <span>Portfolio</span>
               <h3>Our Commitment</h3>
               <p>

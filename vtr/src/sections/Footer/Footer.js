@@ -4,16 +4,16 @@ import './Footer.css';
 const Footer = () => {
   return (
     <Section>
-      <div class="vtr_tm_copyright">
-        <div class="container">
-          <div class="inner">
+      <div className="vtr_tm_copyright">
+        <div className="container">
+          <div className="inner">
             <div
-              class="left wow fadeInLeft"
+              className="left wow fadeInLeft"
               data-wow-duration="1s"
               style={{visibility: "visible", animationDuration: '1s'}}
             >
               <p>
-                Developed with love by
+                Developed with love by &nbsp; 
                 <a
                   href="https://www.linkedin.com/in/vikas-tiwari-1b051818b/"
                   rel="noreferrer"
@@ -21,11 +21,11 @@ const Footer = () => {
                 >
                   Vikas Tiwari
                 </a>
-                © 2023
+                &nbsp; © 2023
               </p>
             </div>
             <div
-              class="right wow fadeInRight"
+              className="right wow fadeInRight"
               data-wow-duration="1s"
               style={{visibility: "visible", animationDuration: '1s'}}
             >

@@ -75,7 +75,7 @@ const Contact = () => {
                   method="post"
                   className="contact_form"
                   id="contact_form"
-                  autocomplete="off"
+                  autoComplete="off"
                 >
                   <div
                     className="returnmessage"

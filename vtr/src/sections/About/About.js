@@ -11,7 +11,7 @@ const About = () => {
     <Section>
       <div className="devman_tm_about">
         <div className="container">
-          <div class="vtr_tm_main_title" data-text-align="center">
+          <div className="vtr_tm_main_title" data-text-align="center">
             <span>About</span>
             <h3>My Amazing Works</h3>
             <p>
@@ -57,7 +57,7 @@ const About = () => {
                       viewBox="-1 0 258 258"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
-                      xmlnsxlink="http://www.w3.org/1999/xlink"
+                      xmlnsXlink="http://www.w3.org/1999/xlink"
                       preserveAspectRatio="xMidYMid"
                       id="null"
                       className="svg replaced-svg"
@@ -106,7 +106,7 @@ const About = () => {
                       sodipodidocname="wordpress.svg"
                       inkscapeversion="0.48.4 r9939"
                       xmlns="http://www.w3.org/2000/svg"
-                      xmlnsxlink="http://www.w3.org/1999/xlink"
+                      xmlnsXlink="http://www.w3.org/1999/xlink"
                       x="0px"
                       y="0px"
                       width="1200px"
@@ -157,7 +157,7 @@ const About = () => {
                       viewBox="0 0 17 17"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
-                      xmlnsxlink="http://www.w3.org/1999/xlink"
+                      xmlnsXlink="http://www.w3.org/1999/xlink"
                       id="null"
                       className="svg replaced-svg"
                     >

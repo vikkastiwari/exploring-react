@@ -1,6 +1,7 @@
 import './App.css';
 
 import About from './sections/About/About';
+import Blog from './sections/Blog/Blog';
 import Contact from './sections/Contact/Contact';
 import Features from './sections/Features/Features';
 import Footer from './sections/Footer/Footer';
@@ -17,6 +18,7 @@ function App() {
       <Features />
       <About />
       <Services />
+      <Blog />
       <Subscribe />
       <Contact />
       <Footer />
