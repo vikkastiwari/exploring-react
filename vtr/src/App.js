@@ -3,6 +3,7 @@ import './App.css';
 import About from './sections/About/About';
 import Contact from './sections/Contact/Contact';
 import Features from './sections/Features/Features';
+import Footer from './sections/Footer/Footer';
 import Header from './sections/Header/Header';
 import Home from './sections/Home/Home';
 import Services from './sections/Services/Services';
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <Subscribe />
       <Contact />
+      <Footer />
     </div>
   );
 }
