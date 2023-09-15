@@ -1,8 +1,22 @@
-import Section from "../../components/Section/Section";
+import { useState } from 'react';
+
 import './Services.css';
 import '../../css/animation.css';
 
+import misc_3 from '../../assets/img/misc/3.png';
+import Section from "../../components/Section/Section";
+
 const Services = () => {
+
+  const [rotateY, setRotateY] = useState(0);
+  const [rotateX, setRotateX] = useState(0);
+
+  const cardStyle = {
+    willChange: 'transform',
+    perspective: '1000px',
+    transform: `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1, 1, 1)`,
+  };
+
   return (
     <Section>
       <div className="vtr_tm_services">
@@ -23,8 +37,8 @@ const Services = () => {
                 style={{visibility: 'visible', animationDuration: '1s'}}
               >
                 <div
-                  className="list_inner tilt-effect"
-                  style={{transform: 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)', willChange: 'transform'}}
+                  className="list_inner tilt-effect1"
+                  style={cardStyle}
                 >
                   <span className="icon">
                     <svg
@@ -257,20 +271,20 @@ const Services = () => {
             </ul>
           </div>
         </div>
-        {/* <div
+        <div
           className="brush_1 wow fadeInLeft"
           data-wow-duration="1s"
           style={{visibility: 'visible', animationDuration: '1s'}}
         >
-          <img src="img/brushes/service/5.png" alt="image" />
+          <img src={misc_3} alt="misc shape" />
         </div>
         <div
           className="brush_2 wow zoomIn"
           data-wow-duration="1s"
           style={{visibility: 'visible', animationDuration: '1s'}}
         >
-          <img src="img/brushes/service/6.png" alt="image" />
-        </div>  */}
+          <img src={misc_3} alt="misc shape" />
+        </div>  
       </div>
     </Section>
   );

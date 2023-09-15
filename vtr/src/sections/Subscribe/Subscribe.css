@@ -1,0 +1,107 @@
+.vtr_tm_subscribe,.vtr_tm_subscribe .inner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left
+}
+
+.vtr_tm_subscribe .inner {
+    position: relative
+}
+
+.vtr_tm_subscribe .background,.vtr_tm_subscribe .background .dots {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 12px
+}
+
+.vtr_tm_subscribe .background .dots {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%
+}
+
+.vtr_tm_subscribe .background .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(128,103,240,.92);
+    z-index: 1;
+    border-radius: 12px
+}
+
+.vtr_tm_subscribe .content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 83px 90px 86px
+}
+
+.vtr_tm_subscribe .left {
+    width: 50%;
+    padding-right: 40px
+}
+
+.vtr_tm_subscribe .subtitle {
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+    font-family: Jost,sans-serif;
+    margin-bottom: 5px
+}
+
+.vtr_tm_subscribe .title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 10px
+}
+
+.vtr_tm_subscribe .text {
+    color: #fff
+}
+
+.vtr_tm_subscribe .right {
+    width: 50%;
+    padding-left: 10px
+}
+
+.vtr_tm_subscribe .field {
+    width: 100%;
+    position: relative
+}
+
+.vtr_tm_subscribe .field input[type=text] {
+    width: 100%;
+    height: 72px;
+    border-radius: 12px;
+    color: #6f6b80;
+    background-color: #fff;
+    padding-left: 30px
+}
+
+.vtr_tm_subscribe .field input[type=text]:focus {
+    outline: none
+}
+
+.vtr_tm_subscribe .field input[type=submit] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 72px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: #fff;
+    font-family: Jost,sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: #f75023;
+    padding: 0 35px
+}

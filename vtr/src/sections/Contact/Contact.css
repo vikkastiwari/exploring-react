@@ -1,0 +1,168 @@
+.vtr_tm_contact {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding-top: 190px;
+    position: relative
+}
+
+.vtr_tm_contact .contact_inner {
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 182px;
+    position: relative
+}
+
+.vtr_tm_contact .left {
+    width: 50%
+}
+
+.vtr_tm_contact .left ul {
+    margin: 0;
+    list-style-type: none
+}
+
+.vtr_tm_contact .left ul li {
+    margin: 0 0 15px
+}
+
+.vtr_tm_contact .left ul li:last-child {
+    margin-bottom: 0
+}
+
+.vtr_tm_contact .left .list_inner {
+    display: flex;
+    align-items: center
+}
+
+.vtr_tm_contact .left .icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    position: relative
+}
+
+.vtr_tm_contact .left .icon i {
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 24px;
+}
+
+.vtr_tm_contact .left .short {
+    padding-left: 25px
+}
+
+.vtr_tm_contact .left .short h3 {
+    font-size: 30px;
+    margin-bottom: 5px
+}
+
+.vtr_tm_contact .left .short a {
+    text-decoration: none;
+    color: #6f6b80;
+    transition: all .3s ease
+}
+
+.vtr_tm_contact .left .short a:hover {
+    color: #f75023
+}
+
+.vtr_tm_contact .right {
+    width: 50%
+}
+
+.vtr_tm_contact .fields,.vtr_tm_contact .input_list {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left
+}
+
+.vtr_tm_contact .input_list ul {
+    margin: 0 0 0 -12px;
+    list-style-type: none
+}
+
+.vtr_tm_contact .input_list ul li {
+    margin: 0 0 12px;
+    width: 50%;
+    float: left;
+    padding-left: 12px
+}
+
+.vtr_tm_contact input[type=text],
+.vtr_tm_contact input[type=number] {
+    width: 100%;
+    height: 58px;
+    padding: 0 30px;
+    background-color: transparent;
+    border: 1px solid #d6dbe5;
+    border-radius: 12px;
+    color: #6f6b80;
+    font-size: 18px
+}
+
+.vtr_tm_contact input[type=text]:focus,
+.vtr_tm_contact input[type=number]:focus {
+    background-color: transparent;
+    outline: none
+}
+
+.vtr_tm_contact .message_area {
+    width: 100%;
+    float: left;
+    margin-bottom: 4px
+}
+
+.vtr_tm_contact .message_area textarea {
+    width: 100%;
+    height: 150px;
+    padding: 16px 30px 30px!important;
+    background-color: transparent;
+    border: 1px solid #d6dbe5;
+    border-radius: 12px;
+    color: #6f6b80;
+    font-size: 18px
+}
+
+.vtr_tm_contact .message_area textarea:focus {
+    background-color: transparent;
+    outline: none
+}
+
+.vtr_tm_contact .empty_notice {
+    margin-bottom: 7px;
+    display: none
+}
+
+.vtr_tm_contact .contact_error,.vtr_tm_contact .empty_notice {
+    color: #f52225;
+    text-align: left;
+    font-weight: 500
+}
+
+.vtr_tm_contact .returnmessage {
+    color: #3a00ff;
+    margin-bottom: 7px;
+    text-align: left;
+    font-weight: 500
+}
+
+.vtr_tm_contact .brush_1 {
+    position: absolute;
+    top: 100px;
+    left: 0
+}
+
+.vtr_tm_contact .contact_inner .brush_2 {
+    position: absolute;
+    bottom: -100px;
+    right: -150px
+}

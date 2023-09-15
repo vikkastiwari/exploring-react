@@ -1,10 +1,12 @@
 import './App.css';
-import './assets/fonts/fontello.06d9b37e.woff2';
+
 import About from './sections/About/About';
+import Contact from './sections/Contact/Contact';
 import Features from './sections/Features/Features';
 import Header from './sections/Header/Header';
 import Home from './sections/Home/Home';
 import Services from './sections/Services/Services';
+import Subscribe from './sections/Subscribe/Subscribe';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Features />
       <About />
       <Services />
+      <Subscribe />
+      <Contact />
     </div>
   );
 }
