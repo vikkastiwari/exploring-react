@@ -67,7 +67,7 @@
     right: 18px;
     z-index: 2;
     display: inline-block;
-    background-color: #1cbe59;
+    background-color: var(--primary-color);
     border-radius: 12px;
     text-align: center;
     padding: 13px 19px 12px;

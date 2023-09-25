@@ -1,6 +1,12 @@
+/* 
+    Light tint: #8a97da
+    Dark tint: #1229a3
+
+*/
 :root {
     --primary-color: #142eb5;
     --secondary-color: #0e207f;
+    --accent-grey: #767676;
     --font-family-main: "Open Sans",sans-serif;
     --font-family-extra: "Barlow",sans-serif;
 }
@@ -102,6 +108,10 @@ h5 {
 
 h6 {
     font-size: 16px
+}
+
+p{
+    color: var(--accent-grey);
 }
 
 svg {

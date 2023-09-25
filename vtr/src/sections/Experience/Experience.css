@@ -1,0 +1,203 @@
+.vtr_tm_timeline {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 160px
+}
+
+.vtr_tm_timeline .timeline_inner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative
+}
+
+.vtr_tm_timeline .timeline_list {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-top: 95px;
+    position: relative
+}
+
+.vtr_tm_timeline .timeline_list .line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    top: -77px;
+    bottom: 100px;
+    background-color: #b9c0e9
+}
+
+.vtr_tm_timeline .timeline_list .line:before {
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #b9c0e9;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.vtr_tm_timeline .timeline_list>ul {
+    margin: 0;
+    list-style-type: none
+}
+
+.vtr_tm_timeline .timeline_list>ul>li {
+    margin: 0 0 60px;
+    width: 100%;
+    float: left
+}
+
+.vtr_tm_timeline .timeline_list>ul>li:last-child {
+    margin-bottom: 0
+}
+
+.vtr_tm_timeline .timeline_list .items {
+    margin: 0 0 0 -40px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.vtr_tm_timeline .timeline_list .items li {
+    margin: 0;
+    width: 33.3333%;
+    padding-left: 40px;
+    text-align: right
+}
+
+.vtr_tm_timeline .timeline_list .items li:nth-child(2) {
+    text-align: center
+}
+
+.vtr_tm_timeline .timeline_list .items li .list_inner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative
+}
+
+.vtr_tm_timeline .timeline_list .items .image {
+    position: relative
+}
+
+.vtr_tm_timeline .timeline_list .items .image img {
+    position: relative;
+    opacity: 0;
+    min-width: 100%
+}
+
+.vtr_tm_timeline .timeline_list .items .image .main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 10px
+}
+
+.vtr_tm_timeline .timeline_list .items .year {
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    border-radius: 50%;
+    background-color: #8a97da;
+    display: inline-block;
+    padding: 0 5px;
+    transition: all .3s ease
+}
+
+.vtr_tm_timeline .timeline_list .items:hover .year {
+    background-color: #1229a3
+}
+
+.vtr_tm_timeline .timeline_list .items .year span {
+    font-weight: 700;
+    color: #000;
+    font-family: var(--font-family-extra);
+    text-transform: uppercase;
+    transition: all .3s ease
+}
+
+.vtr_tm_timeline .timeline_list .items:hover .year span {
+    color: #fff
+}
+
+.vtr_tm_timeline .timeline_list .items .svg {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 5px;
+    left: auto;
+    right: 0
+}
+
+.vtr_tm_timeline .timeline_list .details {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-right: 100px;
+    padding-left: 0
+}
+
+.vtr_tm_timeline .timeline_list .title {
+    width: 100%;
+    float: left;
+    margin-bottom: 8px
+}
+
+.vtr_tm_timeline .timeline_list .title h3 {
+    font-size: 20px;
+    color: #002a3a;
+    margin-bottom: 5px
+}
+
+.vtr_tm_timeline .timeline_list .title span {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-family: var(--font-family-extra);
+    text-transform: uppercase
+}
+
+.vtr_tm_timeline .timeline_list>ul>li:nth-child(2n) .items {
+    flex-direction: row-reverse
+}
+
+.vtr_tm_timeline .timeline_list>ul>li:nth-child(2n) .items li {
+    text-align: left
+}
+
+.vtr_tm_timeline .timeline_list>ul>li:nth-child(2n) .items li:nth-child(2) {
+    text-align: center
+}
+
+.vtr_tm_timeline .timeline_list>ul>li:nth-child(2n) .items .svg {
+    left: 0;
+    right: auto
+}
+
+.vtr_tm_timeline .timeline_list>ul>li:nth-child(2n) .items .details {
+    padding-left: 100px;
+    padding-right: 0
+}
+
+.vtr_tm_timeline .svg {
+    color: transparent
+}
+
+.vtr_tm_timeline .timeline_inner .container {
+    z-index: 1
+}
