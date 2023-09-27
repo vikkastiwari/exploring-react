@@ -112,12 +112,13 @@
 .vtr_tm_timeline .timeline_list .items .year {
     width: 130px;
     height: 130px;
+    cursor: pointer;
     line-height: 130px;
     border-radius: 50%;
     background-color: #8a97da;
     display: inline-block;
     padding: 0 5px;
-    transition: all .3s ease
+    transition: all .3s ease;
 }
 
 .vtr_tm_timeline .timeline_list .items:hover .year {

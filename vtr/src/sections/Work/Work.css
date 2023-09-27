@@ -1,0 +1,155 @@
+.vtr_tm_portfolio {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 165px;
+    position: relative
+}
+
+.vtr_tm_portfolio .portfolio_filter {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    text-align: center;
+    padding: 78px 0 56px
+}
+
+.vtr_tm_portfolio .portfolio_filter ul {
+    margin: 0;
+    list-style-type: none
+}
+
+.vtr_tm_portfolio .portfolio_filter ul li {
+    margin: 0 50px 0 0;
+    display: inline-block
+}
+
+.vtr_tm_portfolio .portfolio_filter ul li:last-child {
+    margin-right: 0
+}
+
+.vtr_tm_portfolio .portfolio_filter ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: Jost,sans-serif;
+    font-weight: 500;
+    transition: all .3s ease
+}
+
+.vtr_tm_portfolio .portfolio_filter ul li a.current,.vtr_tm_portfolio .portfolio_filter ul li a:hover {
+    color: #f75023
+}
+
+.vtr_tm_portfolio .portfolio_list {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left
+}
+
+.vtr_tm_portfolio .portfolio_list ul {
+    margin: 0 0 0 -25px;
+    list-style-type: none;
+    position: relative;
+    z-index: 2
+}
+
+.vtr_tm_portfolio .portfolio_list ul li {
+    margin: 0 0 25px;
+    width: 33.3333%;
+    float: left;
+    padding-left: 25px
+}
+
+.vtr_tm_portfolio .portfolio_list ul li .inner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px
+}
+
+.vtr_tm_portfolio .portfolio_list .image {
+    position: relative;
+    overflow: hidden
+}
+
+.vtr_tm_portfolio .portfolio_list .inner img {
+    min-width: 100%;
+    opacity: 0
+}
+
+.vtr_tm_portfolio .portfolio_list .main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    transform: scale(1) translateZ(0);
+    transition: all .3s ease-in-out
+}
+
+.vtr_tm_portfolio .portfolio_list ul li .inner:hover .main {
+    transform: scale(1.1) translateZ(0)
+}
+
+.vtr_tm_portfolio_titles {
+    white-space: nowrap;
+    background: #fff;
+    font-size: 21px;
+    padding: 7px 15px;
+    font-family: Jost,sans-serif;
+    font-weight: 500;
+    color: #000;
+    position: fixed;
+    z-index: 5;
+    opacity: 0;
+    visibility: hidden
+}
+
+.vtr_tm_portfolio_titles.visible {
+    opacity: 1;
+    visibility: visible
+}
+
+.vtr_tm_portfolio_titles .work__cat {
+    position: absolute;
+    background: #fff;
+    top: 100%;
+    left: 0;
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 15px;
+    color: #6f6b80
+}
+
+.entry {
+    position: relative
+}
+
+.vtr_tm_portfolio .mobile_title {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding-top: 20px;
+    display: none
+}
+
+.vtr_tm_portfolio .mobile_title h3 {
+    font-size: 18px;
+    font-weight: 600
+}
+
+.vtr_tm_portfolio .mobile_title span {
+    font-family: Poppins;
+    font-weight: 500
+}
