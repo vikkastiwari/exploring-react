@@ -15,7 +15,7 @@ const Blog = () => {
             <h3>Recent Blogs, Updates &amp; More</h3>
             <p>Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate</p>
           </div>
-          <div className="news_list">
+          <div className="news_list vtr_slider">
             <ul>
               <li
                 className="wow fadeInUp"
@@ -40,7 +40,7 @@ const Blog = () => {
                     <span className="category">
                       <a href="/">Web Development</a>
                     </span>
-                    <h3 className="title">
+                    <h3 className="title vtr_text-truncate">
                       <a href="/">
                         Jim Morisson Says when the musics over turn off the
                         light
@@ -102,7 +102,7 @@ const Blog = () => {
                     <span className="category">
                       <a href="/">Branding</a>
                     </span>
-                    <h3 className="title">
+                    <h3 className="title vtr_text-truncate">
                       <a href="/">
                         How to be appreciated for your hard work as a developer
                       </a>
@@ -163,7 +163,7 @@ const Blog = () => {
                     <span className="category">
                       <a href="/">Social Media</a>
                     </span>
-                    <h3 className="title">
+                    <h3 className="title vtr_text-truncate">
                       <a href="/">
                         How designers and developers can collaborate better
                       </a>

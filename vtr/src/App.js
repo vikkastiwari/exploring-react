@@ -10,6 +10,7 @@ import Header from './sections/Header/Header';
 import Home from './sections/Home/Home';
 import Services from './sections/Services/Services';
 import Subscribe from './sections/Subscribe/Subscribe';
+import Testimonial from './sections/Testimonial/Testimonial';
 import Work from './sections/Work/Work';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Services />
       <Work />
       <Experience />
+      <Testimonial />
       <Blog />
       <Subscribe />
       <Contact />

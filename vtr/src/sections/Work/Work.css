@@ -1,89 +1,53 @@
 .vtr_tm_portfolio {
     width: 100%;
     height: auto;
-    clear: both;
-    float: left;
     margin-bottom: 165px;
-    position: relative
-}
-
-.vtr_tm_portfolio .portfolio_filter {
-    width: 100%;
-    height: auto;
-    clear: both;
-    float: left;
-    text-align: center;
-    padding: 78px 0 56px
-}
-
-.vtr_tm_portfolio .portfolio_filter ul {
-    margin: 0;
-    list-style-type: none
-}
-
-.vtr_tm_portfolio .portfolio_filter ul li {
-    margin: 0 50px 0 0;
-    display: inline-block
-}
-
-.vtr_tm_portfolio .portfolio_filter ul li:last-child {
-    margin-right: 0
-}
-
-.vtr_tm_portfolio .portfolio_filter ul li a {
-    text-decoration: none;
-    color: #000;
-    font-family: Jost,sans-serif;
-    font-weight: 500;
-    transition: all .3s ease
-}
-
-.vtr_tm_portfolio .portfolio_filter ul li a.current,.vtr_tm_portfolio .portfolio_filter ul li a:hover {
-    color: #f75023
 }
 
 .vtr_tm_portfolio .portfolio_list {
     width: 100%;
     height: auto;
-    clear: both;
-    float: left
 }
 
 .vtr_tm_portfolio .portfolio_list ul {
     margin: 0 0 0 -25px;
     list-style-type: none;
-    position: relative;
-    z-index: 2
+    display: block;
+    overflow: auto;
+    margin-bottom: -24px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .vtr_tm_portfolio .portfolio_list ul li {
-    margin: 0 0 25px;
-    width: 33.3333%;
-    float: left;
-    padding-left: 25px
+    margin: 0 0 30px;
+    display: inline-block;
+    padding-right: 30px;
+    width: 28.3333%
 }
 
-.vtr_tm_portfolio .portfolio_list ul li .inner {
+.vtr_tm_portfolio .portfolio_list ul li .list_inner {
     width: 100%;
     height: auto;
-    clear: both;
-    float: left;
+    position: relative;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.vtr_tm_portfolio .portfolio_list ul li .image {
     position: relative;
     overflow: hidden;
-    border-radius: 12px
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
 }
 
-.vtr_tm_portfolio .portfolio_list .image {
+.vtr_tm_portfolio .portfolio_list ul li .image img {
     position: relative;
-    overflow: hidden
+    opacity: 0;
+    min-width: 100%
 }
 
-.vtr_tm_portfolio .portfolio_list .inner img {
-    min-width: 100%;
-    opacity: 0
-}
-
-.vtr_tm_portfolio .portfolio_list .main {
+.vtr_tm_portfolio .portfolio_list ul li .image .main {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -93,63 +57,65 @@
     background-size: cover;
     background-position: 50%;
     transform: scale(1) translateZ(0);
-    transition: all .3s ease-in-out
+    transition: all .3s ease
 }
 
-.vtr_tm_portfolio .portfolio_list ul li .inner:hover .main {
+.vtr_tm_portfolio .list_inner:hover .image .main {
     transform: scale(1.1) translateZ(0)
 }
 
-.vtr_tm_portfolio_titles {
-    white-space: nowrap;
-    background: #fff;
-    font-size: 21px;
-    padding: 7px 15px;
-    font-family: Jost,sans-serif;
-    font-weight: 500;
-    color: #000;
-    position: fixed;
-    z-index: 5;
-    opacity: 0;
-    visibility: hidden
-}
-
-.vtr_tm_portfolio_titles.visible {
-    opacity: 1;
-    visibility: visible
-}
-
-.vtr_tm_portfolio_titles .work__cat {
-    position: absolute;
-    background: #fff;
-    top: 100%;
-    left: 0;
-    margin-top: -10px;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 5px 15px;
-    color: #6f6b80
-}
-
-.entry {
+.vtr_tm_portfolio .portfolio_list .details {
+    width: 100%;
+    background-color: #e8eaf8;
+    padding: 20px 30px 28px 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     position: relative
 }
 
-.vtr_tm_portfolio .mobile_title {
-    width: 100%;
-    height: auto;
-    clear: both;
-    float: left;
-    padding-top: 20px;
-    display: none
+.vtr_tm_portfolio .portfolio_list .details .category {
+    display: inline-block;
+    font-family: var(--font-family-extra);
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    position: relative;
 }
 
-.vtr_tm_portfolio .mobile_title h3 {
-    font-size: 18px;
-    font-weight: 600
+.vtr_tm_portfolio .portfolio_list .details .category:before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: rgba(0,0,0,.1);
+    left: -50px;
+    bottom: 10px
 }
 
-.vtr_tm_portfolio .mobile_title span {
-    font-family: Poppins;
-    font-weight: 500
+.vtr_tm_portfolio .portfolio_list .details .category:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    left: -50px;
+    bottom: 10px;
+    z-index: 1;
+    transition: all .3s ease
 }
+
+.vtr_tm_portfolio .list_inner:hover .category:after {
+    width: 40px;
+}
+
+.vtr_tm_portfolio .portfolio_list .details .svg {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    opacity: .1;
+    transition: all .3s ease
+}
+

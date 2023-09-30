@@ -12,14 +12,18 @@
 
 .vtr_tm_news ul {
     margin: 0 0 0 -25px;
-    list-style-type: none
+    list-style-type: none;
+    display: block;
+    overflow: auto;
+    margin-bottom: -24px;
 }
 
 .vtr_tm_news ul li {
     margin: 0 0 25px;
-    width: 33.3333%;
-    float: left;
-    padding-left: 25px
+    width: 38.3333%;
+    /* float: left; */
+    display: inline-block;
+    padding-left: 25px;
 }
 
 .vtr_tm_news ul li .list_inner {
@@ -88,7 +92,7 @@
 
 .vtr_tm_news ul li .details .category a {
     font-size: 16px;
-    color: #f75023;
+    color: var(--primary-color);
     font-family: Jost,sans-serif;
     text-decoration: none;
     font-weight: 500;
@@ -109,7 +113,7 @@
 }
 
 .vtr_tm_news ul li .details .title a:hover {
-    color: #f75023
+    color: var(--secondary-color)
 }
 
 .vtr_tm_news .news_hidden_details {
