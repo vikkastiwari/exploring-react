@@ -38,7 +38,7 @@ const Blog = () => {
                   </div>
                   <div className="details">
                     <span className="category">
-                      <a href="/">Web Development</a>
+                      <a href="/"> &#35;web &#35;development</a>
                     </span>
                     <h3 className="title vtr_text-truncate">
                       <a href="/">
