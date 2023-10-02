@@ -40,7 +40,7 @@ const Blog = () => {
                     <span className="category">
                       <a href="/"> &#35;web &#35;development</a>
                     </span>
-                    <h3 className="title vtr_text-truncate">
+                    <h3 className="title vtr_text_truncate">
                       <a href="/">
                         Jim Morisson Says when the musics over turn off the
                         light
@@ -102,7 +102,7 @@ const Blog = () => {
                     <span className="category">
                       <a href="/">Branding</a>
                     </span>
-                    <h3 className="title vtr_text-truncate">
+                    <h3 className="title vtr_text_truncate">
                       <a href="/">
                         How to be appreciated for your hard work as a developer
                       </a>
@@ -163,7 +163,7 @@ const Blog = () => {
                     <span className="category">
                       <a href="/">Social Media</a>
                     </span>
-                    <h3 className="title vtr_text-truncate">
+                    <h3 className="title vtr_text_truncate">
                       <a href="/">
                         How designers and developers can collaborate better
                       </a>

@@ -43,11 +43,9 @@
     padding: 65px 65px 65px 195px
 }
 
-.vtr_tm_services .service_list ul li.simple .list_inner {
-    box-shadow: none;
-    border-radius: 0;
-    padding: 0 60px 0 0;
-    background-color: transparent
+.vtr_tm_services .service_list ul li .list_inner:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
 .vtr_tm_services .service_list ul li.text {

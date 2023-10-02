@@ -1,9 +1,10 @@
 ### WEB FLOW
-#### Task 1 - Add ellipsis in blog section 
-#### Task 2 - Add modal in work section
-#### Task 3 - Fine tune services card
+#### Task 1 - Add ellipsis in blog section - done
+#### Task 2 - Add modal in work section - done
+#### Task 3 - Fine tune services card - done
 #### Task 4 - Testimonial section revamp
 #### Task 5 - Modularise code
+#### Task 6 - Content curation
 
 ### MOBILE FLOW
 #### make all sections mobile responsive - 4 break points --> mobile | tablet | laptop | desktop

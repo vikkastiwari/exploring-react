@@ -1,0 +1,121 @@
+.vtr_tm_modalbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 20;
+    background-color: rgba(0,0,0,.9);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+}
+
+.vtr_tm_modalbox.opened {
+    opacity: 1;
+    visibility: visible;
+}
+
+.vtr_tm_modalbox .box_inner {
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    width: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 0;
+    transition-delay: .3s;
+    transition: all .3s ease
+}
+
+.vtr_tm_modalbox.opened .box_inner {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0
+}
+
+.vtr_tm_modalbox .close {
+    position: fixed;
+    left: 100%;
+    top: 0;
+    margin-left: 20px;
+    z-index: 10;
+}
+
+.vtr_tm_modalbox .close div {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s ease
+}
+
+.vtr_tm_modalbox .close:hover {
+    border-radius: 100%
+}
+
+.vtr_tm_modalbox .close svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.vtr_tm_modalbox .description_wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    padding: 40px;
+    overflow-y: scroll
+}
+
+.vtr_tm_modalbox .description_wrap:before {
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #fff;
+    z-index: 2
+}
+
+.vtr_tm_modalbox .description_wrap:after {
+    position: fixed;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #fff;
+    z-index: 2
+}
+
+.vtr_tm_modalbox .description_wrap::-webkit-scrollbar {
+    width: 11px
+}
+
+.vtr_tm_modalbox .description_wrap {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) #fff
+}
+
+.vtr_tm_modalbox .description_wrap:-webkit-scrollbar-track {
+    background: #fff
+}
+
+.vtr_tm_modalbox .description_wrap::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    border: 3px solid #fff
+}

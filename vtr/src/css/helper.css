@@ -1,0 +1,85 @@
+.vtr-fs-16 {
+    font-size: 16px;
+}
+
+.vtr-color-white {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.vtr_tm_button {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left
+}
+
+.vtr_tm_button a {
+    color: #fff;
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 11px 35px 14px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-family-extra);
+    transition: all .3s ease
+}
+
+.vtr_tm_button a:hover {
+    background-color: var(--secondary-color)
+}
+
+
+.vtr_tm_main_title {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    clear: both;
+    margin: 0 auto
+}
+
+.vtr_tm_main_title[data-text-align=left] {
+    text-align: left;
+    margin: 0;
+    max-width: 100%
+}
+
+.vtr_tm_main_title[data-text-align=center] {
+    text-align: center;
+    margin: 0 auto 85px auto;
+}
+
+.vtr_tm_main_title[data-text-align=right] {
+    text-align: right;
+    margin: 0;
+    max-width: 100%
+}
+
+.vtr_tm_main_title span {
+    font-size: 20px;
+    color: var(--primary-color);
+    font-family: var(--font-family-extra);
+    font-weight: 600
+}
+
+.vtr_tm_main_title h3 {
+    font-size: 35px;
+    line-height: 1.25;
+    margin-bottom: 20px
+}
+
+.vtr_slider {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.vtr_text_truncate {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.vtr_cursor_ptr {
+    cursor: pointer;
+}
