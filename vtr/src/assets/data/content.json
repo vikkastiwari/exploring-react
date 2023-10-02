@@ -1,0 +1,29 @@
+{
+    "testimonial":{
+        "thumb_37x45": "37-45.jpg",
+        "clientImage":[
+            {"src":"c1.jpg","alt":"client profile data"},
+            {"src":"c1.jpg","alt":"client profile data"},
+            {"src":"c1.jpg","alt":"client profile data"},
+            {"src":"c1.jpg","alt":"client profile data"}
+        ],
+        "clientName":[
+            {"name":"James Cameron"},
+            {"name":"Alan Walker"},
+            {"name":"David Parker"},
+            {"name":"Anna Barbera"}
+        ],
+        "clientJob":[
+            {"job":"Aroa Founder"},
+            {"job":"Singer"},
+            {"job":"Senior Designer"},
+            {"job":"Vivaco Group"}
+        ],
+        "clientMessage":[
+            {"message":"Loved the template design and customer support from Marketify team! I am a noob in programming with very little knowledge about coding but the Marketify team helped me to launch my resume website from editing to uploading the template successfully."},
+            {"message":"Minimal design, incredibly well documented, and an absolute pleasure to use! The customer support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful! I can recommend this to anyone."},
+            {"message":"Wonderful support. Immediate response and they return with an easy fix and clear information. Applied the fix and it worked like a charm. You can definately trust this producer. Overall great quality service and code. Thanks a lot Marketify team!"},
+            {"message":"Super easy to update in a code editor. All the code is labeled with comments and laid out nicely. The documentation is great and the support via live chat was perfect. They helped me out super quick when I had a minor code customization."}
+        ]
+    }
+}
