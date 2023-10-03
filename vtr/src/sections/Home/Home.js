@@ -2,6 +2,7 @@ import { FaFacebookF, FaLinkedinIn, FaBloggerB } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
 
 import "./Home.css";
+import jsonData from '../../assets/data/content.json';
 import heroBanner from "../../assets/img/hero/bg.jpg";
 import vt from "../../assets/img/hero/vt.jpg";
 import vtbg from "../../assets/img/thumb/vt-bg.jpg";
@@ -13,6 +14,8 @@ import Section from "../../components/Section/Section";
 
 
 const Home = () => {
+  const homeData = jsonData.home;
+
   return (
     <>
       <Section>
@@ -28,16 +31,14 @@ const Home = () => {
             <div className="content">
               <div className="left">
                 <div className="inner">
-                  <h3 className="hello">Hello I'm</h3>
-                  <h3 className="name">Vikas Tiwari</h3>
-                  <h3 className="job">Web Developer from India</h3>
-                  <p className="text">
-                    I will simplify the complexity for you but remember, Nine people can't make a baby in a month.
-                  </p>
+                  <h3 className="hello">{homeData.hello}</h3>
+                  <h3 className="name">{homeData.name[0] + " " + homeData.name[1]}</h3>
+                  <h3 className="job">{homeData.job}</h3>
+                  <p className="text">{homeData.desc}</p>
                   <div className="buttons">
                     <div className="vtr_tm_button">
                       <a className="anchor" href="#contact">
-                        Get a Quote
+                        {homeData.button}
                       </a>
                     </div>
                     <div className="social">
@@ -66,8 +67,8 @@ const Home = () => {
                       </div>
                   </div>
                 </div>
-                <h3 className="stroke_1">Vikas</h3>
-                <h3 className="stroke_2">Tiwari</h3>
+                <h3 className="stroke_1">{homeData.name[0]}</h3>
+                <h3 className="stroke_2">{homeData.name[1]}</h3>
               </div>
               <div className="right">
                 <div className="image">

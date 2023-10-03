@@ -32,6 +32,13 @@
             "route":"contact"
         }
     },
+    "home":{
+        "hello":"Hello I'm",
+        "name":["Vikas","Tiwari"],
+        "job":"Web Developer from India",
+        "desc":"I will simplify the complexity for you but remember, Nine people can't make a baby in a month.",
+        "button":"Get a Quote"
+    },
     "testimonial":{
         "thumb_37x45": "37-45.jpg",
         "clientImage":[
