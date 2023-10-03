@@ -1,8 +1,4 @@
 ### WEB FLOW
-#### Task 1 - Add ellipsis in blog section - done
-#### Task 2 - Add modal in work section - done
-#### Task 3 - Fine tune services card - done
-#### Task 4 - Testimonial section revamp
 #### Task 5 - Modularise code
 #### Task 6 - Content curation
 
@@ -11,9 +7,7 @@
 
 ### FUNCTIONALITIES
 #### Page loader
-#### Auto year update function
 #### scroll to top page progress 
-#### Header sticky
 
 ### PAGES
 #### Blog listing page 

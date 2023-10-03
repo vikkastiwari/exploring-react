@@ -3,8 +3,10 @@ import { useEffect, useState } from 'react';
 import '../../css/general.css';
 import './Header.css';
 import logo from '../../assets/img/logo/logo.png';
+import jsonData from '../../assets/data/content.json';
 
 const Header = () => {
+  const headerData = jsonData.header;
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
@@ -31,27 +33,14 @@ const Header = () => {
             </div>
             <div className="menu">
               <ul className="anchor_nav">
-                <li className="current">
-                  <a href="/home">Home</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#service">Service</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-                <li>
-                  <a href="#blog">Blog</a>
-                </li>
+                {headerData.navElements.map((item,index) => (
+                  <li key={index} className={index===0 ? "current" : ""}>
+                    <a href={`#${item.route}`}>{item.name}</a>
+                  </li>
+                ))}
                 <li className="download_cv">
-                  <a href="img/cv/1.jpg" download="">
-                    Download CV
+                  <a href={logo} download="">
+                    {headerData.download.name}
                   </a>
                 </li>
               </ul>

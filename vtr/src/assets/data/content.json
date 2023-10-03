@@ -1,4 +1,37 @@
 {
+    "header":{
+        "navElements":[
+            {
+                "name":"Home",
+                "route":"home"
+            },
+            {
+                "name":"About",
+                "route":"about"
+            },
+            {
+                "name":"Portfolio",
+                "route":"portfolio"
+            },
+            {
+                "name":"Service",
+                "route":"service"
+            },
+            {
+                "name":"Contact",
+                "route":"contact"
+            },
+            {
+                "name":"Blog",
+                "route":"blog"
+            }
+            
+        ],
+        "download":{
+            "name":"Download CV",
+            "route":"contact"
+        }
+    },
     "testimonial":{
         "thumb_37x45": "37-45.jpg",
         "clientImage":[
