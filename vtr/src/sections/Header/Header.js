@@ -1,12 +1,27 @@
-import '../../css/general.css'
+import { useEffect, useState } from 'react';
+
+import '../../css/general.css';
 import './Header.css';
 import logo from '../../assets/img/logo/logo.png';
 
 const Header = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      (window.scrollY >= 80) ? setIsSticky(true) : setIsSticky(false);
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      {/* animate */}
-      <div className="vtr_tm_header ">
+      <div className={`vtr_tm_header ${isSticky ? 'animate' : ''}`}>
         <div className="container">
           <div className="header_inner">
             <div className="logo">

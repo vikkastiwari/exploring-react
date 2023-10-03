@@ -72,8 +72,7 @@ const Testimonial = () => {
                         {testimonialData.clientImage.map((item,index) => (
                           <li key={index} className={`grid-item ${index}`} onClick={onAvtrClick.bind(null,index)}>
                             <span>
-                              <div
-                                style={{backgroundImage:`url(${require(`../../assets/img/testimonial/${item.src}`)})`}}                            ></div>
+                              <div style={{backgroundImage:`url(${require(`../../assets/img/testimonial/${item.src}`)})`}}></div>
                             </span>
                             <span className="hidden">1</span>
                           </li>
