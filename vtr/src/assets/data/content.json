@@ -41,6 +41,9 @@
     },
     "testimonial":{
         "thumb_37x45": "37-45.jpg",
+        "title":"Testimonials",
+        "heading":"What My Clients Say",
+        "desc":"Most common methods for designing websites that work well on desktop is responsive and adaptive design",
         "clientImage":[
             {"src":"c1.jpg","alt":"client profile data"},
             {"src":"c1.jpg","alt":"client profile data"},

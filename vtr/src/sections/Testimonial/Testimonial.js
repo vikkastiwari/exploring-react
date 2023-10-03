@@ -18,12 +18,9 @@ const Testimonial = () => {
       <div className="vtr_tm_testimonials">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
-            <span>Testimonials</span>
-            <h3>What My Clients Say</h3>
-            <p>
-              Most common methods for designing websites that work well on desktop
-              is responsive and adaptive design
-            </p>
+            <span>{testimonialData.title}</span>
+            <h3>{testimonialData.heading}</h3>
+            <p>{testimonialData.desc}</p>
           </div>
           <div className="testimonials_inner wow fadeInUp" data-wow-duration="1s" style={{visibility: 'visible', animationDuration: '1s'}}>
             <div className="leftpart">
@@ -46,9 +43,9 @@ const Testimonial = () => {
                 <div className="main_title">
                   <h3>
                     <span className="big">
-                      Testimonials
+                      {testimonialData.title}
                       <span className="small">
-                        Testimonials
+                        {testimonialData.title}
                         <img className="svg" src={quote} alt="" />
                       </span>
                     </span>
