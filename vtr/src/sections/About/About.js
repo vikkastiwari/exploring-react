@@ -1,5 +1,6 @@
 import "./About.css";
 import Section from "../../components/Section/Section";
+import jsonData from '../../assets/data/content.json';
 
 import thumb_64x49 from "../../assets/img/thumb/64-49.jpg";
 import thumb_1x1 from "../../assets/img/thumb/1-1.jpg";
@@ -7,16 +8,17 @@ import about_1 from "../../assets/img/about/about-1.jpg";
 import about_2 from "../../assets/img/about/about-2.jpg";
 
 const About = () => {
+  const aboutData = jsonData.about;
+  
   return (
     <Section>
       <div className="devman_tm_about">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
-            <span>About</span>
-            <h3>My Amazing Works</h3>
+            <span>{aboutData.title}</span>
+            <h3>{aboutData.heading}</h3>
             <p>
-              Dliquip ex ea commo do conse namber onequa ute irure dolor in
-              reprehen derit in voluptate
+              {aboutData.desc}
             </p>
           </div>
           <div className="about_inner">
@@ -196,23 +198,19 @@ const About = () => {
             </div>
             <div className="right">
               <div className="title">
-                <span>I'm a Developer</span>
-                <h3>I Develop Application that Help People</h3>
+                <span>{aboutData.me.title}</span>
+                <h3>{aboutData.me.heading}</h3>
               </div>
               <div className="text">
-                <p>
-                  Dliquip ex ea commo do conse namber onequa ute irure dolor in
-                  reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                  nulla pariatu epteur sint occaecat cupidatat
-                </p>
-                <p>
-                  Krnon proident, sunt in culpa qui officia deserunt mollit anim
-                  id est laborum. Sed ut perspiciatis unde omnis
-                </p>
+                {aboutData.me.desc.map(list => (
+                  <p>
+                    {list}
+                  </p>
+                ))}
               </div>
               <div className="vtr_tm_button">
                 <a className="anchor" href="#portfolio">
-                  View Portfolio
+                  {aboutData.btnText}
                 </a>
               </div>
             </div>

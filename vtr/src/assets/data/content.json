@@ -64,7 +64,20 @@
             }
         ]
     },
-    "about":{},
+    "about":{
+        "title":"About",
+        "heading":"My Amazing Works",
+        "desc":"Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate",
+        "me":{
+            "title":"I'm a Developer",
+            "heading":"I Develop Application that Help People",
+            "desc":[
+                "Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat cupidatat",
+                "Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis"
+            ]
+        },
+        "btnText":"View Portfolio"
+    },
     "services":{},
     "portfolio":{},
     "experience":{},
