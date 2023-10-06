@@ -39,6 +39,35 @@
         "desc":"I will simplify the complexity for you but remember, Nine people can't make a baby in a month.",
         "button":"Get a Quote"
     },
+    "features":{
+        "title":"Portfolio",
+        "heading":"Our Commitment",
+        "desc":"We believe that success is not just about hard work; it's about",
+        "list":[
+            {
+                "index":"01",
+                "name":"Dedication",
+                "desc":"With dedication as our cornerstone, we stand by your side, tirelessly turning your dreams into reality.",
+                "src":""
+            },
+            {
+                "index":"02",
+                "name":"Smart Work",
+                "desc":"We prioritize working smart, by emphasizing efficiency, innovation, and problem-solving to maximize results.",
+                "src":""
+            },
+            {
+                "index":"03",
+                "name":"Intelligence",
+                "desc":"Intelligence is at the core of everything we do. We value knowledge, insights, and data-driven decision-making.",
+                "src":""
+            }
+        ]
+    },
+    "about":{},
+    "services":{},
+    "portfolio":{},
+    "experience":{},
     "testimonial":{
         "thumb_37x45": "37-45.jpg",
         "title":"Testimonials",
@@ -68,5 +97,9 @@
             {"message":"Wonderful support. Immediate response and they return with an easy fix and clear information. Applied the fix and it worked like a charm. You can definately trust this producer. Overall great quality service and code. Thanks a lot Marketify team!"},
             {"message":"Super easy to update in a code editor. All the code is labeled with comments and laid out nicely. The documentation is great and the support via live chat was perfect. They helped me out super quick when I had a minor code customization."}
         ]
-    }
+    },
+    "blog":{},
+    "subscirbe":{},
+    "contact":{},
+    "footer":{}
 }
