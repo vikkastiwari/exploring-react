@@ -78,7 +78,33 @@
         },
         "btnText":"View Portfolio"
     },
-    "services":{},
+    "services":{
+        "title":"Services",
+        "heading":"What I Do for Clients",
+        "desc":"Most common methods for designing websites that work well on desktop is responsive and adaptive design",
+        "lists":[
+            {
+                "name":"Creative Design",
+                "price":["Starts from","$99"],
+                "desc":"Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development"
+            },
+            {
+                "name":"Graphic Design",
+                "price":["Starts from","$199"],
+                "desc":"Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development"
+            },
+            {
+                "name":"UI/UX Design",
+                "price":["Starts from","$299"],
+                "desc":"Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development"
+            },
+            {
+                "name":"Web Design",
+                "price":["Starts from","$399"],
+                "desc":"Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development"
+            }
+        ]
+    },
     "portfolio":{},
     "experience":{},
     "testimonial":{

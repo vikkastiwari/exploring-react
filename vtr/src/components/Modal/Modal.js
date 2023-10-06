@@ -4,7 +4,7 @@ import './Modal.css';
 import { AiOutlineClose } from "react-icons/ai";
 
 const Modal = ({children}) => {
-  const [isClosed, setIsClosed] = useState(false);
+  const [isClosed, setIsClosed] = useState(true);
 
   const closeHandler = () => {
     setIsClosed(true); 
