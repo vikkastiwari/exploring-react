@@ -137,7 +137,37 @@
             {"message":"Super easy to update in a code editor. All the code is labeled with comments and laid out nicely. The documentation is great and the support via live chat was perfect. They helped me out super quick when I had a minor code customization."}
         ]
     },
-    "blog":{},
+    "blog":{
+        "title":"From My Blog",
+        "heading":"Recent Blogs, Updates & More",
+        "desc":"Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate",
+        "lists":[
+            {
+                "tags":["web","development"],
+                "title":"Jim Morisson Says when the musics over turn off the light",
+                "rank":"1",
+                "url":"/",
+                "imgSrc":"",
+                "alt":"technical blog img 1"
+            },
+            {
+                "tags":["branding"],
+                "title":"How to be appreciated for your hard work as a developer",
+                "rank":"2",
+                "url":"/",
+                "imgSrc":"",
+                "alt":"technical blog img 2"
+            },
+            {
+                "tags":["socialmedia"],
+                "title":"How designers and developers can collaborate better",
+                "rank":"3",
+                "url":"/",
+                "imgSrc":"",
+                "alt":"technical blog img 2"
+            }
+        ]
+    },
     "subscirbe":{
         "title":"Get My Newsletter",
         "subtitle":"Subscribe Now",

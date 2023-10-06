@@ -202,8 +202,8 @@ const About = () => {
                 <h3>{aboutData.me.heading}</h3>
               </div>
               <div className="text">
-                {aboutData.me.desc.map(list => (
-                  <p>
+                {aboutData.me.desc.map((list,index) => (
+                  <p key={index}>
                     {list}
                   </p>
                 ))}

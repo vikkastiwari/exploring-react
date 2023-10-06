@@ -90,14 +90,14 @@
     color: #fff
 }
 
-.vtr_tm_news ul li .details .category a {
+.vtr_tm_news ul li .details .category {
     font-size: 16px;
     color: var(--primary-color);
     font-family: Jost,sans-serif;
     text-decoration: none;
     font-weight: 500;
     display: inline-block;
-    margin-bottom: 2px
+    margin-bottom: 2px;
 }
 
 .vtr_tm_news ul li .details .title {

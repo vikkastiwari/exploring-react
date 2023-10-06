@@ -33,6 +33,7 @@ const Services = () => {
             <ul>
               {servicesData.lists.map((list,i)=>(
                 <li
+                  key={i}
                   className={i%2 !== 0 ? "fadeInLeft" : "fadeInRight"}
                   style={{visibility: 'visible', animationDuration: '1s'}}
                 >

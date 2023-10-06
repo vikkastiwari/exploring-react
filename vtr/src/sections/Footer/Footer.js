@@ -46,8 +46,8 @@ const Footer = () => {
               style={{visibility: "visible", animationDuration: '1s'}}
             >
               <ul>
-                {footerData.list.map((item)=>(
-                  <li>
+                {footerData.list.map((item,index)=>(
+                  <li key={index}>
                     <a href={item.route}>{item.name}</a>
                   </li>
                 ))}
