@@ -1,10 +1,13 @@
 import { useEffect, useRef } from "react";
+
+import jsonData from '../../assets/data/content.json';
 import Section from "../../components/Section/Section";
 import './Footer.css';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const yearRef = useRef(null);
+  const footerData = jsonData.footer;
 
   const updateYear = () => {
     if (yearRef.current) {
@@ -26,13 +29,13 @@ const Footer = () => {
               style={{visibility: "visible", animationDuration: '1s'}}
             >
               <p>
-                Developed with love by&nbsp; 
+                {footerData.copyright}&nbsp; 
                 <a
-                  href="https://www.linkedin.com/in/vikas-tiwari-1b051818b/"
+                  href={footerData.linkedIn}
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Vikas Tiwari&nbsp; 
+                  {footerData.name}&nbsp; 
                 </a>
                 &copy; &nbsp; 
                 <span ref={yearRef} className="year">2024</span>
@@ -43,12 +46,11 @@ const Footer = () => {
               style={{visibility: "visible", animationDuration: '1s'}}
             >
               <ul>
-                <li>
-                  <a href="/">Terms &amp; Condition</a>
-                </li>
-                <li>
-                  <a href="/">Privacy Policy</a>
-                </li>
+                {footerData.list.map((item)=>(
+                  <li>
+                    <a href={item.route}>{item.name}</a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
