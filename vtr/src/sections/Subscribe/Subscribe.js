@@ -1,9 +1,13 @@
 import '../../css/animation.css';
 import './Subscribe.css';
+import jsonData from '../../assets/data/content.json';
+
 import dots from '../../assets/img/subscribe/dots.jpg';
 import Section from "../../components/Section/Section";
 
 const Subscribe = () => {
+  const subscribeData = jsonData.subscirbe;
+
   return (
     <Section>
       <div className="vtr_tm_subscribe">
@@ -22,10 +26,10 @@ const Subscribe = () => {
                 data-wow-duration="1s"
                 style={{visibility: "visible", animationDuration: '1s'}}
               >
-                <span className="subtitle">Subscribe Now</span>
-                <h3 className="title">Get My Newsletter</h3>
+                <span className="subtitle">{subscribeData.subtitle}</span>
+                <h3 className="title">{subscribeData.title}</h3>
                 <p className="text">
-                  Get latest news, updates, tips and trics in your inbox
+                  {subscribeData.desc}
                 </p>
               </div>
               <div
@@ -34,8 +38,8 @@ const Subscribe = () => {
                 style={{visibility: "visible", animationDuration: '1s'}}
               >
                 <div className="field">
-                  <input type="text" placeholder="Your email here" />
-                  <input type="submit" value="Send Now" />
+                  <input type="text" placeholder={subscribeData.placeholder} />
+                  <input type="submit" value={subscribeData.value} />
                 </div>
               </div>
             </div>

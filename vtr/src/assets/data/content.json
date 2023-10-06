@@ -138,7 +138,13 @@
         ]
     },
     "blog":{},
-    "subscirbe":{},
+    "subscirbe":{
+        "title":"Get My Newsletter",
+        "subtitle":"Subscribe Now",
+        "desc":"Get latest news, updates, tips and trics in your inbox",
+        "placeholder":"Your email here",
+        "value":"Send Now"
+    },
     "contact":{},
     "footer":{
         "copyright":"Developed with love by",
