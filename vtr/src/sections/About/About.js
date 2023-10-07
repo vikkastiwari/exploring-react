@@ -1,6 +1,6 @@
 import "./About.css";
 import Section from "../../components/Section/Section";
-import jsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/content.json';
 
 import thumb_64x49 from "../../assets/img/thumb/64-49.jpg";
 import thumb_1x1 from "../../assets/img/thumb/1-1.jpg";
@@ -8,7 +8,7 @@ import about_1 from "../../assets/img/about/about-1.jpg";
 import about_2 from "../../assets/img/about/about-2.jpg";
 
 const About = () => {
-  const aboutData = jsonData.about;
+  const aboutData = JsonData.about;
   
   return (
     <Section>

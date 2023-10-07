@@ -1,12 +1,12 @@
 import '../../css/animation.css';
 import './Subscribe.css';
-import jsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/content.json';
 
 import dots from '../../assets/img/subscribe/dots.jpg';
 import Section from "../../components/Section/Section";
 
 const Subscribe = () => {
-  const subscribeData = jsonData.subscirbe;
+  const subscribeData = JsonData.subscirbe;
 
   return (
     <Section>

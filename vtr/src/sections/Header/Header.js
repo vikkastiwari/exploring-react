@@ -3,10 +3,10 @@ import { useEffect, useState } from 'react';
 import '../../css/general.css';
 import './Header.css';
 import logo from '../../assets/img/logo/logo.png';
-import jsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/content.json';
 
 const Header = () => {
-  const headerData = jsonData.header;
+  const headerData = JsonData.header;
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {

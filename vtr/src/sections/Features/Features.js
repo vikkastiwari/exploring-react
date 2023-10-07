@@ -1,12 +1,12 @@
 import "./Features.css";
-import jsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/content.json';
 import requirement from "../../assets/img/features/requirement.png";
 import design from "../../assets/img/features/design.png";
 import startup from "../../assets/img/features/startup.png";
 import Section from "../../components/Section/Section";
 
 const Features = () => {
-  const featuresData = jsonData.features;
+  const featuresData = JsonData.features;
 
   return (
     <>

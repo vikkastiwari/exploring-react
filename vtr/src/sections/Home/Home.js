@@ -2,7 +2,7 @@ import { FaFacebookF, FaLinkedinIn, FaBloggerB } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
 
 import "./Home.css";
-import jsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/content.json';
 import heroBanner from "../../assets/img/hero/bg.jpg";
 import vt from "../../assets/img/hero/vt.jpg";
 import vtbg from "../../assets/img/thumb/vt-bg.jpg";
@@ -14,7 +14,7 @@ import Section from "../../components/Section/Section";
 
 
 const Home = () => {
-  const homeData = jsonData.home;
+  const homeData = JsonData.home;
 
   return (
     <>

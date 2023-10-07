@@ -105,8 +105,152 @@
             }
         ]
     },
-    "portfolio":{},
-    "experience":{},
+    "portfolio":{
+        "title":"Portfolio",
+        "heading":"My Amazing Works",
+        "desc":"Most common methods for designing websites that work well on desktop is responsive and adaptive design",
+        "list":[
+            {
+                "title":"Drawing Art",
+                "category":"Youtube",
+                "url":"/",
+                "src":"",
+                "alt":"project preview img",
+                "popup":{
+                    "title":"How to be appreciated for your hard work as a developer",
+                    "subtitle":"Branding",
+                    "desc":[
+                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                    ],
+                    "src":"",
+                    "alt":"project preview img"
+                }
+            },
+            {
+                "title":"Lafayette Fly",
+                "category":"Vimeo",
+                "url":"/",
+                "src":"",
+                "alt":"project preview img",
+                "popup":{
+                    "title":"How to be appreciated for your hard work as a developer",
+                    "subtitle":"Branding",
+                    "desc":[
+                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                    ],
+                    "src":"",
+                    "alt":"project preview img"
+                }
+            },
+            {
+                "title":"Emotional Music",
+                "category":"Soundcloud",
+                "url":"/",
+                "src":"",
+                "alt":"project preview img",
+                "popup":{
+                    "title":"How to be appreciated for your hard work as a developer",
+                    "subtitle":"Branding",
+                    "desc":[
+                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                    ],
+                    "src":"",
+                    "alt":"project preview img"
+                }
+            },
+            {
+                "title":"Deo Sumbara",
+                "category":"Popup",
+                "url":"/",
+                "src":"",
+                "alt":"project preview img",
+                "popup":{
+                    "title":"How to be appreciated for your hard work as a developer",
+                    "subtitle":"Branding",
+                    "desc":[
+                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                    ],
+                    "src":"",
+                    "alt":"project preview img"
+                }
+            },
+            {
+                "title":"Product Design",
+                "category":"Details",
+                "url":"/",
+                "src":"",
+                "alt":"project preview img",
+                "popup":{
+                    "title":"How to be appreciated for your hard work as a developer",
+                    "subtitle":"Branding",
+                    "desc":[
+                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                    ],
+                    "src":"",
+                    "alt":"project preview img"
+                }
+            },
+            {
+                "title":"Popup",
+                "category":"Mockup Shape",
+                "url":"/",
+                "src":"",
+                "alt":"project preview img",
+                "popup":{
+                    "title":"How to be appreciated for your hard work as a developer",
+                    "subtitle":"Branding",
+                    "desc":[
+                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                    ],
+                    "src":"",
+                    "alt":"project preview img"
+                }
+            }
+        ]
+    },
+    "experience":{
+        "title":"Experience",
+        "heading":"Creative Timeline",
+        "desc":"Fusce sollicitudin eros id ex maximus gravida non vitaeante. Cras ac mi a dolor suscipit rutrum ut vitae mi.",
+        "list":[
+            {
+                "role":"UI/UX Designer",
+                "designation":"Senior Designer",
+                "desc":"Nunc hendrerit, justo vel ultricieselei fen pretium leo, ac finibus nulla eros.",
+                "range":"2020-now",
+                "src":"",
+                "alt":"professional work experience"
+            },
+            {
+                "role":"Graphic Designer",
+                "designation":"Junior Designer",
+                "desc":"Nunc hendrerit, justo vel ultricieselei fen pretium leo, ac finibus nulla eros.",
+                "range":"2018-2020",
+                "src":"",
+                "alt":"professional work experience"
+            },
+            {
+                "role":"Content Manager",
+                "designation":"Sales Manager",
+                "desc":"Nunc hendrerit, justo vel ultricieselei fen pretium leo, ac finibus nulla eros.",
+                "range":"2016-2018",
+                "src":"",
+                "alt":"professional work experience"
+            }
+        ]
+    },
     "testimonial":{
         "thumb_37x45": "37-45.jpg",
         "title":"Testimonials",

@@ -1,13 +1,13 @@
 import { useEffect, useRef } from "react";
 
-import jsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/content.json';
 import Section from "../../components/Section/Section";
 import './Footer.css';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const yearRef = useRef(null);
-  const footerData = jsonData.footer;
+  const footerData = JsonData.footer;
 
   const updateYear = () => {
     if (yearRef.current) {

@@ -1,5 +1,5 @@
 import './Blog.css';
-import jsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/content.json';
 import Section from "../../components/Section/Section";
 import thumb_42x29 from '../../assets/img/thumb/42-29.jpg';
 import blog_1 from '../../assets/img/blog/1.jpg';
@@ -7,7 +7,7 @@ import blog_2 from '../../assets/img/blog/2.jpg';
 import blog_3 from '../../assets/img/blog/3.jpg';
 
 const Blog = () => {
-  const blogData = jsonData.blog;
+  const blogData = JsonData.blog;
 
   return (
     <Section>

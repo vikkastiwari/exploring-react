@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import jsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/content.json';
 
 import './Services.css';
 import '../../css/animation.css';
@@ -8,7 +8,7 @@ import misc_3 from '../../assets/img/misc/3.png';
 import Section from "../../components/Section/Section";
 
 const Services = () => {
-  const servicesData = jsonData.services;
+  const servicesData = JsonData.services;
   const [rotateY, setRotateY] = useState(0);
   const [rotateX, setRotateX] = useState(0);
 
