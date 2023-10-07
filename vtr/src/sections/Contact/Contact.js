@@ -1,4 +1,5 @@
 import { MdAlternateEmail } from "react-icons/md";
+import JsonData from '../../assets/data/content.json';
 import { FaLocationDot } from "react-icons/fa6";
 import { BsTelephoneFill } from "react-icons/bs";
 import './Contact.css';
@@ -8,6 +9,8 @@ import misc_2 from '../../assets/img/misc/2.png';
 import Section from "../../components/Section/Section";
 
 const Contact = () => {
+  const contactData = JsonData.contact;
+
   return (
     <Section>
       <div className="vtr_tm_contact">
@@ -22,46 +25,29 @@ const Contact = () => {
           </div>
           <div className="contact_inner">
             <div
-              className="left wow fadeInLeft"
-              data-wow-duration="1s"
+              className="left fadeInLeft"
               style={{visibility: 'visible', animationDuration: '1s'}}
             >
               <ul>
-                <li>
-                  <div className="list_inner">
-                    <div className="icon orangeBackground">
-                      <i className="orangeText"><FaLocationDot /></i>
+                {contactData.innerList.map((item,index)=>(
+                  <li key={index}>
+                    <div className="list_inner">
+                      <div className={`icon ${index===0 ? 'orangeBackground' : index===1 ? 'greenBackground' : 'purpleBackground'}`}>
+                        {
+                          index===0 ? <i className="orangeText"><FaLocationDot /></i> : 
+                          index===1 ? <i className="greenText"><MdAlternateEmail /></i> : 
+                          <i className=" purpleText"><BsTelephoneFill /></i>
+                        }
+                      </div>
+                      <div className="short">
+                        <h3>{item.title}</h3>
+                        <span>
+                          {index === 1 ? <a href={`mailto:${item.subtitle}`}>{item.subtitle}</a> : item.subtitle}
+                        </span>
+                      </div>
                     </div>
-                    <div className="short">
-                      <h3>Address</h3>
-                      <span>20, Somewhere in world</span>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div className="list_inner">
-                    <div className="icon greenBackground">
-                      <i className="greenText"><MdAlternateEmail /></i>
-                    </div>
-                    <div className="short">
-                      <h3>Email</h3>
-                      <span>
-                        <a href="mailto:hello@vtr.com">hello@vtr.com</a>
-                      </span>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div className="list_inner">
-                    <div className="icon purpleBackground">
-                      <i className=" purpleText"><BsTelephoneFill /></i>
-                    </div>
-                    <div className="short">
-                      <h3>Phone</h3>
-                      <span>+123 456 7890</span>
-                    </div>
-                  </div>
-                </li>
+                  </li>
+                ))}
               </ul>
             </div>
             <div
@@ -82,41 +68,26 @@ const Contact = () => {
                     data-success="Your message has been received, We will contact you soon."
                   ></div>
                   <div className="empty_notice">
-                    <span>Please Fill Required Fields</span>
+                    <span>{contactData.requiredError}</span>
                   </div>
                   <div className="input_list">
                     <ul>
-                      <li>
-                        <input type="text" id="name" placeholder="Your Name" />
-                      </li>
-                      <li>
-                        <input
-                          type="text"
-                          id="email"
-                          placeholder="Your Email"
-                        />
-                      </li>
-                      <li>
-                        <input
-                          type="number"
-                          id="phone"
-                          placeholder="Your Phone"
-                        />
-                      </li>
-                      <li>
-                        <input type="text" id="subject" placeholder="Subject" />
-                      </li>
+                      {contactData.inputList.map((item,index)=>(
+                        <li key={index}>
+                          <input type={item.type} id={item.id} placeholder={item.placeholder} />
+                        </li>
+                      ))}
                     </ul>
                   </div>
                   <div className="message_area">
                     <textarea
                       id="message"
-                      placeholder="Write your message here"
+                      placeholder={contactData.textPlaceholder}
                     ></textarea>
                   </div>
                   <div className="vtr_tm_button">
                     <a id="send_message" href="/">
-                      <span>Submit Now</span>
+                      <span>{contactData.submit}</span>
                     </a>
                   </div>
                 </form>

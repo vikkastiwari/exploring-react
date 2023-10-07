@@ -319,7 +319,50 @@
         "placeholder":"Your email here",
         "value":"Send Now"
     },
-    "contact":{},
+    "contact":{
+        "title":"Contact Me",
+        "subtitle":"I Want To Hear From You",
+        "desc":"Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday",
+        "innerList":[
+            {
+                "title":"Address",
+                "subtitle":"20, Somewhere in world"
+            },
+            {
+                "title":"Email",
+                "subtitle":"hello@vtr.com"
+            },
+            {
+                "title":"Address",
+                "subtitle":"+123 456 7890"
+            }
+        ],
+        "inputList":[
+            {
+                "type":"text",
+                "id":"name",
+                "placeholder":"Your Name"
+            },
+            {
+                "type":"text",
+                "id":"email",
+                "placeholder":"Your Email"
+            },
+            {
+                "type":"number",
+                "id":"phone",
+                "placeholder":"Your Phone"
+            },
+            {
+                "type":"text",
+                "id":"subject",
+                "placeholder":"Subject"
+            }
+        ],
+        "textPlaceholder":"Write your message here",
+        "submit":"Submit Now",
+        "requiredError":"Please Fill Required Fields"
+    },
     "footer":{
         "copyright":"Developed with love by",
         "name":"Vikas Tiwari",
