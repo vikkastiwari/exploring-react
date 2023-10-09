@@ -4,7 +4,7 @@
     position: relative;
     float: left;
     overflow: hidden;
-    margin-bottom: 190px;
+    margin-bottom: 165px;
 }
 
 
@@ -53,7 +53,7 @@
 
 .vtr_tm_hero .name {
     color: #fff;
-    font-size: 65px;
+    font-size: 62px;
     line-height: 1.1;
     margin-bottom: 20px
 }
@@ -224,5 +224,36 @@
 
     30% {
         transform: translateY(60px)
+    }
+}
+
+/*
+******************************
+***** TABLET Responsive ******
+******************************
+*/
+
+@media (min-width:1024px) and (max-width: 1199px) {
+    .vtr_tm_hero .name{
+        font-size: 52px;
+    }
+
+    .vtr_tm_hero .icon{
+       width: 65px;
+       height: 65px; 
+    }
+
+    .vtr_tm_hero .icon.t1 {
+        top: -23px;
+        right: -18px;
+    }
+
+    .vtr_tm_hero .icon.node {
+        width: 100px;
+        height: 65px;
+    }
+
+    .vtr_tm_hero .icon.t3{
+        right: -13px;
     }
 }

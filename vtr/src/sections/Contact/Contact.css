@@ -166,3 +166,14 @@
     bottom: -100px;
     right: -150px
 }
+
+/*
+******************************
+***** TABLET Responsive ******
+******************************
+*/
+@media (min-width:1024px) and (max-width: 1199px) {
+    .vtr_tm_contact .left .short h3 {
+        font-size: 24px;
+    }
+}

@@ -1,12 +1,40 @@
 /* 
-    Light tint: #8a97da
-    Dark tint: #1229a3
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+--- 02 COLORS
+
+- Tints
+Light tint: #8a97da
+Dark tint: #1229a3
 
 */
+
+/* 
+    -----------------------------------------------------
+    --------------- MEDIA QUERY RANGES ------------------
+    -----------------------------------------------------
+
+    --mobile-device-max                      : 767px;
+    --tablet-portrait-min                    : 768px;
+    --tablet-portrait-max                    : 1023px;
+    --tablet-landscape-min                   : 1024px;
+    --tablet-landscape-max                   : 1199px;
+    --desktop-screen-min                     : 1200px;
+    --desktop-screen-max                     : 1600px;
+    --hd-screen-min                          : 1601px;
+*/
+
 :root {
+    /* COLORS */
     --primary-color: #142eb5;
     --secondary-color: #0e207f;
     --accent-grey: #767676;
+
+    /* FONT FAMILY */
     --font-family-main: "Open Sans",sans-serif;
     --font-family-extra: "Barlow",sans-serif;
 }
@@ -236,4 +264,12 @@ input[type=button] {
 
 .purpleBackground {
     background-color: #ece8fd!important
+}
+
+/* TABLET SCREEN SIZE */
+@media (min-width:1024px) and (max-width: 1199px) {
+    .container {
+        max-width: 1030px;
+        padding: 0 40px;
+    }
 }

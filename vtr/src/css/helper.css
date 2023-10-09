@@ -63,7 +63,7 @@
 }
 
 .vtr_tm_main_title h3 {
-    font-size: 35px;
+    font-size: 36px;
     line-height: 1.25;
     margin-bottom: 20px
 }
@@ -82,4 +82,16 @@
 
 .vtr_cursor_ptr {
     cursor: pointer;
+}
+
+/*
+******************************
+***** TABLET Responsive ******
+******************************
+*/
+
+@media (min-width:1024px) and (max-width: 1199px) {
+    .vtr_tm_main_title h3 {
+        font-size: 30px;
+    }
 }

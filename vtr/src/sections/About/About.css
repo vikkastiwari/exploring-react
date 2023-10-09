@@ -3,7 +3,7 @@
     height: auto;
     clear: both;
     float: left;
-    margin-bottom: 265px
+    margin-bottom: 180px
 }
 
 .vtr_tm_about .about_inner {
@@ -169,4 +169,15 @@
 
 .vtr_tm_about .right .text p:last-child {
     margin-bottom: 0
+}
+
+/*
+******************************
+***** TABLET Responsive ******
+******************************
+*/
+@media (min-width:1024px) and (max-width: 1199px) {
+    .vtr_tm_about .right .title h3 {
+        font-size: 30px;
+    }
 }
