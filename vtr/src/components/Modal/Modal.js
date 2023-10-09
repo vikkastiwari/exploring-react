@@ -3,16 +3,14 @@ import { useState } from 'react';
 import './Modal.css';
 import { AiOutlineClose } from "react-icons/ai";
 
-const Modal = ({children}) => {
-  const [isClosed, setIsClosed] = useState(true);
-
+const Modal = ({children, isOpen, isClose}) => {
   const closeHandler = () => {
-    setIsClosed(true); 
+    isClose();
   }
   
   return (
     <>
-      <div className={`vtr_tm_modalbox ${!isClosed ? 'opened' : ''}`}>
+      <div className={`vtr_tm_modalbox ${isOpen ? 'opened' : ''}`}>
         <div className="box_inner">
           <div className="close vtr_cursor_ptr" onClick={closeHandler}>
             <div>
