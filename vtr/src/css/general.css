@@ -266,7 +266,11 @@ input[type=button] {
     background-color: #ece8fd!important
 }
 
-/* TABLET SCREEN SIZE */
+/*
+******************************
+***** TABLET Responsive ******
+******************************
+*/
 @media (min-width:1024px) and (max-width: 1199px) {
     .container {
         max-width: 1030px;

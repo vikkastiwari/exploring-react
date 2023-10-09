@@ -20,7 +20,3 @@
 #### HOST with free domain on web.app
 #### Observe and reiterate
 #### Buy domain and make it public
-
-media-queries
-
-desktop and above - 1200px
