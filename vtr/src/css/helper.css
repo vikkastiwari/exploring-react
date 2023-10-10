@@ -85,12 +85,12 @@
 }
 
 /*
-******************************
-***** TABLET Responsive ******
-******************************
+****************************************
+***** TABLET LANDSCAPE RESPONSIVE ******
+****************************************
 */
 
-@media (min-width:1024px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
     .vtr_tm_main_title h3 {
         font-size: 30px;
     }

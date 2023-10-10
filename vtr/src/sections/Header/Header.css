@@ -77,3 +77,14 @@
 .vtr_tm_header.animate .menu ul li.download_cv a {
     color: #fff
 }
+
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1023px) {
+    .vtr_tm_header .menu{
+        display: none;
+    }
+}

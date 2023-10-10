@@ -172,12 +172,57 @@
 }
 
 /*
-******************************
-***** TABLET Responsive ******
-******************************
+****************************************
+***** TABLET LANDSCAPE RESPONSIVE ******
+****************************************
 */
 @media (min-width:1024px) and (max-width: 1199px) {
     .vtr_tm_about .right .title h3 {
+        font-size: 30px;
+    }
+}
+
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1023px) {
+    .vtr_tm_about .about_inner{
+        flex-direction: column;
+    }
+
+    .vtr_tm_about .left{
+        width: 65%;
+        margin-bottom: 44px;
+    }
+
+    .vtr_tm_about .icon_2, .vtr_tm_about .icon_3{
+        width: 62px;
+        height: 62px;
+    }
+
+    .vtr_tm_about .icon_2{
+        top: -25px;
+        right: -25px;
+    }
+
+    .vtr_tm_about .icon_3{
+        width: 74px;
+        height: 74px;
+    }
+
+    .vtr_tm_about .icon_2 .svg{
+        width: 44px;
+        height: 44px;
+    }
+
+    .vtr_tm_about .right{
+        width: 100%;
+        padding: 0;
+    }
+
+    .vtr_tm_about .right .title h3{
         font-size: 30px;
     }
 }

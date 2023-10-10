@@ -18,8 +18,8 @@ Dark tint: #1229a3
     --------------- MEDIA QUERY RANGES ------------------
     -----------------------------------------------------
 
-    --mobile-device-max                      : 767px;
-    --tablet-portrait-min                    : 768px;
+    --mobile-device-max                      : 749px;
+    --tablet-portrait-min                    : 750px;
     --tablet-portrait-max                    : 1023px;
     --tablet-landscape-min                   : 1024px;
     --tablet-landscape-max                   : 1199px;
@@ -267,13 +267,25 @@ input[type=button] {
 }
 
 /*
-******************************
-***** TABLET Responsive ******
-******************************
+****************************************
+***** TABLET LANDSCAPE RESPONSIVE ******
+****************************************
 */
 @media (min-width:1024px) and (max-width: 1199px) {
     .container {
         max-width: 1030px;
         padding: 0 40px;
+    }
+}
+
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1023px) {
+    .container {
+        max-width: 1000px;
+        padding: 0 55px;
     }
 }

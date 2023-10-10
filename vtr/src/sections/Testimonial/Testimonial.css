@@ -273,3 +273,36 @@
     top: 3px;
     color: var(--extra-color)
 }
+
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1023px) {
+    .vtr_tm_testimonials .testimonials_inner{
+        flex-direction: column;
+    }
+
+    .vtr_tm_testimonials .leftpart{
+        width: 40%;
+        margin-bottom: 14px;
+    }
+
+    .vtr_tm_testimonials .rightpart{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .vtr_tm_testimonials .main_title h3{
+        font-size: 60px;
+    }
+
+    .vtr_tm_testimonials .main_title .small{
+        bottom: 0;
+    }
+
+    .vtr_tm_testimonials .quotes p{
+        font-size: 18px;
+    }
+}

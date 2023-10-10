@@ -119,8 +119,22 @@
     transition: all .3s ease
 }
 
-/* MODAL STYLE */
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1023px) {
+    .vtr_tm_portfolio .portfolio_list ul li{
+        width: 40%;
+    }
+}
 
+/*
+*************************
+****** MODAL STYLE ******
+*************************
+*/
 .vtr_tm_modalbox .modal_popup_informations {
     width: 100%;
     height: auto;
