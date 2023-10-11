@@ -201,3 +201,28 @@
 .vtr_tm_timeline .timeline_inner .container {
     z-index: 1
 }
+
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1023px) {
+    .vtr_tm_timeline .timeline_list .details{
+        padding-right: 0;
+    }
+
+    .vtr_tm_timeline .timeline_list>ul>li:nth-child(2n) .items .details{
+        padding-left: 0;
+    }
+
+    .vtr_tm_timeline .timeline_list .items .svg{
+        display: none;
+    }
+
+    .vtr_tm_timeline .timeline_list .items .year{
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+}

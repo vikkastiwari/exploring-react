@@ -10,7 +10,7 @@ Features        Done            Done
 About           Done            Done
 Services        Done            Done
 Portfolio       Done            Done
-Experience      Pending         Pending
+Experience      Pending         Done
 Testimonials    Done            Done
 Blog            Done            Done
 Subscribe       Done            Done
