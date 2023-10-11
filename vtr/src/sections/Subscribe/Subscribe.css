@@ -142,3 +142,32 @@
         padding-left: 0;
     }
 }
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+
+    .vtr_tm_subscribe .content{
+        padding: 55px 40px;
+    }
+
+    .vtr_tm_subscribe .subtitle{
+        font-size: 18px;
+    }
+
+    .vtr_tm_subscribe .title{
+        font-size: 30px;
+    }
+
+    .vtr_tm_subscribe .field input[type=text]{
+        height: 55px;
+    }
+
+    .vtr_tm_subscribe .field input[type=submit]{
+        height: 55px;
+        padding: 0 15px;
+    }
+}

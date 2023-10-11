@@ -8,12 +8,12 @@ Header          Pending         Done
 Home            Done            Done
 Features        Done            Done
 About           Done            Done
-Services        Pending         Done
-Portfolio       Pending         Done
+Services        Done            Done
+Portfolio       Done            Done
 Experience      Pending         Pending
-Testimonials    Pending         Done
-Blog            Pending         Done
-Subscribe       Pending         Done
+Testimonials    Done            Done
+Blog            Done            Done
+Subscribe       Done            Done
 Contact Me      Pending         Done
 Footer          Pending         Done
 
