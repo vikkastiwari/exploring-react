@@ -194,7 +194,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 20px;
+    bottom: 4px;
     z-index: 5;
 }
 
@@ -251,6 +251,19 @@
 
     .vtr_tm_hero .icon.t3{
         right: -13px;
+    }
+    
+    .vtr_tm_hero .stroke_1, .vtr_tm_hero .stroke_2{
+        font-size: 120px ;
+    }
+
+    .vtr_tm_hero .stroke_1 {
+        left: -25px;
+    }
+
+    .vtr_tm_hero .stroke_2 {
+        top: 50px;
+        left: 125px;
     }
 }
 
@@ -321,6 +334,21 @@
     .vtr_tm_hero .icon.t3 {
         bottom: -20px;
         right: -25px;
+    }
+
+    .vtr_tm_hero .stroke_1, .vtr_tm_hero .stroke_2{
+        font-size: 100px ;
+    }
+
+    .vtr_tm_hero .stroke_1 {
+        bottom: 325px;
+        margin-bottom: 0;
+        left: 12px;
+    }
+
+    .vtr_tm_hero .stroke_2 {
+        left: 140px;
+        top: -85px;
     }
 }
 
