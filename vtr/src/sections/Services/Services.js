@@ -2,7 +2,6 @@ import { useState } from 'react';
 import JsonData from '../../assets/data/content.json';
 
 import './Services.css';
-import '../../css/animation.css';
 
 import misc_3 from '../../assets/img/misc/3.png';
 import Section from "../../components/Section/Section";

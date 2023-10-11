@@ -1,4 +1,3 @@
-import '../../css/animation.css';
 import './Subscribe.css';
 import JsonData from '../../assets/data/content.json';
 

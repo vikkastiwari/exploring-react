@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import './css/general.css';
+import './css/hamburger.css';
+import './css/animation.css';
 import './css/helper.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

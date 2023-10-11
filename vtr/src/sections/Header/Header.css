@@ -11,7 +11,7 @@
 .vtr_tm_header.animate {
     padding: 25px 0;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,.1)
+    box-shadow: 0 0 15px rgb(0 0 0 / 25%);
 }
 
 .vtr_tm_header .header_inner {
@@ -87,4 +87,47 @@
     .vtr_tm_header .menu{
         display: none;
     }
+}
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+    .vtr_tm_header,
+    .vtr_tm_header.animate {
+        padding: 15px 0;
+    }
+    
+    .vtr_tm_header .logo img {
+        max-width: 110px;
+        max-height: 70px;
+    }
+
+    .vtr_tm_header.animate .hamburger-inner,
+    .vtr_tm_header.animate .hamburger-inner:after,
+    .vtr_tm_header.animate .hamburger-inner:before {
+        background-color: #000;
+    }
+}
+
+
+.vtr_tm_header .hamburger-inner,
+.vtr_tm_header .hamburger-inner:after,
+.vtr_tm_header .hamburger-inner:before {
+    width: 30px;
+    height: 2px;
+}
+
+.vtr_tm_header .hamburger-box {
+    width: 30px
+}
+
+.vtr_tm_header .hamburger {
+    padding: 0
+}
+
+.vtr_tm_header .trigger {
+    line-height: 0
 }
