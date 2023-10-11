@@ -11,7 +11,7 @@ const Blog = () => {
 
   return (
     <Section>
-      <div className="vtr_tm_news">
+      <div className="vtr_tm_news vtr_section_margin">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
             <span>{blogData.title}</span>

@@ -20,7 +20,7 @@ const Services = () => {
 
   return (
     <Section>
-      <div className="vtr_tm_services">
+      <div className="vtr_tm_services vtr_section_margin">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
             <span>{servicesData.title}</span>

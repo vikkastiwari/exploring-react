@@ -16,7 +16,7 @@ const Experience = () => {
 
   return (
     <Section>
-      <div className="vtr_tm_timeline">
+      <div className="vtr_tm_timeline vtr_section_margin">
         <div className="container bigger">
           <div className="timeline_inner">
             <div className="container">

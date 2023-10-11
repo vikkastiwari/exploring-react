@@ -3,7 +3,6 @@
     height: auto;
     clear: both;
     float: left;
-    padding-top: 165px;
     position: relative
 }
 
@@ -11,7 +10,6 @@
     width: 100%;
     display: flex;
     margin-top: 80px;
-    margin-bottom: 165px;
     position: relative
 }
 

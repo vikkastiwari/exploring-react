@@ -15,7 +15,7 @@ const Testimonial = () => {
 
   return (
     <Section>
-      <div className="vtr_tm_testimonials">
+      <div className="vtr_tm_testimonials vtr_section_margin">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
             <span>{testimonialData.title}</span>

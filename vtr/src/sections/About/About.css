@@ -161,6 +161,10 @@
 ****************************************
 */
 @media (min-width:1024px) and (max-width: 1199px) {
+    .vtr_tm_about {
+        margin-bottom: 160px;
+    }
+
     .vtr_tm_about .right .title h3 {
         font-size: 30px;
     }
@@ -172,6 +176,10 @@
 ****************************************
 */
 @media (max-width: 1023px) {
+    .vtr_tm_about {
+        margin-bottom: 140px;
+    }
+
     .vtr_tm_about .about_inner{
         flex-direction: column;
     }
@@ -217,6 +225,9 @@
 *******************************
 */
 @media (max-width: 749px) {
+    .vtr_tm_about {
+        margin-bottom: 120px;
+    }
 
     .vtr_tm_about .left{
         width: 80%;

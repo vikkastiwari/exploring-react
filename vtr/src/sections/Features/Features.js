@@ -11,7 +11,7 @@ const Features = () => {
   return (
     <>
       <Section>
-        <div className="vtr_tm_features">
+        <div className="vtr_tm_features vtr_section_margin">
           <div className="container">
             <div className="vtr_tm_main_title" data-text-align="center">
               <span>{featuresData.title}</span>
