@@ -43,7 +43,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="menu">
+            <div className={`menu ${isHamDrawerOpen ? 'open' : ''}`}>
               <ul className="anchor_nav">
                 {headerData.navElements.map((item, index) => (
                   <li key={index} className={index === 0 ? "current" : ""}>
