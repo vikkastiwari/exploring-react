@@ -119,3 +119,53 @@
     border-radius: 10px;
     border: 3px solid #fff
 }
+
+
+/*
+****************************************
+***** TABLET LANDSCAPE RESPONSIVE ******
+****************************************
+*/
+@media (min-width:1024px) and (max-width: 1199px) {
+    .vtr_tm_modalbox .box_inner {
+        width: 650px;
+    }
+}
+
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (min-width:750px) and (max-width: 1023px) {
+    .vtr_tm_modalbox .box_inner {
+        width: 525px;
+    }
+}
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+    .vtr_tm_modalbox .close{
+        top: -40px;
+        left: auto;
+        right: 0;
+        margin-left: 0;
+    }
+
+    .vtr_tm_modalbox .close div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .vtr_tm_modalbox .box_inner {
+        width: 325px;
+    }
+
+    .vtr_tm_modalbox .description_wrap{
+        padding: 45px 20px;
+    }
+}
