@@ -123,3 +123,18 @@
     position: absolute;
     z-index: -11
 }
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+    .vtr_tm_news ul li{
+        width: 60%;
+    }
+
+    .vtr_tm_news ul li .details .title a{
+        font-size: 18px;
+    }
+}

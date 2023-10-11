@@ -116,4 +116,12 @@
     .vtr_tm_button a{
         padding: 8px 18px 9px;
     }
+
+    .vtr_tm_main_title h3{
+        font-size: 24px;
+    }
+
+    .vtr_tm_main_title span{
+        font-size: 18px;
+    }
 }
