@@ -18,7 +18,8 @@
 
 .vtr_tm_copyright .left p {
     font-size: 16px;
-    color: #b7bac5
+    color: #b7bac5;
+    text-decoration-line: underline;
 }
 
 .vtr_tm_copyright .left a {

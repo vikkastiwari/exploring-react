@@ -14,8 +14,8 @@ Experience      Pending         Done
 Testimonials    Done            Done
 Blog            Done            Done
 Subscribe       Done            Done
-Contact Me      Pending         Done
-Footer          Pending         Done
+Contact Me      Done            Done
+Footer          Done            Done
 
 ### FUNCTIONALITIES
 #### Page loader
