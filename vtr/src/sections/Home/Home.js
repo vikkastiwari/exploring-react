@@ -17,88 +17,86 @@ const Home = () => {
   const homeData = JsonData.home;
 
   return (
-    <>
-      <Section>
-        <div className="vtr_tm_hero vtr_section_margin">
-          <div className="background">
-            <div
-              className="image"
-              style={{ backgroundImage: `url(${heroBanner})` }}
-            ></div>
-          </div>
+    <Section>
+      <div className="vtr_tm_hero vtr_section_margin">
+        <div className="background">
+          <div
+            className="image"
+            style={{ backgroundImage: `url(${heroBanner})` }}
+          ></div>
+        </div>
 
-          <div className="container">
-            <div className="content">
-              <div className="left">
-                <div className="inner">
-                  <h3 className="hello">{homeData.hello}</h3>
-                  <h3 className="name">{homeData.name[0] + " " + homeData.name[1]}</h3>
-                  <h3 className="job">{homeData.job}</h3>
-                  <p className="text">{homeData.desc}</p>
-                  <div className="buttons">
-                    <div className="vtr_tm_button">
-                      <a className="anchor" href="#contact">
-                        {homeData.button}
-                      </a>
-                    </div>
-                    <div className="social">
-                        <ul>
-                          <li>
-                            <a href="/">
-                              <FaFacebookF  className="vtr-fs-16 vtr-color-white" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/">
-                              <FaLinkedinIn className="vtr-fs-16 vtr-color-white" />
-                            </a>
-                          </li>
-                          <li>  
-                            <a href="/">
-                              <FaBloggerB className="vtr-fs-16 vtr-color-white" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/">
-                              <PiGithubLogoFill className="vtr-fs-16 vtr-color-white" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
+        <div className="container">
+          <div className="content">
+            <div className="left">
+              <div className="inner">
+                <h3 className="hello">{homeData.hello}</h3>
+                <h3 className="name">{homeData.name[0] + " " + homeData.name[1]}</h3>
+                <h3 className="job">{homeData.job}</h3>
+                <p className="text">{homeData.desc}</p>
+                <div className="buttons">
+                  <div className="vtr_tm_button">
+                    <a className="anchor" href="#contact">
+                      {homeData.button}
+                    </a>
                   </div>
+                  <div className="social">
+                      <ul>
+                        <li>
+                          <a href="/">
+                            <FaFacebookF  className="vtr-fs-16 vtr-color-white" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/">
+                            <FaLinkedinIn className="vtr-fs-16 vtr-color-white" />
+                          </a>
+                        </li>
+                        <li>  
+                          <a href="/">
+                            <FaBloggerB className="vtr-fs-16 vtr-color-white" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/">
+                            <PiGithubLogoFill className="vtr-fs-16 vtr-color-white" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                 </div>
-                <h3 className="stroke_1">{homeData.name[0]}</h3>
-                <h3 className="stroke_2">{homeData.name[1]}</h3>
               </div>
-              <div className="right">
-                <div className="image">
-                  <img src={vtbg} alt="" />
-                  <div
-                    className="main"
-                    style={{ backgroundImage: `url(${vt})` }}
-                  ></div>
-                  <span className="icon t1">
-                    <ReactIcon className="svg" />
-                  </span>
-                  <span className="icon t2">
-                    <AngularIcon className="svg" />
-                  </span>
-                  <span className="icon node t3">
-                    <NodeIcon className="svg" />
-                  </span>
-                </div>
+              <h3 className="stroke_1">{homeData.name[0]}</h3>
+              <h3 className="stroke_2">{homeData.name[1]}</h3>
+            </div>
+            <div className="right">
+              <div className="image">
+                <img src={vtbg} alt="" />
+                <div
+                  className="main"
+                  style={{ backgroundImage: `url(${vt})` }}
+                ></div>
+                <span className="icon t1">
+                  <ReactIcon className="svg" />
+                </span>
+                <span className="icon t2">
+                  <AngularIcon className="svg" />
+                </span>
+                <span className="icon node t3">
+                  <NodeIcon className="svg" />
+                </span>
               </div>
             </div>
           </div>
-
-          <div className="vtr_tm_down">
-            <a className="anchor" href="/">
-              <DownIcon className="vtr-color-white" style={{width:'35px',height:'35px'}} />
-            </a>
-          </div>
         </div>
-      </Section>
-    </>
+
+        <div className="vtr_tm_down">
+          <a className="anchor" href="/">
+            <DownIcon className="vtr-color-white" style={{width:'35px',height:'35px'}} />
+          </a>
+        </div>
+      </div>
+    </Section>
   );
 }
 

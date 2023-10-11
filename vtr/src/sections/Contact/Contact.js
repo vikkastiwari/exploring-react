@@ -12,7 +12,7 @@ const Contact = () => {
   const contactData = JsonData.contact;
 
   return (
-    <Section>
+    <Section id="contact">
       <div className="vtr_tm_contact vtr_section_margin">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">

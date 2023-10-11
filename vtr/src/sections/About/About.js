@@ -11,7 +11,7 @@ const About = () => {
   const aboutData = JsonData.about;
   
   return (
-    <Section>
+    <Section id="about">
       <div className="vtr_tm_about">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">

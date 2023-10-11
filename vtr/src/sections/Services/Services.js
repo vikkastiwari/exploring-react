@@ -8,17 +8,9 @@ import Section from "../../components/Section/Section";
 
 const Services = () => {
   const servicesData = JsonData.services;
-  const [rotateY, setRotateY] = useState(0);
-  const [rotateX, setRotateX] = useState(0);
-
-  const cardStyle = {
-    willChange: 'transform',
-    perspective: '1000px',
-    transform: `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1, 1, 1)`,
-  };
 
   return (
-    <Section>
+    <Section id="service">
       <div className="vtr_tm_services vtr_section_margin">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
@@ -38,7 +30,6 @@ const Services = () => {
                 >
                   <div
                     className="list_inner tilt-effect1"
-                    style={cardStyle}
                   >
                     <span className="icon">
                       <svg

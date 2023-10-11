@@ -26,7 +26,7 @@ const Work = () => {
 
   return (
     <>
-      <Section>
+      <Section id="portfolio">
         <div className="vtr_tm_portfolio vtr_section_margin">
           <div className="container">
             <div className="vtr_tm_main_title" data-text-align="center">

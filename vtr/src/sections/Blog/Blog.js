@@ -10,7 +10,7 @@ const Blog = () => {
   const blogData = JsonData.blog;
 
   return (
-    <Section>
+    <Section id="blog">
       <div className="vtr_tm_news vtr_section_margin">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
