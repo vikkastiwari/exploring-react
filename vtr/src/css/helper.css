@@ -95,3 +95,25 @@
         font-size: 30px;
     }
 }
+
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1023px) {
+    .vtr_tm_button a{
+        padding: 8px 20px 12px;
+    }
+}
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+    .vtr_tm_button a{
+        padding: 8px 18px 9px;
+    }
+}

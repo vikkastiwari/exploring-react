@@ -162,7 +162,7 @@
 }
 
 .vtr_tm_hero .icon .svg {
-    width: 55px;
+    width: 85px;
     height: 55px;
     position: absolute;
     top: 50%;
@@ -183,10 +183,6 @@
 .vtr_tm_hero .icon.node {
     width: 120px;
     height: 79px;
-}
-
-.vtr_tm_hero .icon .svg {
-    width: 85px;
 }
 
 .vtr_tm_hero .icon.t3{
@@ -280,6 +276,17 @@
 
     .vtr_tm_hero .name {
         font-size: 44px;
+        margin-bottom: 16px;
+    }
+
+    .vtr_tm_hero .job{
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .vtr_tm_hero .text{
+        font-size: 16px;
+        margin-bottom: 20px;
     }
 
     .vtr_tm_hero .buttons{
@@ -288,7 +295,7 @@
     }
 
     .vtr_tm_hero .right {
-        width: 40%;
+        width: 30%;
         padding-left: 0;
     }
 
@@ -297,18 +304,76 @@
         height: 60px; 
     }
 
+    .vtr_tm_hero .icon .svg{
+        width: 65px;
+    }
+
     .vtr_tm_hero .icon.t1 {
         top: -20px;
         right: -18px;
     }
 
     .vtr_tm_hero .icon.node {
-        width: 105px;
-        height: 60px;
+        width: 88px;
+        height: 51px;
     }
 
     .vtr_tm_hero .icon.t3 {
         bottom: -20px;
         right: -25px;
+    }
+}
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+    .vtr_tm_hero .content{
+        gap: 24px;
+    }
+
+    .vtr_tm_hero .hello{
+        font-size: 24px;
+    }
+    
+    .vtr_tm_hero .name{
+        font-size: 35px;
+    }
+
+    .vtr_tm_hero .job{
+        font-size: 18px;
+    }
+
+    .vtr_tm_hero .text{
+        font-size: 16px;
+    }
+
+    .vtr_tm_hero .buttons{
+        gap: 14px;
+    }
+
+    .vtr_tm_hero .right{
+        width: 40%;
+    }
+
+    .vtr_tm_hero .icon{
+        width: 45px;
+        height: 45px;
+    }
+
+    .vtr_tm_hero .icon .svg{
+        width: 40px;
+    }
+
+    .vtr_tm_hero .icon.t2 {
+        bottom: 39px;
+        left: -24px;
+    }
+
+    .vtr_tm_hero .icon.node {
+        width: 75px;
+        height: 36px;
     }
 }

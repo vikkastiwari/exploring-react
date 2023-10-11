@@ -289,3 +289,15 @@ input[type=button] {
         padding: 0 55px;
     }
 }
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+    .container {
+        max-width: 1070px;
+        padding: 0 20px;
+    }
+}
