@@ -118,7 +118,7 @@ const About = () => {
                 </div>
                 <div className="">
                   <span
-                    className="icon_4 wow fadeIn"
+                    className="icon_1 wow fadeIn"
                     data-wow-duration="1s"
                     data-wow-delay="0.6s"
                     style={{

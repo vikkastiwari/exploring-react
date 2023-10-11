@@ -168,3 +168,18 @@
         width: 100%;
     }
 }
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+    .vtr_tm_services .service_list ul li .list_inner{
+        padding: 40px 20px;
+    }
+
+    .vtr_tm_services .service_list .icon{
+        display: none;
+    }
+}

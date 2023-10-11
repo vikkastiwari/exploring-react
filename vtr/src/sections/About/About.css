@@ -66,21 +66,22 @@
     transform: translate(-50%,-50%)
 }
 
+
 .vtr_tm_about .icon_1 {
     position: absolute;
     display: inline-block;
+    width: 65px;
+    height: 65px;
     border-radius: 12px;
-    background-color: #3b383f;
-    bottom: 110px;
-    width: 80px;
-    height: 80px;
-    right: 150px;
-    left: -40px;
+    background-color: var(--primary-color);
+    top: 80px;
+    left: -34px;
 }
 
 .vtr_tm_about .icon_1 .svg {
-    width: 40px;
-    height: 40px
+    width: 50px;
+    height: 50px;
+    color: #fff
 }
 
 .vtr_tm_about .icon_2 {
@@ -115,23 +116,6 @@
 .vtr_tm_about .icon_3 .svg {
     width: 45px;
     height: 45px
-}
-
-.vtr_tm_about .icon_4 {
-    position: absolute;
-    display: inline-block;
-    width: 65px;
-    height: 65px;
-    border-radius: 12px;
-    background-color: var(--primary-color);
-    top: 80px;
-    left: -34px;
-}
-
-.vtr_tm_about .icon_4 .svg {
-    width: 50px;
-    height: 50px;
-    color: #fff
 }
 
 .vtr_tm_about .right {
@@ -224,5 +208,23 @@
 
     .vtr_tm_about .right .title h3{
         font-size: 30px;
+    }
+}
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+
+    .vtr_tm_about .left{
+        width: 80%;
+    }
+
+    .vtr_tm_about .icon_1,
+    .vtr_tm_about .icon_2,
+    .vtr_tm_about .icon_3{
+        display: none;
     }
 }
