@@ -9,7 +9,7 @@ const Subscribe = () => {
 
   return (
     <Section>
-      <div className="vtr_tm_subscribe vtr_section_margin">
+      <div className="vtr_tm_subscribe vtr_section_padding">
         <div className="container">
           <div className="inner">
             <div className="background">

@@ -84,8 +84,8 @@
     cursor: pointer;
 }
 
-.vtr_section_margin{
-    margin-bottom: 165px;
+.vtr_section_padding{
+    padding-top: 165px;
 }
 
 /*
@@ -95,8 +95,8 @@
 */
 
 @media (max-width: 1199px) {
-    .vtr_section_margin{
-        margin-bottom: 145px;
+    .vtr_section_padding{
+        padding-top: 145px;
     }
 
     .vtr_tm_main_title h3 {
@@ -110,8 +110,8 @@
 ****************************************
 */
 @media (max-width: 1023px) {
-    .vtr_section_margin{
-        margin-bottom: 125px;
+    .vtr_section_padding{
+        padding-top: 125px;
     }
 
     .vtr_tm_button a{
@@ -125,8 +125,8 @@
 *******************************
 */
 @media (max-width: 749px) {
-    .vtr_section_margin{
-        margin-bottom: 105px;
+    .vtr_section_padding{
+        padding-top: 105px;
     }
 
     .vtr_tm_button a{

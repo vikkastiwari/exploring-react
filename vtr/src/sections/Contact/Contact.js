@@ -13,7 +13,7 @@ const Contact = () => {
 
   return (
     <Section id="contact">
-      <div className="vtr_tm_contact vtr_section_margin">
+      <div className="vtr_tm_contact vtr_section_padding">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
             <span>Contact Me</span>

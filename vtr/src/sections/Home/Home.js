@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <Section>
-      <div className="vtr_tm_hero vtr_section_margin">
+      <div className="vtr_tm_hero">
         <div className="background">
           <div
             className="image"

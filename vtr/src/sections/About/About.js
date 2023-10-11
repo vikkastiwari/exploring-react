@@ -12,7 +12,7 @@ const About = () => {
   
   return (
     <Section id="about">
-      <div className="vtr_tm_about">
+      <div className="vtr_tm_about vtr_section_padding">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
             <span>{aboutData.title}</span>

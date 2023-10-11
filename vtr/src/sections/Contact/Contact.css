@@ -3,14 +3,14 @@
     height: auto;
     clear: both;
     float: left;
-    position: relative
+    position: relative;
+    margin-bottom: 100px;
 }
 
 .vtr_tm_contact .contact_inner {
     width: 100%;
     display: flex;
-    margin-top: 80px;
-    position: relative
+    position: relative;
 }
 
 .vtr_tm_contact .left {
