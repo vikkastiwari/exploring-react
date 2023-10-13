@@ -1,0 +1,40 @@
+.progressbar {
+    position: fixed;
+    height: 100px;
+    width: 1px;
+    bottom: 25px;
+    right: -25px;
+    background-color: rgba(0,0,0,.08);
+    z-index: 10;
+    transition: all .3s ease
+}
+
+.progressbar.animate {
+    right: 25px
+}
+
+.progressbar .line {
+    position: absolute;
+    width: 1px;
+    height: auto;
+    background-color: rgba(0,0,0,.4)
+}
+
+.progressbar .text {
+    position: absolute;
+    bottom: 100px;
+    left: 3px;
+    font-size: 14px;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    transform-origin: left;
+    white-space: nowrap
+}
+
+.progressbar .text span {
+    font-size: 24px;
+}
+
+.progressbar div {
+    color: #000
+}

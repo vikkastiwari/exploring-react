@@ -1,4 +1,5 @@
 import './App.css';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import About from './sections/About/About';
 import Blog from './sections/Blog/Blog';
@@ -15,20 +16,23 @@ import Work from './sections/Work/Work';
 
 function App() {
   return (
-    <div className="vtr_tm_all_wrap">
-      <Header />
-      <Home />
-      <Features />
-      <About />
-      <Services />
-      <Work />
-      <Experience />
-      <Testimonial />
-      <Blog />
-      <Subscribe />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      <div className="vtr_tm_all_wrap">
+        <Header />
+        <Home />
+        <Features />
+        <About />
+        <Services />
+        <Work />
+        <Experience />
+        <Testimonial />
+        <Blog />
+        <Subscribe />
+        <Contact />
+        <Footer />
+      </div>
+      <ScrollToTop></ScrollToTop>
+    </>
   );
 }
 

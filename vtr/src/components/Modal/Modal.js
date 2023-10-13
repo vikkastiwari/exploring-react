@@ -1,4 +1,3 @@
-import { useState } from 'react';
 
 import './Modal.css';
 import { AiOutlineClose } from "react-icons/ai";

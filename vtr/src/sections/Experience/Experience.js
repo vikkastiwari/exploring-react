@@ -15,7 +15,7 @@ const Experience = () => {
   const experienceData = JsonData.experience;
 
   return (
-    <Section>
+    <Section id="experience">
       <div className="vtr_tm_timeline vtr_section_padding">
         <div className="container bigger">
           <div className="timeline_inner">

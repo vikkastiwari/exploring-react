@@ -10,22 +10,21 @@
                 "route":"about"
             },
             {
-                "name":"Portfolio",
-                "route":"portfolio"
-            },
-            {
                 "name":"Service",
                 "route":"service"
             },
             {
-                "name":"Contact",
-                "route":"contact"
+                "name":"Portfolio",
+                "route":"portfolio"
+            },
+            {
+                "name":"Experience",
+                "route":"experience"
             },
             {
                 "name":"Blog",
                 "route":"blog"
             }
-            
         ],
         "download":{
             "name":"Download CV",
@@ -37,7 +36,7 @@
         "name":["Vikas","Tiwari"],
         "job":"Web Developer from India",
         "desc":"I will simplify the complexity for you but remember, Nine people can't make a baby in a month.",
-        "button":"Get a Quote"
+        "button":"Contact"
     },
     "features":{
         "title":"Portfolio",

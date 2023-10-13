@@ -8,11 +8,43 @@ import JsonData from "../../assets/data/content.json";
 const Header = () => {
   const headerData = JsonData.header;
   const [isSticky, setIsSticky] = useState(false);
+  const [isActiveIndex, setIsActiveIndex] = useState(0);
   const [isHamDrawerOpen, setIsHamDrawerOpen] = useState(false);
 
   const hbDrawerHandler = () => {
     setIsHamDrawerOpen(!isHamDrawerOpen);
   }
+
+  const navActiveState = (index) => {
+    setIsActiveIndex(index);
+    hbDrawerHandler();
+  }
+
+  useEffect(()=>{
+    const allLinks = document.querySelectorAll("a:link");
+    allLinks.forEach((link) => {
+      const scrollEvent = (event) => {
+        event.preventDefault();
+        const href = link.getAttribute("href");
+        // scroll to top i.e "#"
+        if(href === "#") {
+            window.scrollTo({
+                top:0,
+                behavior: "smooth"
+            });
+        }
+        // scroll to other sections with id
+        if(href !== "#" && href.startsWith("#")){
+            const sectionEl = document.querySelector(href);
+            sectionEl.scrollIntoView({behavior:"smooth"});  
+        }
+      }
+      link.addEventListener("click", scrollEvent);
+      return () => {
+        link.removeEventListener("click", scrollEvent);
+      };
+    });
+  },[]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,7 +77,11 @@ const Header = () => {
           <div className={`menu ${isHamDrawerOpen ? 'open' : ''}`}>
             <ul className="anchor_nav">
               {headerData.navElements.map((item, index) => (
-                <li key={index} className={index === 0 ? "current" : ""}>
+                <li 
+                  key={index} 
+                  onClick={navActiveState.bind(null, index)} 
+                  className={index === isActiveIndex ? "current" : ""}
+                >
                   <a href={`#${item.route}`}>{item.name}</a>
                 </li>
               ))}

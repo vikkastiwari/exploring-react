@@ -17,7 +17,7 @@ const Home = () => {
   const homeData = JsonData.home;
 
   return (
-    <Section>
+    <Section id="home">
       <div className="vtr_tm_hero">
         <div className="background">
           <div
