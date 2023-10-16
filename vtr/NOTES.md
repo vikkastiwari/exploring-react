@@ -1,3 +1,7 @@
+### supported width and height
+Min Width = 360px
+Min Height = 600px
+
 ### WEB FLOW
 #### Task 6 - Content curation
 
@@ -22,6 +26,7 @@ Footer          Done            Done
 #### scroll to top page progress 
 
 ### PAGES
+#### Affilate product listing page 
 #### Blog listing page 
 #### Projects listing page
 #### T&C Page

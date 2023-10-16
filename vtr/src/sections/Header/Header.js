@@ -67,7 +67,7 @@ const Header = () => {
               <img src={logo} alt="" />
             </a>
           </div>
-          <div className="trigger" onClick={hbDrawerHandler}>
+          <div className="trigger vtr_cursor_ptr" onClick={hbDrawerHandler}>
             <div className={`hamburger hamburger--slider ${isHamDrawerOpen ? 'is-active' : ''}`}>
               <div className="hamburger-box">
                 <div className="hamburger-inner"></div>
