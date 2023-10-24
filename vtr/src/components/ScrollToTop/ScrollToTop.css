@@ -20,31 +20,30 @@
     background-color: rgba(0,0,0,.4)
 }
 
-.progressbar .text {
+.progressbar .text,
+.progressbar .emoji {
     position: absolute;
     bottom: 100px;
+    text-transform: uppercase;
+    transform-origin: left;
+    white-space: nowrap;
+}
+
+.progressbar .text {
     left: 0;
     font-size: 14px;
     transform: rotate(90deg);
-    text-transform: uppercase;
-    transform-origin: left;
-    white-space: nowrap
+}
+
+.progressbar .emoji {
+    left: -12px;
+    font-size: 30px;
+    transform: rotate(315deg);
+    animation: rocketUpDown 3s infinite;
 }
 
 .progressbar .text span {
     font-size: 24px;
-}
-
-.progressbar .emoji {
-    position: absolute;
-    bottom: 100px;
-    left: -12px;
-    font-size: 30px;
-    transform: rotate(315deg);
-    text-transform: uppercase;
-    transform-origin: left;
-    white-space: nowrap;
-    animation: rocketUpDown 3s infinite;
 }
 
 @keyframes rocketUpDown {
