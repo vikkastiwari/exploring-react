@@ -79,7 +79,7 @@ const Header = () => {
               {headerData.navElements.map((item, index) => (
                 <li 
                   key={index} 
-                  onClick={navActiveState.bind(null, index)} 
+                  onClick={() => navActiveState(index)} 
                   className={index === isActiveIndex ? "current" : ""}
                 >
                   <a href={`#${item.route}`}>{item.name}</a>

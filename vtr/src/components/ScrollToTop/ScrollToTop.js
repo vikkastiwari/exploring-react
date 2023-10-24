@@ -29,7 +29,7 @@ const ScrollToTop = () => {
   return (
     <>
       <div className={`progressbar ${scrollProgress > 1 ? 'animate' : ''}`}>
-        <div onClick={scrollToTop}>
+        <div className="vtr_cursor_ptr" onClick={scrollToTop}>
           <span className="text" style={{bottom: "180px"}}>
             <span className="emoji">👈</span> To Top
           </span>
