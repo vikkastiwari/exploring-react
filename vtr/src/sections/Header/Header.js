@@ -20,6 +20,10 @@ const Header = () => {
     hbDrawerHandler();
   }
 
+  /**
+   * Description - Code for adding smooth scroll on click of links
+   * Note: This code added for smooth scroll on cross browser
+   */ 
   useEffect(()=>{
     const allLinks = document.querySelectorAll("a:link");
     allLinks.forEach((link) => {
@@ -46,17 +50,36 @@ const Header = () => {
     });
   },[]);
 
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+
+    /* ********* Header Sticky Logic ************ */ 
+    scrollPosition >= 80 ? setIsSticky(true) : setIsSticky(false);
+
+    /* ********* Dynamic Nav Active On Scroll Logic ************ */ 
+    for (const [index, section] of headerData.navElements.entries()) {
+      const element = document.getElementById(section.name?.toLowerCase());
+      if (element) {
+        const elementTop = element.offsetTop;
+        const elementHeight = element.clientHeight;
+
+        // Note: 145 is the padding top added in each section
+        if (scrollPosition+145 >= elementTop && scrollPosition < elementTop + elementHeight) {
+          console.log("scrollPosition:",scrollPosition,",elementTop:",elementTop,",elementHeight:",elementHeight);
+          setIsActiveIndex(index);
+        }
+      }
+    }
+  };
+
   useEffect(() => {
-    const handleScroll = () => {
-      window.scrollY >= 80 ? setIsSticky(true) : setIsSticky(false);
-    };
     window.addEventListener("scroll", handleScroll);
 
     // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  });
 
   return (
     <div className={`vtr_tm_header ${isSticky ? "animate" : ""}`}>
