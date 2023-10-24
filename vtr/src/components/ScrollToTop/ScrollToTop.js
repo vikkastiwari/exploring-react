@@ -30,8 +30,9 @@ const ScrollToTop = () => {
     <>
       <div className={`progressbar ${scrollProgress > 1 ? 'animate' : ''}`}>
         <div className="vtr_cursor_ptr" onClick={scrollToTop}>
-          <span className="text" style={{bottom: "180px"}}>
-            <span className="emoji">👈</span> To Top
+          <span className="emoji" style={{bottom: "165px"}}>🚀</span>
+          <span className="text" style={{bottom: "160px"}}>
+             To Top
           </span>
         </div>
         <span className="line" style={{height: scrollProgress}}></span>
