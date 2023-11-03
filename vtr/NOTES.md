@@ -8,7 +8,7 @@ Min Height = 600px
 ### MOBILE FLOW
 #### make all sections mobile responsive - 4 break points --> mobile | tablet | laptop | desktop
                 Mobile          Other
-Header          Pending         Done
+Header          Done            Done
 Home            Done            Done
 Features        Done            Done
 About           Done            Done

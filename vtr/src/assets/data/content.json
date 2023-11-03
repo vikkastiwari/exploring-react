@@ -35,44 +35,44 @@
         "hello":"Hello I'm",
         "name":["Vikas","Tiwari"],
         "job":"Web Developer from India",
-        "desc":"I will simplify the complexity for you but remember, Nine people can't make a baby in a month.",
-        "button":"Contact"
+        "desc":"I'm a enthusiast for all things tech. I can bring your ideas to life. Allow me to help you communicate your technical concepts effectively.",
+        "button":"Connect"
     },
     "features":{
-        "title":"Portfolio",
-        "heading":"Our Commitment",
-        "desc":"We believe that success is not just about hard work; it's about",
+        "title":"",
+        "heading":"My Commitment",
+        "desc":"I believe that success is not just about working hard; it's about",
         "list":[
             {
                 "index":"01",
                 "name":"Dedication",
-                "desc":"With dedication as our cornerstone, we stand by your side, tirelessly turning your dreams into reality.",
+                "desc":"With dedication, I stand by your side, tirelessly turning your dreams into reality.",
                 "src":""
             },
             {
                 "index":"02",
                 "name":"Smart Work",
-                "desc":"We prioritize working smart, by emphasizing efficiency, innovation, and problem-solving to maximize results.",
+                "desc":"I prioritize working smart, by emphasizing efficiency, innovation, and problem-solving to maximize results.",
                 "src":""
             },
             {
                 "index":"03",
                 "name":"Intelligence",
-                "desc":"Intelligence is at the core of everything we do. We value knowledge, insights, and data-driven decision-making.",
+                "desc":"Intelligence is at the core of everything I do. I value knowledge, insights, and data-driven decision-making.",
                 "src":""
             }
         ]
     },
     "about":{
         "title":"About",
-        "heading":"My Amazing Works",
-        "desc":"Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate",
+        "heading":"Who I Am",
+        "desc":"Innovating lines of code, redefining possibilities",
         "me":{
             "title":"I'm a Developer",
-            "heading":"I Develop Application that Help People",
+            "heading":"I Bring Ideas to Life that Help People",
             "desc":[
-                "Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat cupidatat",
-                "Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis"
+                "I specialize in creating high-performance web applications and websites that not only look great but also function flawlessly with optimized performance.",
+                "I'm here to make your digital dreams a reality. Let's bring your vision to life!"
             ]
         },
         "btnText":"View Portfolio"
@@ -80,25 +80,25 @@
     "services":{
         "title":"Services",
         "heading":"What I Do for Clients",
-        "desc":"Most common methods for designing websites that work well on desktop is responsive and adaptive design",
+        "desc":"Crafting your digital dreams come to reality through innovative solutions",
         "lists":[
             {
-                "name":"Creative Design",
+                "name":"Web Development - Fullstack",
                 "price":["Starts from","$99"],
-                "desc":"Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development"
+                "desc":"Web development service includes development of website, design, e-commerce site, crm portals, and content management portal."
             },
             {
-                "name":"Graphic Design",
+                "name":"Analytics Integration",
                 "price":["Starts from","$199"],
-                "desc":"Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development"
+                "desc":"Empower businesses with data-driven insights and decision-making capabilities. Integrate various analytics tools, platforms, and data sources, allowing you to harness the full potential."
             },
             {
-                "name":"UI/UX Design",
+                "name":"SEO Optimization",
                 "price":["Starts from","$299"],
                 "desc":"Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development"
             },
             {
-                "name":"Web Design",
+                "name":"Technical Writer",
                 "price":["Starts from","$399"],
                 "desc":"Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development"
             }
@@ -221,7 +221,7 @@
     },
     "experience":{
         "title":"Experience",
-        "heading":"Creative Timeline",
+        "heading":"My Technical Background",
         "desc":"Fusce sollicitudin eros id ex maximus gravida non vitaeante. Cras ac mi a dolor suscipit rutrum ut vitae mi.",
         "list":[
             {
