@@ -59,8 +59,8 @@ const Work = () => {
                         ></div>
                       </div>
                       <div className="details">
-                        <span className="category">{item.category}</span>
-                        <p className="title">{item.title}</p>
+                        <span className="category">{item.title}</span>
+                        <p className="title">{item.category}</p>
                       </div>
                     </div>
                   </li>

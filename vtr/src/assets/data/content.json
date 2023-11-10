@@ -80,7 +80,7 @@
     "services":{
         "title":"Services",
         "heading":"What I Do for Clients",
-        "desc":"Crafting your digital dreams come to reality through innovative solutions",
+        "desc":"Transforming digital aspirations into tangible realities through the artistry of innovative solutions",
         "lists":[
             {
                 "name":"Web Development - Fullstack",
@@ -107,11 +107,11 @@
     "portfolio":{
         "title":"Portfolio",
         "heading":"My Amazing Works",
-        "desc":"Most common methods for designing websites that work well on desktop is responsive and adaptive design",
+        "desc":"Blending creativity and functionality, to deliver immersive experiences at the intersection of design and technology",
         "list":[
             {
-                "title":"Drawing Art",
-                "category":"Youtube",
+                "title":"Omnifood",
+                "category":"Html5 & Css3",
                 "url":"/",
                 "src":"",
                 "alt":"project preview img",
@@ -128,8 +128,8 @@
                 }
             },
             {
-                "title":"Lafayette Fly",
-                "category":"Vimeo",
+                "title":"EList Generator",
+                "category":"React",
                 "url":"/",
                 "src":"",
                 "alt":"project preview img",
@@ -146,8 +146,26 @@
                 }
             },
             {
-                "title":"Emotional Music",
-                "category":"Soundcloud",
+                "title":"Recipe App",
+                "category":"Angular",
+                "url":"/",
+                "src":"",
+                "alt":"project preview img",
+                "popup":{
+                    "title":"How to be appreciated for your hard work as a developer",
+                    "subtitle":"Tech Stack - Angular 14, RXJS",
+                    "desc":[
+                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                    ],
+                    "src":"",
+                    "alt":"project preview img"
+                }
+            },
+            {
+                "title":"Expense Generator",
+                "category":"React",
                 "url":"/",
                 "src":"",
                 "alt":"project preview img",
@@ -164,44 +182,8 @@
                 }
             },
             {
-                "title":"Deo Sumbara",
-                "category":"Popup",
-                "url":"/",
-                "src":"",
-                "alt":"project preview img",
-                "popup":{
-                    "title":"How to be appreciated for your hard work as a developer",
-                    "subtitle":"Branding",
-                    "desc":[
-                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
-                    ],
-                    "src":"",
-                    "alt":"project preview img"
-                }
-            },
-            {
-                "title":"Product Design",
-                "category":"Details",
-                "url":"/",
-                "src":"",
-                "alt":"project preview img",
-                "popup":{
-                    "title":"How to be appreciated for your hard work as a developer",
-                    "subtitle":"Branding",
-                    "desc":[
-                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
-                    ],
-                    "src":"",
-                    "alt":"project preview img"
-                }
-            },
-            {
-                "title":"Popup",
-                "category":"Mockup Shape",
+                "title":"Shopit ecommerece",
+                "category":"Angular",
                 "url":"/",
                 "src":"",
                 "alt":"project preview img",
@@ -222,7 +204,7 @@
     "experience":{
         "title":"Experience",
         "heading":"My Technical Background",
-        "desc":"Fusce sollicitudin eros id ex maximus gravida non vitaeante. Cras ac mi a dolor suscipit rutrum ut vitae mi.",
+        "desc":"Fluent in the language of algorithms, transforming complex technical challenges into streamlined possibilities through elegant solutions",
         "list":[
             {
                 "role":"UI/UX Designer",
@@ -254,7 +236,7 @@
         "thumb_37x45": "37-45.jpg",
         "title":"Testimonials",
         "heading":"What My Clients Say",
-        "desc":"Most common methods for designing websites that work well on desktop is responsive and adaptive design",
+        "desc":"Discover the impact of my work through the lens of client success stories",
         "clientImage":[
             {"src":"c1.jpg","alt":"client profile data"},
             {"src":"c1.jpg","alt":"client profile data"},
@@ -283,7 +265,7 @@
     "blog":{
         "title":"From My Blog",
         "heading":"Recent Blogs, Updates & More",
-        "desc":"Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate",
+        "desc":"Embark on a captivating journey through my thoughts, experiences, and discoveries",
         "lists":[
             {
                 "tags":["web","development"],
@@ -314,7 +296,7 @@
     "subscirbe":{
         "title":"Get My Newsletter",
         "subtitle":"Subscribe Now",
-        "desc":"Get latest news, updates, tips and trics in your inbox",
+        "desc":"Get latest news, updates, tips and trics in your inbox - no spamming",
         "placeholder":"Email",
         "value":"Send"
     },
