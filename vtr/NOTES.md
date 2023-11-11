@@ -35,11 +35,11 @@ my blog images
 #### DESIGN UPDATION
 portfolio section design update and each blog title whitespace normal 
 experience section mobile view 
-myblog section redesign and image link click 
-contact me form integration
+myblog section redesign web scroll issue 
 
 #### FUNCTIONALITIES
 contact me on-hover email and phone number reveal 
+contact me form integration
 page loader 
 download button resume - download
 
