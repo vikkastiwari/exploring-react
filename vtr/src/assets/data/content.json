@@ -207,26 +207,34 @@
         "desc":"Fluent in the language of algorithms, transforming complex technical challenges into streamlined possibilities through elegant solutions",
         "list":[
             {
-                "role":"UI/UX Designer",
-                "designation":"Senior Designer",
-                "desc":"Nunc hendrerit, justo vel ultricieselei fen pretium leo, ac finibus nulla eros.",
-                "range":"2020-now",
+                "role":"Software Engineer",
+                "designation":"Pepperfry",
+                "desc":"Contributed to 3 projects to migrate legacy website to Angular tech-stack and achieved 15% of growth using server side rendering, and image optimization.",
+                "range":"2022-now",
                 "src":"",
                 "alt":"professional work experience"
             },
             {
-                "role":"Graphic Designer",
-                "designation":"Junior Designer",
-                "desc":"Nunc hendrerit, justo vel ultricieselei fen pretium leo, ac finibus nulla eros.",
-                "range":"2018-2020",
+                "role":"Technical Writer",
+                "designation":"Unstop (formerly Dare2Compete)",
+                "desc":"Effectively wrote 12+ articles by simplifying complex concepts which includes technical blogs, company diaries, and designing coding problems.",
+                "range":"2021-2022",
                 "src":"",
                 "alt":"professional work experience"
             },
             {
-                "role":"Content Manager",
-                "designation":"Sales Manager",
-                "desc":"Nunc hendrerit, justo vel ultricieselei fen pretium leo, ac finibus nulla eros.",
-                "range":"2016-2018",
+                "role":"UI/UX Developer",
+                "designation":"FACTITIOUS DIGITAL",
+                "desc":"Released 3+ templates using the latest HTML5, CSS3, and Js libraries to create well-structured and visually appealing web pages.",
+                "range":"2021",
+                "src":"",
+                "alt":"professional work experience"
+            },
+            {
+                "role":"Web Developer",
+                "designation":"U2C HR Services",
+                "desc":"Specialized in creating UI components, content updates, and database structuring.",
+                "range":"2019-2020",
                 "src":"",
                 "alt":"professional work experience"
             }
