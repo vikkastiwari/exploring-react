@@ -208,7 +208,7 @@
         "list":[
             {
                 "role":"Software Engineer",
-                "designation":"Pepperfry",
+                "employer":"Pepperfry",
                 "desc":"Contributed to 3 projects to migrate legacy website to Angular tech-stack and achieved 15% of growth using server side rendering, and image optimization.",
                 "range":"2022-now",
                 "src":"",
@@ -216,7 +216,7 @@
             },
             {
                 "role":"Technical Writer",
-                "designation":"Unstop (formerly Dare2Compete)",
+                "employer":"Unstop (formerly Dare2Compete)",
                 "desc":"Effectively wrote 12+ articles by simplifying complex concepts which includes technical blogs, company diaries, and designing coding problems.",
                 "range":"2021-2022",
                 "src":"",
@@ -224,7 +224,7 @@
             },
             {
                 "role":"UI/UX Developer",
-                "designation":"FACTITIOUS DIGITAL",
+                "employer":"FACTITIOUS DIGITAL",
                 "desc":"Released 3+ templates using the latest HTML5, CSS3, and Js libraries to create well-structured and visually appealing web pages.",
                 "range":"2021",
                 "src":"",
@@ -232,7 +232,7 @@
             },
             {
                 "role":"Web Developer",
-                "designation":"U2C HR Services",
+                "employer":"U2C HR Services",
                 "desc":"Specialized in creating UI components, content updates, and database structuring.",
                 "range":"2019-2020",
                 "src":"",

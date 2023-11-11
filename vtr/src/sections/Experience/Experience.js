@@ -48,7 +48,7 @@ const Experience = () => {
                                 />
                                 <div className="title">
                                   <h3>{item.role}</h3>
-                                  <span>{item.designation}</span>
+                                  <span>{item.employer}</span>
                                 </div>
                                 <div className="text">
                                   <p>
