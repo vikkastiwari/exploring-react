@@ -56,8 +56,11 @@ my blog images
 portfolio section design update and each blog title whitespace normal 
 experience section mobile view 
 myblog section redesign and image link click 
-contact me -hover email and phone number reveal 
 contact me form integration
+
+#### FUNCTIONALITIES
+contact me on-hover email and phone number reveal 
+page loader 
 
 #### SECTION ADDITION
 youtube videos section addition on home page
