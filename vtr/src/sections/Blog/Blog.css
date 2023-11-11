@@ -18,8 +18,6 @@
 
 .vtr_tm_news ul li {
     margin: 0 0 25px;
-    width: 38.3333%;
-    /* float: left; */
     display: inline-block;
 }
 
@@ -151,7 +149,7 @@
 */
 @media (max-width: 1023px) {
     .vtr_tm_news ul li .list_inner {
-        width: 220px;
+        width: 270px;
     }
 }
 
@@ -161,13 +159,8 @@
 *******************************
 */
 @media (max-width: 749px) {
-    
-    .vtr_tm_news ul li{
-        width: 60%;
-    }
-
     .vtr_tm_news ul li .list_inner {
-        width: 230px;
+        width: 240px;
     }
 
     .vtr_tm_news ul li .details .title a{
