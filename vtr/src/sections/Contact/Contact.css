@@ -153,18 +153,6 @@
     font-weight: 500
 }
 
-.vtr_tm_contact .brush_1 {
-    position: absolute;
-    top: 100px;
-    left: 0
-}
-
-.vtr_tm_contact .contact_inner .brush_2 {
-    position: absolute;
-    bottom: -100px;
-    right: -150px
-}
-
 /*
 ****************************************
 ***** TABLET LANDSCAPE RESPONSIVE ******

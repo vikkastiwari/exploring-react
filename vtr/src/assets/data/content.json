@@ -276,26 +276,50 @@
         "desc":"Embark on a captivating journey through my thoughts, experiences, and discoveries",
         "lists":[
             {
-                "tags":["web","development"],
-                "title":"Jim Morisson Says when the musics over turn off the light",
+                "tags":["socialmedia"],
+                "title":"Understanding Memory Leaks in Angular",
                 "rank":"1",
-                "url":"/",
+                "url":"https://tiwarivikas.medium.com/understanding-memory-leaks-in-angular-a-concise-guide-with-examples-61cc3e4aaa49",
                 "imgSrc":"",
-                "alt":"technical blog img 1"
+                "alt":"technical blog img 2"
             },
             {
                 "tags":["branding"],
-                "title":"How to be appreciated for your hard work as a developer",
+                "title":"Docker Tutorial for Beginners",
                 "rank":"2",
-                "url":"/",
+                "url":"https://medium.com/geekculture/docker-tutorial-for-beginners-8af6a4967378",
                 "imgSrc":"",
                 "alt":"technical blog img 2"
             },
             {
                 "tags":["socialmedia"],
-                "title":"How designers and developers can collaborate better",
+                "title":"Working with Docker-Hub",
                 "rank":"3",
-                "url":"/",
+                "url":"https://tiwarivikas.medium.com/working-with-docker-hub-3a0ba1d7cc05",
+                "imgSrc":"",
+                "alt":"technical blog img 2"
+            },
+            {
+                "tags":["socialmedia"],
+                "title":"Microservices Architecture: A Deep Dive",
+                "rank":"4",
+                "url":"https://tiwarivikas.medium.com/microservices-architecture-a-deep-dive-cab52fa60971",
+                "imgSrc":"",
+                "alt":"technical blog img 2"
+            },
+            {
+                "tags":["web","development"],
+                "title":"Getting Started With Kubernetes",
+                "rank":"5",
+                "url":"https://dev.to/vikkastiwari/getting-started-with-kubernetes-2dpp",
+                "imgSrc":"",
+                "alt":"technical blog img 1"
+            },
+            {
+                "tags":["socialmedia"],
+                "title":"Dependency Injection-Behind the Scenes",
+                "rank":"6",
+                "url":"https://medium.com/@tiwarivikas/dependency-injection-behind-the-scenes-4d2bad3e2efe",
                 "imgSrc":"",
                 "alt":"technical blog img 2"
             }
@@ -304,26 +328,26 @@
     "subscirbe":{
         "title":"Get My Newsletter",
         "subtitle":"Subscribe Now",
-        "desc":"Get latest news, updates, tips and trics in your inbox - no spamming",
+        "desc":"Stay on the pulse of creativity and innovation. Get latest news, updates, tips and tricks in your inbox - No spamming",
         "placeholder":"Email",
         "value":"Send"
     },
     "contact":{
         "title":"Contact Me",
-        "subtitle":"I Want To Hear From You",
-        "desc":"Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday",
+        "subtitle":"Let's Turn Ideas into Reality",
+        "desc":"Your next project starts with a conversation. Reach out and let's create something extraordinary together!",
         "innerList":[
             {
                 "title":"Address",
-                "subtitle":"20, Somewhere in world"
+                "subtitle":"India"
             },
             {
                 "title":"Email",
-                "subtitle":"hello@vtr.com"
+                "subtitle":"XXXXXXXX@gmail.com"
             },
             {
-                "title":"Address",
-                "subtitle":"+123 456 7890"
+                "title":"Mobile",
+                "subtitle":"+91 XXXXX XXX90"
             }
         ],
         "inputList":[

@@ -4,8 +4,6 @@ import { FaLocationDot } from "react-icons/fa6";
 import { BsTelephoneFill } from "react-icons/bs";
 import './Contact.css';
 
-import misc_1 from '../../assets/img/misc/1.png';
-import misc_2 from '../../assets/img/misc/2.png';
 import Section from "../../components/Section/Section";
 
 const Contact = () => {
@@ -16,12 +14,9 @@ const Contact = () => {
       <div className="vtr_tm_contact vtr_section_padding">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
-            <span>Contact Me</span>
-            <h3>I Want To Hear From You</h3>
-            <p>
-              Please fill out the form on this section to contact with me. Or
-              call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday
-            </p>
+            <span>{contactData.title}</span>
+            <h3>{contactData.subtitle}</h3>
+            <p>{contactData.desc}</p>
           </div>
           <div className="contact_inner">
             <div
@@ -93,21 +88,7 @@ const Contact = () => {
                 </form>
               </div>
             </div>
-            <div
-              className="brush_2 wow fadeInRight"
-              data-wow-duration="1s"
-              style={{visibility: 'visible', animationDuration: '1s'}}
-            >
-              <img src={misc_2} alt="misc shape" />
-            </div>
           </div>
-        </div>
-        <div
-          className="brush_1 wow fadeInLeft"
-          data-wow-duration="1s"
-          style={{visibility: 'visible', animationDuration: '1s'}}
-        >
-          <img src={misc_1} alt="misc shape" />
         </div>
       </div>
     </Section>
