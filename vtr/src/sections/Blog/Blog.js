@@ -28,28 +28,30 @@ const Blog = () => {
                 >
                   <div className="list_inner">
                     <div className="image">
-                      <img src={thumb_42x29} alt="thumb" />
-                      <div
-                        className="main"
-                        data-img-url="img/news/1.jpg"
-                        style={{backgroundImage: `url(${blog_1})`}}
-                      ></div>
-                      <div className="date">
-                        <h3>&#35;{item.rank}</h3>
-                      </div>
-                      <a className="vtr_tm_full_link" href="/">{}</a>
+                      <a href={item.url}  target="_blank" rel="noreferrer">
+                        <img src={thumb_42x29} alt="thumb" />
+                        <div
+                          className="main"
+                          data-img-url="img/news/1.jpg"
+                          style={{backgroundImage: `url(${blog_1})`}}
+                        ></div>
+                        <div className="date">
+                          <h3>&#35;{item.rank}</h3>
+                        </div>
+                      </a>
                     </div>
                     <div className="details">
-                        {item.tags.map((tag,index)=>(
-                          <span key={index} className="category">
-                            <>&#35;{tag}&nbsp;</>
-                          </span>
-                        ))}
-                      <h3 className="title vtr_text_truncate">
-                        <a href={item.url}>
-                          {item.title}
-                        </a>
-                      </h3>
+                      {item.tags.map((tag,index)=>(
+                        <span key={index} className="category">
+                          <>&#35;{tag}&nbsp;</>
+                        </span>
+                      ))}   
+                      <a href={item.url} target="_blank" rel="noreferrer">
+                        <h3 className="title">
+                            {item.title}
+                        </h3>
+                        <p>Kubernetes has now become the de facto standard for deploying containerized applications at scale in private, public, and hybrid cloud environments. </p>
+                      </a>
                     </div>
                   </div>
                 </li>
@@ -57,20 +59,6 @@ const Blog = () => {
             </ul>
           </div>
         </div>
-        {/* <div
-          className="brush_1 wow zoomIn"
-          data-wow-duration="1s"
-        //   style="visibility: visible; animation-duration: 1s;"
-        >
-          <img src="img/brushes/news/1.png" alt="image" />
-        </div>
-        <div
-          className="brush_2 wow zoomIn"
-          data-wow-duration="1s"
-        //   style="visibility: visible; animation-duration: 1s;"
-        >
-          <img src="img/brushes/news/2.png" alt="image" />
-        </div> */}
       </div>
     </Section>
   );
