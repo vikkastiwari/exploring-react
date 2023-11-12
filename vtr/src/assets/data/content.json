@@ -27,7 +27,7 @@
             }
         ],
         "download":{
-            "name":"Download CV",
+            "name":"Subscribe",
             "route":"contact"
         }
     },

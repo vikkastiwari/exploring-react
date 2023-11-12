@@ -31,10 +31,10 @@ portfolio section modal image and content
 experience section employer image icons and project/dummy preview images
 testimonial section images of client and testimonials
 my blog images 
+commitment section - timely delivery, qaultiy work, great after service 
 
 #### DESIGN UPDATION
 experience section mobile view 
-myblog section redesign web scroll issue 
 
 #### FUNCTIONALITIES
 contact me on-hover email and phone number reveal 
