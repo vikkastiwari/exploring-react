@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    z-index: 9999 !important;
+    z-index: 9999;
     background: linear-gradient(50deg, #6C7AD1, #6A9DD4, #6D87D1);
     backdrop-filter: blur(10px);
     animation: fadeIn 1s forwards;
@@ -14,6 +14,7 @@
 
 .vtr-preloader.fade-out {
     animation: fadeOut 1s forwards; 
+    z-index: -9999;
 }
 
 .vtr-preloader .vtr-ellipsis {

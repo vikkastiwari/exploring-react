@@ -40,7 +40,6 @@ myblog section redesign web scroll issue
 #### FUNCTIONALITIES
 contact me on-hover email and phone number reveal 
 contact me form integration
-page loader 
 download button resume - download
 
 #### SECTION ADDITION
