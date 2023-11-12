@@ -74,10 +74,8 @@
     position: relative;
 }
 
-.vtr_text_truncate {
+.vtr_whitespace_normal {
     white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .vtr_cursor_ptr {

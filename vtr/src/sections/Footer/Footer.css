@@ -4,7 +4,8 @@
     clear: both;
     float: left;
     background-color: #3c4563;
-    padding: 57px 0 61px
+    padding: 25px 0;
+    border-radius: 4px 4px 0 0;
 }
 
 .vtr_tm_copyright .inner {

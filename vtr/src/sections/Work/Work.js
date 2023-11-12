@@ -58,7 +58,7 @@ const Work = () => {
                           style={{backgroundImage: `url(${w1})`}}
                         ></div>
                       </div>
-                      <div className="details">
+                      <div className="details vtr_whitespace_normal">
                         <span className="category">{item.title}</span>
                         <p className="title">{item.category}</p>
                       </div>

@@ -40,7 +40,7 @@ const Blog = () => {
                         </div>
                       </a>
                     </div>
-                    <div className="details">
+                    <div className="details vtr_whitespace_normal">
                       {item.tags.map((tag,index)=>(
                         <span key={index} className="category">
                           <>&#35;{tag}&nbsp;</>

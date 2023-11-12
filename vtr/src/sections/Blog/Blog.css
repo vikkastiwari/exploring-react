@@ -89,10 +89,6 @@
     color: #fff
 }
 
-.vtr_tm_news ul li .details{
-    white-space: normal;
-}
-
 .vtr_tm_news ul li .details .category {
     font-size: 16px;
     color: var(--primary-color);
