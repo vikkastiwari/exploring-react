@@ -1,31 +1,30 @@
-.vtr_tm_news {
+.vtr_tm_blogs {
     position: relative
 }
 
-.vtr_tm_news,.vtr_tm_news .news_list {
+.vtr_tm_blogs,.vtr_tm_blogs .news_list {
     width: 100%;
     height: auto;
     clear: both;
     float: left
 }
 
-.vtr_tm_news ul {
+.vtr_tm_blogs ul {
     list-style-type: none;
     display: flex;
     overflow: auto;
-    margin-bottom: -24px;
 }
 
-.vtr_tm_news ul li {
+.vtr_tm_blogs ul li {
     margin: 0 0 25px;
     display: inline-block;
 }
 
-.vtr_tm_news ul li:not(:first-child) {
+.vtr_tm_blogs ul li:not(:first-child) {
     padding-left: 25px;
 }
 
-.vtr_tm_news ul li .list_inner {
+.vtr_tm_blogs ul li .list_inner {
     width: 350px;
     height: auto;
     clear: both;
@@ -33,20 +32,20 @@
     position: relative
 }
 
-.vtr_tm_news ul li .image {
+.vtr_tm_blogs ul li .image {
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
     border-radius: 12px
 }
 
-.vtr_tm_news ul li .image img {
+.vtr_tm_blogs ul li .image img {
     position: relative;
     opacity: 0;
     min-width: 100%
 }
 
-.vtr_tm_news ul li .image .main {
+.vtr_tm_blogs ul li .image .main {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -60,11 +59,11 @@
     transition: all .3s ease
 }
 
-.vtr_tm_news ul li .image:hover .main {
+.vtr_tm_blogs ul li .image:hover .main {
     transform: scale(1.1) translateZ(0)
 }
 
-.vtr_tm_news ul li .date {
+.vtr_tm_blogs ul li .date {
     position: absolute;
     top: 18px;
     right: 18px;
@@ -77,19 +76,19 @@
     line-height: 1
 }
 
-.vtr_tm_news ul li .date h3 {
+.vtr_tm_blogs ul li .date h3 {
     font-size: 24px;
     color: #fff;
     font-family: inherit;
     line-height: 1.2
 }
 
-.vtr_tm_news ul li .date span {
+.vtr_tm_blogs ul li .date span {
     font-size: 14px;
     color: #fff
 }
 
-.vtr_tm_news ul li .details .category {
+.vtr_tm_blogs ul li .details .category {
     font-size: 16px;
     color: var(--primary-color);
     font-family: Jost,sans-serif;
@@ -99,15 +98,15 @@
     margin-bottom: 2px;
 }
 
-.vtr_tm_news ul li .details .title {
+.vtr_tm_blogs ul li .details .title {
     line-height: 1.4
 }
 
-.vtr_tm_news ul li .details a {
+.vtr_tm_blogs ul li .details a {
     display: block;
 }
 
-.vtr_tm_news ul li .details h3 {
+.vtr_tm_blogs ul li .details h3 {
     font-size: 21px;
     color: #000;
     display: inline-block;
@@ -115,11 +114,11 @@
     transition: all .3s ease
 }
 
-.vtr_tm_news ul li .details h3:hover {
+.vtr_tm_blogs ul li .details h3:hover {
     color: var(--secondary-color)
 }
 
-.vtr_tm_news .news_hidden_details {
+.vtr_tm_blogs .news_hidden_details {
     display: none;
     opacity: 0;
     visibility: hidden;
@@ -129,12 +128,44 @@
 
 /*
 ****************************************
+***** TABLET LANDSCAPE UP RESPONSIVE ******
+****************************************
+*/
+
+@media (min-width: 1199px) {
+    /* Custom Scrollbar Css */
+    .vtr_tm_blogs .hr_scroll::-webkit-scrollbar {
+        width: 11px
+    }
+
+    .vtr_tm_blogs .hr_scroll {
+        scrollbar-width: thin;
+        scrollbar-color: var(--primary-color) #fff
+    }
+
+    .vtr_tm_blogs .hr_scroll:-webkit-scrollbar-track {
+        background: #fff
+    }
+
+    .vtr_tm_blogs .hr_scroll::-webkit-scrollbar-thumb {
+        background-color: var(--primary-color);
+        border-radius: 10px;
+        border: 3px solid #fff
+    }
+}
+
+/*
+****************************************
 ***** TABLET LANDSCAPE RESPONSIVE ******
 ****************************************
 */
-@media (min-width:1024px) and (max-width: 1199px) {
-    .vtr_tm_news ul li .list_inner {
-        width: 300px;
+@media (max-width: 1199px) {
+    .vtr_tm_blogs ul {
+        margin-bottom: -24px;
+    }
+
+    .vtr_tm_blogs ul li .list_inner {
+        width: 320px;
     }
 }
 
@@ -144,8 +175,8 @@
 ****************************************
 */
 @media (max-width: 1023px) {
-    .vtr_tm_news ul li .list_inner {
-        width: 270px;
+    .vtr_tm_blogs ul li .list_inner {
+        width: 280px;
     }
 }
 
@@ -155,11 +186,11 @@
 *******************************
 */
 @media (max-width: 749px) {
-    .vtr_tm_news ul li .list_inner {
+    .vtr_tm_blogs ul li .list_inner {
         width: 240px;
     }
 
-    .vtr_tm_news ul li .details .title a{
+    .vtr_tm_blogs ul li .details .title a{
         font-size: 18px;
     }
 }

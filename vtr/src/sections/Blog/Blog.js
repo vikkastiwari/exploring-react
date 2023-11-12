@@ -11,7 +11,7 @@ const Blog = () => {
 
   return (
     <Section id="blog">
-      <div className="vtr_tm_news vtr_section_padding">
+      <div className="vtr_tm_blogs vtr_section_padding">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
             <span>{blogData.title}</span>
@@ -19,7 +19,7 @@ const Blog = () => {
             <p>{blogData.desc}</p>
           </div>
           <div className="news_list vtr_slider">
-            <ul>
+            <ul className='hr_scroll'>
               {blogData.lists.map((item,index)=>(
                 <li
                   key={index}
@@ -32,7 +32,7 @@ const Blog = () => {
                         <img src={thumb_42x29} alt="thumb" />
                         <div
                           className="main"
-                          data-img-url="img/news/1.jpg"
+                          data-img-url="img/blogs/1.jpg"
                           style={{backgroundImage: `url(${blog_1})`}}
                         ></div>
                         <div className="date">

@@ -33,7 +33,6 @@ testimonial section images of client and testimonials
 my blog images 
 
 #### DESIGN UPDATION
-portfolio section design update and each blog title whitespace normal 
 experience section mobile view 
 myblog section redesign web scroll issue 
 

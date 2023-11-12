@@ -89,17 +89,17 @@
             },
             {
                 "name":"Analytics Integration",
-                "price":["Starts from","$199"],
+                "price":["Starts from","$89"],
                 "desc":"Empower your busines with data-driven insights and decision-making capabilities. Integrate various analytics tools, platforms, and data sources, allowing you to harness the full potential."
             },
             {
                 "name":"SEO Optimization",
-                "price":["Starts from","$299"],
+                "price":["Starts from","$89"],
                 "desc":"Seo optimization services include's on-page seo, off-page seo, keyword research, content optimization, technical seo, and more."
             },
             {
                 "name":"Technical Writer",
-                "price":["Starts from","$399"],
+                "price":["Starts from","$69"],
                 "desc":"I specialize in crafting clear, concise, and engaging content for your technical products, services, and industries. I will transform complex ideas into user-friendly, informative, and SEO-optimized content."
             }
         ]
