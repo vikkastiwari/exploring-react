@@ -1647,6 +1647,16 @@ body {
     }
 }
 
+@keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
 .fadeOut {
     -webkit-animation-name: fadeOut;
     animation-name: fadeOut

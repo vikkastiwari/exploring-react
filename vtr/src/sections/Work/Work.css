@@ -22,7 +22,8 @@
     margin: 0 0 30px;
     display: inline-block;
     padding-right: 30px;
-    width: 28.3333%
+    width: 33.33%;
+    vertical-align: top;
 }
 
 .vtr_tm_portfolio .portfolio_list ul li .list_inner {

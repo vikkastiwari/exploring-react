@@ -115,6 +115,12 @@
     .vtr_tm_button a{
         padding: 8px 20px 12px;
     }
+
+    .vtr_slider_tl_down {
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+    }
 }
 
 /*

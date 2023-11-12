@@ -37,7 +37,7 @@ const Work = () => {
               </p>
             </div>
             <div
-              className="portfolio_list vtr_slider fadeInUp"
+              className="portfolio_list vtr_slider_tl_down fadeInUp"
               style={{visibility: 'visible', animationDuration: '1s'}}
             >
               <ul
