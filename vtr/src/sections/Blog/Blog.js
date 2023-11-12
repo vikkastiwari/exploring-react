@@ -28,7 +28,7 @@ const Blog = () => {
                 >
                   <div className="list_inner">
                     <div className="image">
-                      <a href={item.url}  target="_blank" rel="noreferrer">
+                      <a href={item.url}  target="_blank" rel="noopener noreferrer">
                         <img src={thumb_42x29} alt="thumb" />
                         <div
                           className="main"
@@ -46,7 +46,7 @@ const Blog = () => {
                           <>&#35;{tag}&nbsp;</>
                         </span>
                       ))}   
-                      <a href={item.url} target="_blank" rel="noreferrer">
+                      <a href={item.url} target="_blank" rel="noopener noreferrer">
                         <h3 className="title">
                             {item.title}
                         </h3>

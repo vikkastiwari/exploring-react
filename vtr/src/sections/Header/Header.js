@@ -28,19 +28,20 @@ const Header = () => {
     const allLinks = document.querySelectorAll("a:link");
     allLinks.forEach((link) => {
       const scrollEvent = (event) => {
-        event.preventDefault();
         const href = link.getAttribute("href");
         // scroll to top i.e "#"
         if(href === "#") {
-            window.scrollTo({
-                top:0,
-                behavior: "smooth"
-            });
+          event.preventDefault();
+          window.scrollTo({
+              top:0,
+              behavior: "smooth"
+          });
         }
         // scroll to other sections with id
         if(href !== "#" && href.startsWith("#")){
-            const sectionEl = document.querySelector(href);
-            sectionEl.scrollIntoView({behavior:"smooth"});  
+          event.preventDefault();
+          const sectionEl = document.querySelector(href);
+          sectionEl.scrollIntoView({behavior:"smooth"});  
         }
       }
       link.addEventListener("click", scrollEvent);
