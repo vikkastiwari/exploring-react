@@ -1,9 +1,7 @@
-import { useState } from 'react';
-import JsonData from '../../assets/data/content.json';
 
 import './Services.css';
 
-import misc_3 from '../../assets/img/misc/3.png';
+import JsonData from '../../assets/data/content.json';
 import Section from "../../components/Section/Section";
 
 const Services = () => {
