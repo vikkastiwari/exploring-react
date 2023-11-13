@@ -272,10 +272,10 @@
         "heading":"What My Clients Say",
         "desc":"Discover the impact of my work through the lens of client success stories",
         "clientImage":[
-            {"src":"c1.jpg","alt":"client profile data"},
-            {"src":"c1.jpg","alt":"client profile data"},
-            {"src":"c1.jpg","alt":"client profile data"},
-            {"src":"c1.jpg","alt":"client profile data"}
+            {"src":"c1.jpg","alt":"client profile data 1"},
+            {"src":"c2.jpg","alt":"client profile data 2"},
+            {"src":"c3.jpg","alt":"client profile data 3"},
+            {"src":"c4.jpg","alt":"client profile data 4"}
         ],
         "clientName":[
             {"name":"James Cameron","org":"pepperfry"},
