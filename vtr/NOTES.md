@@ -40,6 +40,7 @@ experience section mobile view
 contact me on-hover email and phone number reveal 
 contact me form integration
 download button resume - download
+blur image lazy loading implementation
 
 #### SECTION ADDITION
 youtube videos section addition on home page
@@ -55,6 +56,7 @@ Youtube video listing page
 ### HOST
 Integrate form with firebase
 Integrate Analytics
+SEO optimization
 HOST with free domain on web.app
 Observe and reiterate
 Buy domain and make it public

@@ -1,10 +1,10 @@
-import { FaFacebookF, FaLinkedinIn, FaBloggerB } from "react-icons/fa6";
+import { FaYoutube, FaLinkedinIn, FaBloggerB } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
 
 import "./Home.css";
 import JsonData from '../../assets/data/content.json';
 import heroBanner from "../../assets/img/hero/bg.jpg";
-import vt from "../../assets/img/hero/vt.jpg";
+import vt from "../../assets/img/hero/vt.png";
 import vtbg from "../../assets/img/thumb/vt-bg.jpg";
 import { ReactComponent as AngularIcon } from "../../assets/icons/tech/angular.svg";
 import { ReactComponent as ReactIcon } from "../../assets/icons/tech/reactjs.svg";
@@ -44,7 +44,7 @@ const Home = () => {
                       <ul>
                         <li>
                           <a href="/">
-                            <FaFacebookF  className="vtr-fs-16 vtr-color-white" />
+                            <FaYoutube className="vtr-fs-16 vtr-color-white" />
                           </a>
                         </li>
                         <li>

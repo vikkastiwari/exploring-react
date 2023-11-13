@@ -41,25 +41,25 @@
     "features":{
         "title":"",
         "heading":"My Commitment",
-        "desc":"I believe that success is not just about working hard; it's about",
+        "desc":"The driving force behind every line of code and pixel",
         "list":[
             {
                 "index":"01",
-                "name":"Dedication",
+                "name":"Timely Delivery",
                 "desc":"With dedication, I stand by your side, tirelessly turning your dreams into reality.",
-                "src":""
+                "src":"time.svg"
             },
             {
                 "index":"02",
-                "name":"Smart Work",
+                "name":"Quality Assurance",
                 "desc":"I prioritize working smart, by emphasizing efficiency, innovation, and problem-solving to maximize results.",
-                "src":""
+                "src":"quality.svg"
             },
             {
                 "index":"03",
-                "name":"Intelligence",
+                "name":"Support",
                 "desc":"Intelligence is at the core of everything I do. I value knowledge, insights, and data-driven decision-making.",
-                "src":""
+                "src":"support.svg"
             }
         ]
     },

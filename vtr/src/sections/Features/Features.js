@@ -1,8 +1,5 @@
 import "./Features.css";
 import JsonData from '../../assets/data/content.json';
-import requirement from "../../assets/img/features/requirement.png";
-import design from "../../assets/img/features/design.png";
-import startup from "../../assets/img/features/startup.png";
 import Section from "../../components/Section/Section";
 
 const Features = () => {
@@ -34,7 +31,7 @@ const Features = () => {
                       <div className="icon">
                         <img
                           style={{ width: "60px" }}
-                          src={requirement}
+                          src={require(`../../assets/img/features/${item.src}`)}
                           alt="req"
                         />
                       </div>
