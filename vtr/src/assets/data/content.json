@@ -298,52 +298,58 @@
         "desc":"Embark on a captivating journey through my thoughts, experiences, and discoveries",
         "lists":[
             {
-                "tags":["socialmedia"],
+                "tags":["angular","memory","optimization"],
                 "title":"Understanding Memory Leaks in Angular",
                 "rank":"1",
                 "url":"https://tiwarivikas.medium.com/understanding-memory-leaks-in-angular-a-concise-guide-with-examples-61cc3e4aaa49",
-                "imgSrc":"",
-                "alt":"technical blog img 2"
+                "imgSrc":"b1.webp",
+                "alt":"technical blog img 1",
+                "desc":"Memory leaks can be a common issue in Angular applications if not handled properly."
             },
             {
-                "tags":["branding"],
+                "tags":["docker","beginner"],
                 "title":"Docker Tutorial for Beginners",
                 "rank":"2",
                 "url":"https://medium.com/geekculture/docker-tutorial-for-beginners-8af6a4967378",
-                "imgSrc":"",
-                "alt":"technical blog img 2"
+                "imgSrc":"b2.webp",
+                "alt":"technical blog img 2",
+                "desc":"A platform for building, running, and shipping applications in a consistent manner."
             },
             {
-                "tags":["socialmedia"],
-                "title":"Working with Docker-Hub",
-                "rank":"3",
-                "url":"https://tiwarivikas.medium.com/working-with-docker-hub-3a0ba1d7cc05",
-                "imgSrc":"",
-                "alt":"technical blog img 2"
-            },
-            {
-                "tags":["socialmedia"],
+                "tags":["microservices","software design"],
                 "title":"Microservices Architecture: A Deep Dive",
-                "rank":"4",
+                "rank":"3",
                 "url":"https://tiwarivikas.medium.com/microservices-architecture-a-deep-dive-cab52fa60971",
-                "imgSrc":"",
-                "alt":"technical blog img 2"
+                "imgSrc":"b4.webp",
+                "alt":"technical blog img 3",
+                "desc":"Microservices architecture is a software design approach that structures an application as a collection of loosely coupled services."
             },
             {
-                "tags":["web","development"],
+                "tags":["docker"],
+                "title":"Working with Docker-Hub",
+                "rank":"4",
+                "url":"https://tiwarivikas.medium.com/working-with-docker-hub-3a0ba1d7cc05",
+                "imgSrc":"b3.webp",
+                "alt":"technical blog img 4",
+                "desc":"How to utilize the Docker hub to push and pull the images."
+            },
+            {
+                "tags":["kubernetes","development"],
                 "title":"Getting Started With Kubernetes",
                 "rank":"5",
                 "url":"https://dev.to/vikkastiwari/getting-started-with-kubernetes-2dpp",
-                "imgSrc":"",
-                "alt":"technical blog img 1"
+                "imgSrc":"b5.webp",
+                "alt":"technical blog img 5",
+                "desc":"Deploy containerized applications at scale in private, public, and hybrid cloud environments."
             },
             {
-                "tags":["socialmedia"],
+                "tags":["angular","deep"],
                 "title":"Dependency Injection-Behind the Scenes",
                 "rank":"6",
                 "url":"https://medium.com/@tiwarivikas/dependency-injection-behind-the-scenes-4d2bad3e2efe",
-                "imgSrc":"",
-                "alt":"technical blog img 2"
+                "imgSrc":"b6.webp",
+                "alt":"technical blog img 6",
+                "desc":"Understand how dependency injection works behind the scenes."
             }
         ]
     },

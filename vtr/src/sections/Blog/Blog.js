@@ -33,7 +33,7 @@ const Blog = () => {
                         <div
                           className="main"
                           data-img-url="img/blogs/1.jpg"
-                          style={{backgroundImage: `url(${blog_1})`}}
+                          style={{backgroundImage:`url(${require(`../../assets/img/blog/${item.imgSrc}`)})`}}
                         ></div>
                         <div className="date">
                           <h3>&#35;{item.rank}</h3>
@@ -50,7 +50,7 @@ const Blog = () => {
                         <h3 className="title">
                             {item.title}
                         </h3>
-                        <p>Kubernetes has now become the de facto standard for deploying containerized applications at scale in private, public, and hybrid cloud environments. </p>
+                        <p>{item.desc}</p>
                       </a>
                     </div>
                   </div>
