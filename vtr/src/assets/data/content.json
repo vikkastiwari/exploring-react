@@ -233,7 +233,8 @@
                 "employer":"Pepperfry",
                 "desc":"Contributed to 3 projects to migrate legacy website to Angular tech-stack and achieved 15% of growth using server side rendering, and image optimization.",
                 "range":"2022-now",
-                "src":"",
+                "timelineSrc":"timeline_1.jpg",
+                "src":"pepperfry.svg",
                 "alt":"professional work experience"
             },
             {
@@ -241,7 +242,8 @@
                 "employer":"Unstop (formerly Dare2Compete)",
                 "desc":"Effectively wrote 12+ articles by simplifying complex concepts which includes technical blogs, company diaries, and designing coding problems.",
                 "range":"2021-2022",
-                "src":"",
+                "timelineSrc":"timeline_1.jpg",
+                "src":"unstop.svg",
                 "alt":"professional work experience"
             },
             {
@@ -249,7 +251,8 @@
                 "employer":"FACTITIOUS DIGITAL",
                 "desc":"Released 3+ templates using the latest HTML5, CSS3, and Js libraries to create well-structured and visually appealing web pages.",
                 "range":"2021",
-                "src":"",
+                "timelineSrc":"timeline_1.jpg",
+                "src":"factitious.jpg",
                 "alt":"professional work experience"
             },
             {
@@ -257,7 +260,8 @@
                 "employer":"U2C HR Services",
                 "desc":"Specialized in creating UI components, content updates, and database structuring.",
                 "range":"2019-2020",
-                "src":"",
+                "timelineSrc":"timeline_1.jpg",
+                "src":"u2c.jpg",
                 "alt":"professional work experience"
             }
         ]

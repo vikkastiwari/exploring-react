@@ -1,14 +1,8 @@
 import './Experience.css';
+
 import Section from "../../components/Section/Section";
 import JsonData from '../../assets/data/content.json';
-
-import icon_e1 from '../../assets/img/exp/e1.svg';
-import icon_e2 from '../../assets/img/exp/e2.svg';
-import icon_e3 from '../../assets/img/exp/e3.svg';
 import thumb_37x25 from '../../assets/img/thumb/37-25.jpg';
-import timeline_1 from '../../assets/img/exp/timeline_1.jpg';
-import timeline_2 from '../../assets/img/exp/timeline_2.jpg';
-import timeline_3 from '../../assets/img/exp/timeline_3.jpg';
 
 const Experience = () => {
 
@@ -43,7 +37,7 @@ const Experience = () => {
                               <div className="details">
                                 <img
                                   className="svg"
-                                  src={icon_e1}
+                                  src={require(`../../assets/img/exp/${item.src}`)}
                                   alt="company brand logo"
                                 />
                                 <div className="title">
@@ -72,7 +66,7 @@ const Experience = () => {
                               <div
                                 className="main"
                                 data-img-url="img/timeline/1.jpg"
-                                style={{backgroundImage: `url(${timeline_1})`}}
+                                style={{backgroundImage:`url(${require(`../../assets/img/exp/${item.timelineSrc}`)})`}}
                               ></div>
                             </div>
                           </div>
