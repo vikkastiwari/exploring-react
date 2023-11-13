@@ -18,7 +18,7 @@ const Testimonial = () => {
       <div className="vtr_tm_testimonials vtr_section_padding">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
-            <span>{testimonialData.title}</span>
+            <span>{testimonialData.title+'s'}</span>
             <h3>{testimonialData.heading}</h3>
             <p>{testimonialData.desc}</p>
           </div>
@@ -81,6 +81,7 @@ const Testimonial = () => {
                         {testimonialData.clientName.map((item,index) => (
                           <li key={index} className={index === activeElement ? "active" : ""} data-index={index+1}>
                             <h3>{item.name}</h3>
+                            <p>{item.org}</p>
                           </li>
                         ))}
                       </ul>

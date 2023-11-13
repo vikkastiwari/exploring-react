@@ -20,10 +20,9 @@ Footer          Done            Done
 <!-- NOV 11 - UPDATE -->
 #### ASSETS CURATION
 logo icon
-portfolio section images
 portfolio section modal image and content - custom images
-experience section project/dummy preview images - custom images
 testimonial section images of client and testimonials
+blog section dummy preview images - custom images
 
 #### DESIGN UPDATION
 blog section more blogs button in bottom of slider
@@ -34,6 +33,7 @@ download button resume - download or make it subscribe button
 blur image lazy loading implementation
 
 #### SECTION ADDITION
+faq section
 youtube videos section addition on home page
 
 #### PAGE CREATION

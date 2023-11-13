@@ -268,7 +268,7 @@
     },
     "testimonial":{
         "thumb_37x45": "37-45.jpg",
-        "title":"Testimonials",
+        "title":"Testimonial",
         "heading":"What My Clients Say",
         "desc":"Discover the impact of my work through the lens of client success stories",
         "clientImage":[
@@ -278,10 +278,10 @@
             {"src":"c1.jpg","alt":"client profile data"}
         ],
         "clientName":[
-            {"name":"James Cameron"},
-            {"name":"Alan Walker"},
-            {"name":"David Parker"},
-            {"name":"Anna Barbera"}
+            {"name":"James Cameron","org":"pepperfry"},
+            {"name":"Alan Walker","org":"unstop"},
+            {"name":"David Parker","org":"factitious"},
+            {"name":"Anna Barbera","org":"u2c"}
         ],
         "clientJob":[
             {"job":"Aroa Founder"},
