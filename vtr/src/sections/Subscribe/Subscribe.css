@@ -9,28 +9,13 @@
     position: relative
 }
 
-.vtr_tm_subscribe .background,.vtr_tm_subscribe .background .dots {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 12px
-}
-
-.vtr_tm_subscribe .background .dots {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%
-}
-
 .vtr_tm_subscribe .background .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(128,103,240,.92);
+    background: linear-gradient(40deg, #5f70d8, #73abe8, #6585e0);
     z-index: 1;
     border-radius: 12px
 }

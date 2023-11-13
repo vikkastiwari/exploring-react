@@ -1,7 +1,6 @@
 import './Subscribe.css';
 import JsonData from '../../assets/data/content.json';
 
-import dots from '../../assets/img/subscribe/dots.jpg';
 import Section from "../../components/Section/Section";
 
 const Subscribe = () => {
@@ -13,10 +12,6 @@ const Subscribe = () => {
         <div className="container">
           <div className="inner">
             <div className="background">
-              <div
-                className="dots"
-                style={{backgroundImage:`url(${dots})`}}
-              ></div>
               <div className="overlay"></div>
             </div>
             <div className="content">
