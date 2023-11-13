@@ -6,7 +6,7 @@ import Section from "../../components/Section/Section";
 import thumb_1x1 from "../../assets/img/thumb/1-1.jpg";
 import w1 from "../../assets/img/work/w1.jpg";
 import Modal from "../../components/Modal/Modal";
-import blog_1 from '../../assets/img/blog/2.jpg';
+import blog_1 from '../../assets/img/blog/b2.webp';
 import thumb_4x2 from '../../assets/img/thumb/4-2.jpg';
 
 const Work = () => {
