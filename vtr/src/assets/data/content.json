@@ -85,22 +85,26 @@
             {
                 "name":"Web Development - Fullstack",
                 "price":["Starts from","$99"],
-                "desc":"Web development service includes development of website, design, e-commerce site, crm portals, and content management portal."
+                "desc":"Web development service includes development of website, design, e-commerce site, crm portals, and content management portal.",
+                "src":"webdev.svg"
             },
             {
                 "name":"Analytics Integration",
                 "price":["Starts from","$89"],
-                "desc":"Empower your busines with data-driven insights and decision-making capabilities. Integrate various analytics tools, platforms, and data sources, allowing you to harness the full potential."
+                "desc":"Empower your busines with data-driven insights and decision-making capabilities. Integrate various analytics tools, platforms, and data sources, allowing you to harness the full potential.",
+                "src":"analytics.svg"
             },
             {
                 "name":"SEO Optimization",
                 "price":["Starts from","$89"],
-                "desc":"Seo optimization services include's on-page seo, off-page seo, keyword research, content optimization, technical seo, and more."
+                "desc":"Seo optimization services include's on-page seo, off-page seo, keyword research, content optimization, technical seo, and more.",
+                "src":"seo.svg"
             },
             {
                 "name":"Technical Writer",
                 "price":["Starts from","$69"],
-                "desc":"I specialize in crafting clear, concise, and engaging content for your technical products, services, and industries. I will transform complex ideas into user-friendly, informative, and SEO-optimized content."
+                "desc":"I specialize in crafting clear, concise, and engaging content for your technical products, services, and industries. I will transform complex ideas into user-friendly, informative, and SEO-optimized content.",
+                "src":"writer.svg"
             }
         ]
     },
