@@ -4,9 +4,7 @@ import "./Work.css";
 import JsonData from '../../assets/data/content.json';
 import Section from "../../components/Section/Section";
 import thumb_1x1 from "../../assets/img/thumb/1-1.jpg";
-import w1 from "../../assets/img/work/w1.jpg";
 import Modal from "../../components/Modal/Modal";
-import blog_1 from '../../assets/img/blog/b2.webp';
 import thumb_4x2 from '../../assets/img/thumb/4-2.jpg';
 
 const Work = () => {
@@ -55,7 +53,7 @@ const Work = () => {
                         <div
                           className="main"
                           data-img-url="img/portfolio/1.jpg"
-                          style={{backgroundImage: `url(${w1})`}}
+                          style={{backgroundImage:`url(${require(`../../assets/img/work/${item.src}`)})`}}
                         ></div>
                       </div>
                       <div className="details vtr_whitespace_normal">
@@ -76,7 +74,7 @@ const Work = () => {
             <img src={thumb_4x2} alt={portfolioData.list[currentIndex].popup.alt} />
             <div
               className="main"
-              style={{backgroundImage: `url(${blog_1})`}}
+              style={{backgroundImage:`url(${require(`../../assets/img/work/${portfolioData.list[currentIndex].popup.src}`)})`}}
               data-img-url="img/modal/2.jpg"
             ></div>
           </div>

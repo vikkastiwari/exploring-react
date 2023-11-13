@@ -155,7 +155,8 @@
 
 .vtr_tm_modalbox .modal_popup_informations .image {
     position: relative;
-    margin-bottom: 37px
+    margin-bottom: 37px;
+    padding-top: 40px;
 }
 
 .vtr_tm_modalbox .modal_popup_informations .image img {

@@ -10,7 +10,7 @@ Features        Done            Done
 About           Done            Done
 Services        Done            Done
 Portfolio       Done            Done
-Experience      Pending         Done
+Experience      Done            Done
 Testimonials    Done            Done
 Blog            Done            Done
 Subscribe       Done            Done
@@ -20,26 +20,17 @@ Footer          Done            Done
 <!-- NOV 11 - UPDATE -->
 #### ASSETS CURATION
 logo icon
-social icon
-profile icon image
-commitment section image icons
-about section image
-about section floater images
-services section icons 
 portfolio section images
-portfolio section modal image and content
-experience section employer image icons and project/dummy preview images
+portfolio section modal image and content - custom images
+experience section project/dummy preview images - custom images
 testimonial section images of client and testimonials
-my blog images 
-commitment section - timely delivery, qaultiy work, great after service 
 
 #### DESIGN UPDATION
-experience section mobile view 
+blog section more blogs button in bottom of slider
 
 #### FUNCTIONALITIES
-contact me on-hover email and phone number reveal 
 contact me form integration
-download button resume - download
+download button resume - download or make it subscribe button
 blur image lazy loading implementation
 
 #### SECTION ADDITION

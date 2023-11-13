@@ -117,17 +117,17 @@
                 "title":"Omnifood",
                 "category":"Html5 & Css3",
                 "url":"/",
-                "src":"",
+                "src":"preview_om.png",
                 "alt":"project preview img",
                 "popup":{
-                    "title":"How to be appreciated for your hard work as a developer",
+                    "title":"How to be appreciated for your hard work as a developer 1",
                     "subtitle":"Branding",
                     "desc":[
                         "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
                         "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
                         "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
                     ],
-                    "src":"",
+                    "src":"omnifood.png",
                     "alt":"project preview img"
                 }
             },
@@ -135,7 +135,7 @@
                 "title":"EList Generator",
                 "category":"React",
                 "url":"/",
-                "src":"",
+                "src":"preview_el.png",
                 "alt":"project preview img",
                 "popup":{
                     "title":"How to be appreciated for your hard work as a developer",
@@ -145,7 +145,7 @@
                         "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
                         "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
                     ],
-                    "src":"",
+                    "src":"elistgen.png",
                     "alt":"project preview img"
                 }
             },
@@ -153,7 +153,7 @@
                 "title":"Recipe App",
                 "category":"Angular",
                 "url":"/",
-                "src":"",
+                "src":"preview_recipe.png",
                 "alt":"project preview img",
                 "popup":{
                     "title":"How to be appreciated for your hard work as a developer",
@@ -163,15 +163,15 @@
                         "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
                         "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
                     ],
-                    "src":"",
+                    "src":"recipe.png",
                     "alt":"project preview img"
                 }
             },
             {
-                "title":"Expense Generator",
+                "title":"Investment Calculator",
                 "category":"React",
                 "url":"/",
-                "src":"",
+                "src":"preview_invest.png",
                 "alt":"project preview img",
                 "popup":{
                     "title":"How to be appreciated for your hard work as a developer",
@@ -181,7 +181,7 @@
                         "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
                         "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
                     ],
-                    "src":"",
+                    "src":"expense.png",
                     "alt":"project preview img"
                 }
             },
@@ -189,7 +189,7 @@
                 "title":"Shopit ecommerece",
                 "category":"Angular",
                 "url":"/",
-                "src":"",
+                "src":"preview_shop.png",
                 "alt":"project preview img",
                 "popup":{
                     "title":"How to be appreciated for your hard work as a developer",
@@ -199,7 +199,7 @@
                         "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
                         "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
                     ],
-                    "src":"",
+                    "src":"w2.jpg",
                     "alt":"project preview img"
                 }
             },
@@ -207,7 +207,7 @@
                 "title":"Shopit Backend",
                 "category":"NestJs",
                 "url":"/",
-                "src":"",
+                "src":"preview_amzone.png",
                 "alt":"project preview img",
                 "popup":{
                     "title":"How to be appreciated for your hard work as a developer",
@@ -217,7 +217,7 @@
                         "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
                         "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
                     ],
-                    "src":"",
+                    "src":"w1.jpg",
                     "alt":"project preview img"
                 }
             }
