@@ -143,7 +143,7 @@
                     "subtitle":"Github Link",
                     "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
                     "desc":[
-                        "Tech Stack - React, Data Table, Jsx, Css",
+                        "Tech Stack - React, Firebase, Data table, Jsx, Css",
                         "The Elist Generator is a dynamic list generator project created using React, a popular JavaScript library for building user interfaces. The project's tech stack includes React for the frontend, allowing for the creation of a responsive and interactive user interface.",
                         "The Elist Generator enables users to easily generate and manage dynamic lists, enhancing efficiency and organization. With its sleek design and user-friendly interface, this project showcases the power of React in delivering a seamless and intuitive experience for users dealing with dynamic lists."
                     ],
@@ -213,7 +213,7 @@
             },
             {
                 "title":"AmZone",
-                "category":"Angular",
+                "category":"React",
                 "url":"/",
                 "src":"preview_amzone.png",
                 "alt":"project preview img",
@@ -222,7 +222,7 @@
                     "subtitle":"Github Link",
                     "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
                     "desc":[
-                        "Tech Stack - Angular 14, RXJS, Typescript, Html, Css",
+                        "Tech Stack - React, Jsx, Css",
                         "The Amazon Clone application is built using a robust tech stack centered around React and Google Authentication.",
                         "This project's tech stack combines the flexibility of React with the authentication reliability of Google, resulting in a smooth and trustworthy user experience. The application replicates key features of the Amazon platform, providing a familiar and user-friendly environment for online shopping."
                     ],

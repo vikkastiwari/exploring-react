@@ -21,9 +21,11 @@ Footer          Done            Done
 #### ASSETS CURATION
 portfolio section modal content
 testimonial section images of client and testimonials
+github repo creation and project github link integration
 
 #### DESIGN UPDATION
-blog section more blogs button in bottom of slider
+blog section view more button in bottom of slider
+portfolio section view more button in bottom of section
 
 #### FUNCTIONALITIES
 contact me form integration
