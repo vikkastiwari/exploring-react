@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 
 import "../../css/general.css";
 import "./Header.css";
-import logo from "../../assets/img/logo/logo.png";
+import logoLight from "../../assets/img/logo/logo-light.png";
+import logoDark from "../../assets/img/logo/logo-dark.png";
 import JsonData from "../../assets/data/content.json";
 
 const Header = () => {
@@ -88,7 +89,7 @@ const Header = () => {
         <div className="header_inner">
           <div className="logo">
             <a className="light" href="/">
-              <img src={logo} alt="" />
+              {isSticky ? <img src={logoDark} alt="" /> : <img src={logoLight} alt="" />}
             </a>
           </div>
           <div className="trigger vtr_cursor_ptr" onClick={hbDrawerHandler}>
@@ -110,7 +111,7 @@ const Header = () => {
                 </li>
               ))}
               <li className="download_cv">
-                <a href={logo} download="">
+                <a href="https://www.youtube.com/channel/UCI_xIqMJa1Oirfjx5-ykylA?sub_confirmation=1" target='_blank' rel="noreferrer">
                   {headerData.download.name}
                 </a>
               </li>
