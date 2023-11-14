@@ -19,7 +19,6 @@ Footer          Done            Done
 
 <!-- NOV 11 - UPDATE -->
 #### ASSETS CURATION
-logo icon
 portfolio section modal image and content - custom images
 testimonial section images of client and testimonials
 blog section dummy preview images - custom images
