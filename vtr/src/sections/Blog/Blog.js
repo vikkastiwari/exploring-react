@@ -2,6 +2,7 @@ import './Blog.css';
 import JsonData from '../../assets/data/content.json';
 import Section from "../../components/Section/Section";
 import thumb_42x29 from '../../assets/img/thumb/42-29.jpg';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
   const blogData = JsonData.blog;
@@ -56,9 +57,9 @@ const Blog = () => {
             </ul>
           </div>
           <div className="vtr_tm_button vtr_align_center">
-              <a className="anchor" href="#contact">
+              <Link to="/blogs" className="anchor">
                 View More
-              </a>
+              </Link>
             </div>
         </div>
       </div>

@@ -1,9 +1,15 @@
 import { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './App.css';
 import HomePage from './pages/Home/HomePage';
+import BlogsPage from './pages/Blogs/BlogsPage';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Loader from './components/Loader/Loader';
+import ProjectsPage from './pages/Projects/ProjectsPage';
+import TermsPage from './pages/TC/TermsPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicy/PrivacyPolicyPage';
+import AffilatesPage from './pages/Affilates/AffilatesPage';
 
 function App() {
 
@@ -26,13 +32,20 @@ function App() {
   }, []);
 
   return (
-    <>
+    <Router>
       <Loader />
       <div className='vtr-page-wrapper'>
-        <HomePage></HomePage>
+        <Routes>
+          <Route exact path='/' element={<HomePage />} />
+          <Route path='/blogs' element={<BlogsPage />} />
+          <Route path='/projects' element={<ProjectsPage />} />
+          <Route path='/terms' element={<TermsPage />} />
+          <Route path='/privacy-policy' element={<PrivacyPolicyPage />} />
+          <Route path='/affilates' element={<AffilatesPage />} />
+        </Routes>
         <ScrollToTop></ScrollToTop>
       </div>
-    </>
+    </Router>
   );
 }
 

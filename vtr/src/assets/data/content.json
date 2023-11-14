@@ -424,11 +424,11 @@
         "list":[
             {
                 "name":"Terms & Condition",
-                "route":"/"
+                "route":"/terms"
             },
             {
                 "name":"Privacy Policy",
-                "route":"/"
+                "route":"/privacy-policy"
             }
         ]
     }

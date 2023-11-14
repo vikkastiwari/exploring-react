@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 import JsonData from '../../assets/data/content.json';
 import Section from "../../components/Section/Section";
@@ -48,7 +49,7 @@ const Footer = () => {
               <ul>
                 {footerData.list.map((item,index)=>(
                   <li key={index}>
-                    <a href={item.route}>{item.name}</a>
+                    <Link to={item.route}>{item.name}</Link>
                   </li>
                 ))}
               </ul>

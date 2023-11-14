@@ -6,6 +6,7 @@ import Section from "../../components/Section/Section";
 import thumb_1x1 from "../../assets/img/thumb/1-1.jpg";
 import Modal from "../../components/Modal/Modal";
 import thumb_4x2 from '../../assets/img/thumb/4-2.jpg';
+import { Link } from "react-router-dom";
 
 const Work = () => {
   const [isOpened, setIsOpened] = useState(false);
@@ -66,9 +67,9 @@ const Work = () => {
               </ul>
             </div>
             <div className="vtr_tm_button vtr_align_center">
-              <a className="anchor" href="#contact">
+              <Link to="/projects" className="anchor">
                 View More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
