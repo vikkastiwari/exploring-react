@@ -81,7 +81,7 @@ const Work = () => {
           <div className="details">
             <h3>{portfolioData.list[currentIndex].popup.title}</h3>
             <span>
-              <a href="/">{portfolioData.list[currentIndex].popup.subtitle}</a>
+              <a href={portfolioData.list[currentIndex].popup.url}>{portfolioData.list[currentIndex].popup.subtitle}</a>
             </span>
             <div></div>
           </div>

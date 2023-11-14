@@ -120,12 +120,13 @@
                 "src":"preview_om.png",
                 "alt":"project preview img",
                 "popup":{
-                    "title":"How to be appreciated for your hard work as a developer 1",
-                    "subtitle":"Branding",
+                    "title":"Omnifood - Food business landing page",
+                    "subtitle":"Github Link",
+                    "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
                     "desc":[
-                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                        "Tech Stack - HTML5, CSS3 ",
+                        "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
+                        "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
                     ],
                     "src":"omnifood.png",
                     "alt":"project preview img"
@@ -138,12 +139,13 @@
                 "src":"preview_el.png",
                 "alt":"project preview img",
                 "popup":{
-                    "title":"How to be appreciated for your hard work as a developer",
-                    "subtitle":"Branding",
+                    "title":"Elist Generator - Dynamic list generator",
+                    "subtitle":"Github Link",
+                    "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
                     "desc":[
-                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                        "Tech Stack - React, Data Table, Jsx, Css",
+                        "The Elist Generator is a dynamic list generator project created using React, a popular JavaScript library for building user interfaces. The project's tech stack includes React for the frontend, allowing for the creation of a responsive and interactive user interface.",
+                        "The Elist Generator enables users to easily generate and manage dynamic lists, enhancing efficiency and organization. With its sleek design and user-friendly interface, this project showcases the power of React in delivering a seamless and intuitive experience for users dealing with dynamic lists."
                     ],
                     "src":"elistgen.png",
                     "alt":"project preview img"
@@ -156,12 +158,14 @@
                 "src":"preview_recipe.png",
                 "alt":"project preview img",
                 "popup":{
-                    "title":"How to be appreciated for your hard work as a developer",
-                    "subtitle":"Tech Stack - Angular 14, RXJS",
+                    "title":"Recipe App",
+                    "subtitle":"Github Link",
+                    "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
                     "desc":[
-                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                        "Tech Stack - Angular 14, RXJS, Typescript, Html, Css",
+                        "The Recipe Application is a modern and efficient project developed using Angular and Ngrx, showcasing a robust tech stack.",
+                        "This project focuses on managing recipes and incorporates authentication for a secure user experience. Users can create accounts, log in securely, and enjoy personalized features. ",
+                        "Angular's component-based architecture facilitates a modular and organized codebase, while Ngrx efficiently manages the application state, ensuring smooth data flow and consistent user interactions."
                     ],
                     "src":"recipe.png",
                     "alt":"project preview img"
@@ -174,12 +178,14 @@
                 "src":"preview_invest.png",
                 "alt":"project preview img",
                 "popup":{
-                    "title":"How to be appreciated for your hard work as a developer",
-                    "subtitle":"Branding",
+                    "title":"Investment Calculator",
+                    "subtitle":"Github Link",
+                    "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
                     "desc":[
-                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                        "Tech Stack - React, Jsx, Css",
+                        "The project focuses on investment calculation, providing users with a streamlined platform to assess and analyze their investment portfolios.",
+                        "With a responsive design and real-time updates, users can make informed decisions and monitor their investments with ease.",
+                        "The responsive design ensures a consistent and engaging experience across various devices, including desktops, tablets, and smartphones."
                     ],
                     "src":"expense.png",
                     "alt":"project preview img"
@@ -192,30 +198,33 @@
                 "src":"preview_shop.png",
                 "alt":"project preview img",
                 "popup":{
-                    "title":"How to be appreciated for your hard work as a developer",
-                    "subtitle":"Branding",
+                    "title":"Shopit - Shop now",
+                    "subtitle":"Github Link",
+                    "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
                     "desc":[
-                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                        "Tech Stack - Angular 14, RXJS, Typescript, Html, Css",
+                        "The ecommerce application is built on a robust tech stack centered around Angular, a powerful front-end framework.",
+                        "Angular provides a seamless and dynamic user interface, ensuring a smooth and responsive shopping experience. The application leverages TypeScript for efficient development and enhanced code quality.",
+                        "The responsive design ensures a consistent and engaging experience across various devices, including desktops, tablets, and smartphones."
                     ],
                     "src":"w2.jpg",
                     "alt":"project preview img"
                 }
             },
             {
-                "title":"Shopit Backend",
-                "category":"NestJs",
+                "title":"AmZone",
+                "category":"Angular",
                 "url":"/",
                 "src":"preview_amzone.png",
                 "alt":"project preview img",
                 "popup":{
-                    "title":"How to be appreciated for your hard work as a developer",
-                    "subtitle":"Branding",
+                    "title":"Amzone - Amazon Clone",
+                    "subtitle":"Github Link",
+                    "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
                     "desc":[
-                        "vtr is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-                        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-                        "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+                        "Tech Stack - Angular 14, RXJS, Typescript, Html, Css",
+                        "The Amazon Clone application is built using a robust tech stack centered around React and Google Authentication.",
+                        "This project's tech stack combines the flexibility of React with the authentication reliability of Google, resulting in a smooth and trustworthy user experience. The application replicates key features of the Amazon platform, providing a familiar and user-friendly environment for online shopping."
                     ],
                     "src":"amazon.png",
                     "alt":"project preview img"

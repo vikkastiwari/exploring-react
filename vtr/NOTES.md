@@ -19,9 +19,8 @@ Footer          Done            Done
 
 <!-- NOV 11 - UPDATE -->
 #### ASSETS CURATION
-portfolio section modal image and content - custom images
+portfolio section modal content
 testimonial section images of client and testimonials
-blog section dummy preview images - custom images
 
 #### DESIGN UPDATION
 blog section more blogs button in bottom of slider
