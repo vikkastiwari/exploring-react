@@ -6,6 +6,7 @@
 .vtr_tm_portfolio .portfolio_list {
     width: 100%;
     height: auto;
+    margin-bottom: 32px;
 }
 
 .vtr_tm_portfolio .portfolio_list ul {

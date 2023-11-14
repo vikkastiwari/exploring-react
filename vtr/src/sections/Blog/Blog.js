@@ -15,7 +15,7 @@ const Blog = () => {
             <h3>{blogData.heading}</h3>
             <p>{blogData.desc}</p>
           </div>
-          <div className="news_list vtr_slider">
+          <div className="blogs_list vtr_slider">
             <ul className='hr_scroll'>
               {blogData.lists.map((item,index)=>(
                 <li
@@ -55,6 +55,11 @@ const Blog = () => {
               ))}
             </ul>
           </div>
+          <div className="vtr_tm_button vtr_align_center">
+              <a className="anchor" href="#contact">
+                View More
+              </a>
+            </div>
         </div>
       </div>
     </Section>

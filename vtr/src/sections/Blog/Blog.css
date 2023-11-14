@@ -2,11 +2,15 @@
     position: relative
 }
 
-.vtr_tm_blogs,.vtr_tm_blogs .news_list {
+.vtr_tm_blogs,.vtr_tm_blogs .blogs_list {
     width: 100%;
     height: auto;
     clear: both;
-    float: left
+    float: left;
+}
+
+.vtr_tm_blogs .blogs_list {
+    margin-bottom: 32px;
 }
 
 .vtr_tm_blogs ul {
@@ -118,7 +122,7 @@
     color: var(--secondary-color)
 }
 
-.vtr_tm_blogs .news_hidden_details {
+.vtr_tm_blogs .blogs_hidden_details {
     display: none;
     opacity: 0;
     visibility: hidden;

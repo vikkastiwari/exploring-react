@@ -65,6 +65,11 @@ const Work = () => {
                 ))}
               </ul>
             </div>
+            <div className="vtr_tm_button vtr_align_center">
+              <a className="anchor" href="#contact">
+                View More
+              </a>
+            </div>
           </div>
         </div>
       </Section>
