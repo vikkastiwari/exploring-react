@@ -3,6 +3,8 @@
     height: auto;
     clear: both;
     float: left;
+    position: absolute;
+    bottom: 0;
     background-color: #3c4563;
     padding: 25px 0;
     border-radius: 4px 4px 0 0;
