@@ -12,13 +12,10 @@ const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isActiveIndex, setIsActiveIndex] = useState(0);
   const [isHamDrawerOpen, setIsHamDrawerOpen] = useState(false);
-  const [currentRoute, setCurrentRoute] = useState('');
-
   const location = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    setCurrentRoute(location?.pathname)
     console.log(`The current URL is ${location.pathname}`);
   }, [location]);
 
@@ -67,7 +64,9 @@ const Header = () => {
     const scrollPosition = window.scrollY;
 
     /* ********* Header Sticky Logic ************ */ 
-    scrollPosition >= 80 ? setIsSticky(true) : setIsSticky(false);
+    if(location?.pathname === '/'){
+      scrollPosition >= 80 ? setIsSticky(true) : setIsSticky(false);
+    }
 
     /* ********* Dynamic Nav Active On Scroll Logic ************ */ 
     for (const [index, section] of headerData.navElements.entries()) {
@@ -95,12 +94,12 @@ const Header = () => {
   });
 
   return (
-    <div className={`vtr_tm_header ${isSticky || (currentRoute === '/blogs') ? "animate" : ""}`}>
+    <div className={`vtr_tm_header ${isSticky ? "animate" : ""}`}>
       <div className="container">
         <div className="header_inner">
           <div className="logo">
             <a className="light" href="/">
-              {isSticky || (currentRoute === '/blogs') ? <img src={logoDark} alt="" /> : <img src={logoLight} alt="" />}
+              {isSticky ? <img src={logoDark} alt="" /> : <img src={logoLight} alt="" />}
             </a>
           </div>
           <div className="trigger vtr_cursor_ptr" onClick={hbDrawerHandler}>

@@ -10,19 +10,16 @@
 }
 
 .vtr_tm_portfolio .portfolio_list ul {
-    margin: 0 0 0 -25px;
     list-style-type: none;
     display: block;
     overflow: auto;
     margin-bottom: -24px;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .vtr_tm_portfolio .portfolio_list ul li {
     margin: 0 0 30px;
     display: inline-block;
-    padding-right: 30px;
+    padding: 0 15px;
     width: 33.33%;
     vertical-align: top;
 }

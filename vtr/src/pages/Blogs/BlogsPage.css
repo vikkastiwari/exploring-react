@@ -1,6 +1,6 @@
 .vtr_all_blogs {
     position: relative;
-    margin: 128px 0;
+    margin: 128px auto;
 }
 
 .vtr_all_blogs,.vtr_all_blogs .blogs_list {
