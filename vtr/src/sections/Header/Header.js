@@ -12,12 +12,17 @@ const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isActiveIndex, setIsActiveIndex] = useState(0);
   const [isHamDrawerOpen, setIsHamDrawerOpen] = useState(false);
+  const [currentRoute, setCurrentRoute] = useState('/');
   const location = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    console.log(`The current URL is ${location.pathname}`);
-  }, [location]);
+    setCurrentRoute(location?.pathname);
+    if(currentRoute !== '/'){
+      setIsSticky(true);
+    }
+    console.log(`The current URL is ${location?.pathname}`);
+  }, [currentRoute, location]);
 
 
   const hbDrawerHandler = () => {
@@ -64,7 +69,7 @@ const Header = () => {
     const scrollPosition = window.scrollY;
 
     /* ********* Header Sticky Logic ************ */ 
-    if(location?.pathname === '/'){
+    if(currentRoute === '/'){
       scrollPosition >= 80 ? setIsSticky(true) : setIsSticky(false);
     }
 
