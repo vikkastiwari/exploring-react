@@ -1,5 +1,5 @@
 import { MdAlternateEmail } from "react-icons/md";
-import JsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/home-content.json';
 import { FaLocationDot } from "react-icons/fa6";
 import { BsTelephoneFill } from "react-icons/bs";
 import './Contact.css';

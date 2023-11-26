@@ -1,6 +1,6 @@
 import "./About.css";
 import Section from "../../components/Section/Section";
-import JsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/home-content.json';
 
 import thumb_64x49 from "../../assets/img/thumb/64-49.jpg";
 import about_1 from "../../assets/img/about/about-1.jpg";

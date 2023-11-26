@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import "./Testimonial.css";
 import Section from "../../components/Section/Section";
-import JsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/home-content.json';
 import quote from '../../assets/img/testimonial/quote.svg';
 
 const Testimonial = () => {

@@ -1,5 +1,5 @@
 .vtr_blog_card_wrapper  {
-    width: 350px;
+    width: 100%;
     height: auto;
     clear: both;
     float: left;
@@ -101,37 +101,11 @@
 }
 
 /*
-****************************************
-***** TABLET LANDSCAPE RESPONSIVE ******
-****************************************
-*/
-@media (max-width: 1199px) {
-    .vtr_blog_card_wrapper  {
-        width: 320px;
-    }
-}
-
-/*
-****************************************
-****** TABLET PORTRAIT RESPONSIVE ******
-****************************************
-*/
-@media (max-width: 1023px) {
-    .vtr_blog_card_wrapper  {
-        width: 280px;
-    }
-}
-
-/*
 *******************************
 ****** MOBILE RESPONSIVE ******
 *******************************
 */
 @media (max-width: 749px) {
-    .vtr_blog_card_wrapper  {
-        width: 240px;
-    }
-
     .vtr_blog_card_wrapper .details .title a{
         font-size: 18px;
     }

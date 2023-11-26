@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import './Blog.css';
-import JsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/home-content.json';
 import Section from "../../components/Section/Section";
 import BlogCard from '../../components/Cards/BlogCard/BlogCard';
 
@@ -25,7 +25,9 @@ const Blog = () => {
                   className="fadeInUp"
                   style={{visibility: "visible", animationDuration: '1s'}}
                 >
-                  <BlogCard item={item} />
+                  <div className='blog_card_wrp'>
+                    <BlogCard item={item} />
+                  </div>
                 </li>
               ))}
             </ul>

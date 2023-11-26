@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import "./Work.css";
-import JsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/home-content.json';
 import Section from "../../components/Section/Section";
 import thumb_1x1 from "../../assets/img/thumb/1-1.jpg";
 import Modal from "../../components/Modal/Modal";

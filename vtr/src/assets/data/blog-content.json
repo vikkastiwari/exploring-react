@@ -1,0 +1,58 @@
+{
+    "blogPageData": [
+        {
+            "tags":["angular","memory","optimization"],
+            "title":"Understanding Memory Leaks in Angular",
+            "rank":"1",
+            "url":"https://tiwarivikas.medium.com/understanding-memory-leaks-in-angular-a-concise-guide-with-examples-61cc3e4aaa49",
+            "imgSrc":"b1.webp",
+            "alt":"technical blog img 1",
+            "desc":"Memory leaks can be a common issue in Angular applications if not handled properly."
+        },
+        {
+            "tags":["docker","beginner"],
+            "title":"Docker Tutorial for Beginners",
+            "rank":"2",
+            "url":"https://medium.com/geekculture/docker-tutorial-for-beginners-8af6a4967378",
+            "imgSrc":"b2.webp",
+            "alt":"technical blog img 2",
+            "desc":"A platform for building, running, and shipping applications in a consistent manner."
+        },
+        {
+            "tags":["microservices","software design"],
+            "title":"Microservices Architecture: A Deep Dive",
+            "rank":"3",
+            "url":"https://tiwarivikas.medium.com/microservices-architecture-a-deep-dive-cab52fa60971",
+            "imgSrc":"b4.webp",
+            "alt":"technical blog img 3",
+            "desc":"Microservices architecture is a software design approach that structures an application as a collection of loosely coupled services."
+        },
+        {
+            "tags":["docker"],
+            "title":"Working with Docker-Hub",
+            "rank":"4",
+            "url":"https://tiwarivikas.medium.com/working-with-docker-hub-3a0ba1d7cc05",
+            "imgSrc":"b3.webp",
+            "alt":"technical blog img 4",
+            "desc":"How to utilize the Docker hub to push and pull the images."
+        },
+        {
+            "tags":["kubernetes","development"],
+            "title":"Getting Started With Kubernetes",
+            "rank":"5",
+            "url":"https://dev.to/vikkastiwari/getting-started-with-kubernetes-2dpp",
+            "imgSrc":"b5.webp",
+            "alt":"technical blog img 5",
+            "desc":"Deploy containerized applications at scale in private, public, and hybrid cloud environments."
+        },
+        {
+            "tags":["angular","deep"],
+            "title":"Dependency Injection-Behind the Scenes",
+            "rank":"6",
+            "url":"https://medium.com/@tiwarivikas/dependency-injection-behind-the-scenes-4d2bad3e2efe",
+            "imgSrc":"b6.webp",
+            "alt":"technical blog img 6",
+            "desc":"Understand how dependency injection works behind the scenes."
+        }
+    ]
+}

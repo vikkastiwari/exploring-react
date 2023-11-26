@@ -1,7 +1,7 @@
 import './Experience.css';
 
 import Section from "../../components/Section/Section";
-import JsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/home-content.json';
 import thumb_37x25 from '../../assets/img/thumb/37-25.jpg';
 
 const Experience = () => {

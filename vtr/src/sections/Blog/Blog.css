@@ -24,6 +24,10 @@
     display: inline-block;
 }
 
+.vtr_tm_blogs ul li .blog_card_wrp {
+    width: 350px;
+}
+
 .vtr_tm_blogs ul li:not(:first-child) {
     padding-left: 25px;
 }
@@ -64,5 +68,31 @@
 @media (max-width: 1199px) {
     .vtr_tm_blogs ul {
         margin-bottom: -24px;
+    }
+
+    .vtr_tm_blogs ul li .blog_card_wrp  {
+        width: 320px;
+    }
+}
+
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1023px) {
+    .vtr_tm_blogs ul li .blog_card_wrp {
+        width: 280px;
+    }
+}
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+    .vtr_tm_blogs ul li .blog_card_wrp {
+        width: 240px;
     }
 }

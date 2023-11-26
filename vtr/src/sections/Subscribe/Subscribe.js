@@ -1,5 +1,5 @@
 import './Subscribe.css';
-import JsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/home-content.json';
 
 import Section from "../../components/Section/Section";
 

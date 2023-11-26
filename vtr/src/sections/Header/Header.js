@@ -1,16 +1,27 @@
 import { useEffect, useState } from "react";
+import { useLocation } from 'react-router-dom';
 
 import "../../css/general.css";
 import "./Header.css";
 import logoLight from "../../assets/img/logo/logo-light.png";
 import logoDark from "../../assets/img/logo/logo-dark.png";
-import JsonData from "../../assets/data/content.json";
+import JsonData from "../../assets/data/home-content.json";
 
 const Header = () => {
   const headerData = JsonData.header;
   const [isSticky, setIsSticky] = useState(false);
   const [isActiveIndex, setIsActiveIndex] = useState(0);
   const [isHamDrawerOpen, setIsHamDrawerOpen] = useState(false);
+  const [currentRoute, setCurrentRoute] = useState('');
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    setCurrentRoute(location?.pathname)
+    console.log(`The current URL is ${location.pathname}`);
+  }, [location]);
+
 
   const hbDrawerHandler = () => {
     setIsHamDrawerOpen(!isHamDrawerOpen);
@@ -84,12 +95,12 @@ const Header = () => {
   });
 
   return (
-    <div className={`vtr_tm_header ${isSticky ? "animate" : ""}`}>
+    <div className={`vtr_tm_header ${isSticky || (currentRoute === '/blogs') ? "animate" : ""}`}>
       <div className="container">
         <div className="header_inner">
           <div className="logo">
             <a className="light" href="/">
-              {isSticky ? <img src={logoDark} alt="" /> : <img src={logoLight} alt="" />}
+              {isSticky || (currentRoute === '/blogs') ? <img src={logoDark} alt="" /> : <img src={logoLight} alt="" />}
             </a>
           </div>
           <div className="trigger vtr_cursor_ptr" onClick={hbDrawerHandler}>

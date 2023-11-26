@@ -1,0 +1,49 @@
+.vtr_all_blogs {
+    position: relative;
+    margin: 128px 0;
+}
+
+.vtr_all_blogs,.vtr_all_blogs .blogs_list {
+    width: 100%;
+    height: auto;
+}
+
+.vtr_all_blogs ul {
+    list-style-type: none;
+    width: 100%;
+    overflow: auto;
+}
+
+.vtr_all_blogs ul li {
+    margin: 0 0 25px;
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top;
+}
+
+.vtr_all_blogs ul li:not(:first-child) {
+    padding-left: 25px;
+}
+
+
+/*
+****************************************
+***** TABLET LANDSCAPE RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1199px) {
+    .vtr_all_blogs ul {
+        margin-bottom: -24px;
+    }
+}
+
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1023px) {
+    .vtr_all_blogs ul li {
+        width: 50%;
+    }
+}

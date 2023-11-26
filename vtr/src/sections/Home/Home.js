@@ -2,7 +2,7 @@ import { FaYoutube, FaLinkedinIn, FaBloggerB } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
 
 import "./Home.css";
-import JsonData from '../../assets/data/content.json';
+import JsonData from '../../assets/data/home-content.json';
 import heroBanner from "../../assets/img/hero/bg.jpg";
 import vt from "../../assets/img/hero/vt.png";
 import vtbg from "../../assets/img/thumb/vt-bg.jpg";
