@@ -1,6 +1,6 @@
 .vtr_all_projects {
     position: relative;
-    margin: 128px auto;
+    margin: 160px auto;
 }
 
 .vtr_all_projects,.vtr_all_projects .projects_list {
@@ -12,14 +12,16 @@
     list-style-type: none;
     width: 100%;
     overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .vtr_all_projects ul li {
-    margin: 0 0 25px;
-    display: inline-block;
-    width: 33.33%;
-    vertical-align: top;
-    padding: 0 12px;
+    margin: 0 12px 25px;
+    width: calc(33.33% - 24px);
+    max-height: 100%;
+    background-color: #e8eaf8;
+    border-radius: 10px;
 }
 
 /*
@@ -40,6 +42,17 @@
 */
 @media (max-width: 1023px) {
     .vtr_all_projects ul li {
-        width: 50%;
+        width: calc(50% - 24px);
+    }
+}
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+    .vtr_all_projects ul li {
+        width: calc(100% - 24px);
     }
 }
