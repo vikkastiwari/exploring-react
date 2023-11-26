@@ -41,11 +41,11 @@ function App() {
           <Header />
           <Routes>
             <Route exact path='/' element={<HomePage />} />
-            <Route path='/blogs' element={<BlogsPage />} />
-            <Route path='/projects' element={<ProjectsPage />} />
-            <Route path='/terms' element={<TermsPage />} />
-            <Route path='/privacy-policy' element={<PrivacyPolicyPage />} />
-            <Route path='/affilates' element={<AffilatesPage />} />
+            <Route path='/blogs.html' element={<BlogsPage />} />
+            <Route path='/projects.html' element={<ProjectsPage />} />
+            <Route path='/terms-of-service.html' element={<TermsPage />} />
+            <Route path='/privacy-policy.html' element={<PrivacyPolicyPage />} />
+            <Route path='/favourite-products.html' element={<AffilatesPage />} />
           </Routes>
           <Footer />
         </div>

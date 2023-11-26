@@ -55,3 +55,4 @@ Buy domain and make it public
 ### ISSUES
 Uneven card sizes of work section
 Remove background white image from hero section's hero image
+move all const text to constant file

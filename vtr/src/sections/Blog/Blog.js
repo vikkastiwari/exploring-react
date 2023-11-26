@@ -33,7 +33,7 @@ const Blog = () => {
             </ul>
           </div>
           <div className="vtr_tm_button vtr_align_center">
-              <Link to="/blogs" className="anchor">
+              <Link to="/blogs.html" className="anchor">
                 View More
               </Link>
             </div>
