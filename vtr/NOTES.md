@@ -51,3 +51,6 @@ SEO optimization
 HOST with free domain on web.app
 Observe and reiterate
 Buy domain and make it public
+
+### ISSUES
+Uneven card sizes of work section

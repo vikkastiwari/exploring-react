@@ -19,12 +19,8 @@
     display: inline-block;
     width: 33.33%;
     vertical-align: top;
+    padding: 0 12px;
 }
-
-.vtr_all_blogs ul li:not(:first-child) {
-    padding-left: 25px;
-}
-
 
 /*
 ****************************************
