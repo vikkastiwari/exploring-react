@@ -1,0 +1,46 @@
+{
+    "projectPageData": [
+        {
+            "title":"Omnifood",
+            "category":"Html5 & Css3",
+            "url":"/",
+            "src":"preview_om.png",
+            "alt":"project preview img"
+        },
+        {
+            "title":"EList Generator",
+            "category":"React",
+            "url":"/",
+            "src":"preview_el.png",
+            "alt":"project preview img"
+        },
+        {
+            "title":"Recipe App",
+            "category":"Angular",
+            "url":"/",
+            "src":"preview_recipe.png",
+            "alt":"project preview img"
+        },
+        {
+            "title":"Investment Investment Calculator Calculator",
+            "category":"React",
+            "url":"/",
+            "src":"preview_invest.png",
+            "alt":"project preview img"
+        },
+        {
+            "title":"Shopit ecommerece",
+            "category":"Angular",
+            "url":"/",
+            "src":"preview_shop.png",
+            "alt":"project preview img"
+        },
+        {
+            "title":"AmZone",
+            "category":"React",
+            "url":"/",
+            "src":"preview_amzone.png",
+            "alt":"project preview img"
+        }
+    ]
+}

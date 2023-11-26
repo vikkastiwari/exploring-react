@@ -1,0 +1,45 @@
+.vtr_all_projects {
+    position: relative;
+    margin: 128px auto;
+}
+
+.vtr_all_projects,.vtr_all_projects .projects_list {
+    width: 100%;
+    height: auto;
+}
+
+.vtr_all_projects ul {
+    list-style-type: none;
+    width: 100%;
+    overflow: auto;
+}
+
+.vtr_all_projects ul li {
+    margin: 0 0 25px;
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top;
+    padding: 0 12px;
+}
+
+/*
+****************************************
+***** TABLET LANDSCAPE RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1199px) {
+    .vtr_all_projects ul {
+        margin-bottom: -24px;
+    }
+}
+
+/*
+****************************************
+****** TABLET PORTRAIT RESPONSIVE ******
+****************************************
+*/
+@media (max-width: 1023px) {
+    .vtr_all_projects ul li {
+        width: 50%;
+    }
+}

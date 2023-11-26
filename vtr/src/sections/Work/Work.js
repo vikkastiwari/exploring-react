@@ -45,7 +45,7 @@ const Work = () => {
                 {portfolioData.list.map((item,index)=>(
                   <li
                     key={index}
-                    className="grid-item vtr_cursor_ptr"
+                    className="grid-item"
                     onClick={openHandler.bind(null,index)}
                   >
                     <ProjectCard item={item} />
@@ -61,7 +61,7 @@ const Work = () => {
           </div>
         </div>
       </Section>
-      
+
       <Modal isOpen={isOpened} isClose={closeHandler}>
         <div className="modal_popup_informations">
           <div className="image">
