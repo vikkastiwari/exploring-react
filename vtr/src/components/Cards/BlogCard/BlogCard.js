@@ -1,7 +1,7 @@
 import './BlogCard.css';
 import thumb_42x29 from '../../../assets/img/thumb/42-29.jpg';
 
-const Blog = (props) => {
+const BlogCard = (props) => {
 
     return (
         <div className="vtr_blog_card_wrapper">
@@ -34,4 +34,4 @@ const Blog = (props) => {
     );
 };
 
-export default Blog;
+export default BlogCard;

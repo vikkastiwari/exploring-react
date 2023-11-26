@@ -56,3 +56,4 @@ Buy domain and make it public
 Uneven card sizes of work section
 Remove background white image from hero section's hero image
 move all const text to constant file
+when two tabs are open, header sticky behaviour is bugy

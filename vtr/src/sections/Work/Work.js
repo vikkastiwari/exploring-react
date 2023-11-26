@@ -1,12 +1,12 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 import "./Work.css";
 import JsonData from '../../assets/data/home-content.json';
 import Section from "../../components/Section/Section";
-import thumb_1x1 from "../../assets/img/thumb/1-1.jpg";
 import Modal from "../../components/Modal/Modal";
 import thumb_4x2 from '../../assets/img/thumb/4-2.jpg';
-import { Link } from "react-router-dom";
+import ProjectCard from "../../components/Cards/ProjectCard/ProjectCard";
 
 const Work = () => {
   const [isOpened, setIsOpened] = useState(false);
@@ -48,20 +48,7 @@ const Work = () => {
                     className="grid-item vtr_cursor_ptr"
                     onClick={openHandler.bind(null,index)}
                   >
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src={thumb_1x1} alt={item.alt} />
-                        <div
-                          className="main"
-                          data-img-url="img/portfolio/1.jpg"
-                          style={{backgroundImage:`url(${require(`../../assets/img/work/${item.src}`)})`}}
-                        ></div>
-                      </div>
-                      <div className="details vtr_whitespace_normal">
-                        <span className="category">{item.title}</span>
-                        <p className="title">{item.category}</p>
-                      </div>
-                    </div>
+                    <ProjectCard item={item} />
                   </li>
                 ))}
               </ul>
@@ -74,6 +61,7 @@ const Work = () => {
           </div>
         </div>
       </Section>
+      
       <Modal isOpen={isOpened} isClose={closeHandler}>
         <div className="modal_popup_informations">
           <div className="image">
