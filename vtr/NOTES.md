@@ -17,7 +17,7 @@ Subscribe       Done            Done
 Contact Me      Done            Done
 Footer          Done            Done
 
-<!-- NOV 11 - UPDATE -->
+<!-- DEC 3 - UPDATE -->
 #### ASSETS CURATION
 portfolio section modal content
 testimonial section images of client and testimonials
@@ -52,4 +52,3 @@ Buy domain and make it public
 ### ISSUES
 Uneven card sizes of work section in home page
 Remove background white image from hero section's hero image
-move all const text to constant file
