@@ -7,6 +7,7 @@ import BlogCard from '../../components/Cards/BlogCard/BlogCard';
 
 const Blog = () => {
   const blogData = JsonData.blog;
+  const commonData = JsonData.common;
 
   return (
     <Section id="blog">
@@ -34,7 +35,7 @@ const Blog = () => {
           </div>
           <div className="vtr_tm_button vtr_align_center">
               <Link to="/blogs.html" className="anchor">
-                View More
+                {commonData.viewMoreBtnText}
               </Link>
             </div>
         </div>

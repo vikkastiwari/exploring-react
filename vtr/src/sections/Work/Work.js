@@ -12,6 +12,7 @@ const Work = () => {
   const [isOpened, setIsOpened] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const portfolioData = JsonData.portfolio;
+  const commonData = JsonData.common;
 
   const openHandler = (index) => {
     setCurrentIndex(index);
@@ -55,7 +56,7 @@ const Work = () => {
             </div>
             <div className="vtr_tm_button vtr_align_center">
               <Link to="/projects.html" className="anchor">
-                View More
+                {commonData.viewMoreBtnText}
               </Link>
             </div>
           </div>

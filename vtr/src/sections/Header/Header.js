@@ -126,7 +126,7 @@ const Header = () => {
                 </li>
               ))}
               <li className="download_cv">
-                <a href="https://www.youtube.com/channel/UCI_xIqMJa1Oirfjx5-ykylA?sub_confirmation=1" target='_blank' rel="noreferrer">
+                <a href={headerData.download.url} target='_blank' rel="noreferrer">
                   {headerData.download.name}
                 </a>
               </li>

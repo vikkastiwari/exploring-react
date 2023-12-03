@@ -1,4 +1,7 @@
 {
+    "common":{
+        "viewMoreBtnText":"View More"
+    },
     "header":{
         "navElements":[
             {
@@ -28,7 +31,8 @@
         ],
         "download":{
             "name":"Subscribe",
-            "route":"contact"
+            "route":"contact",
+            "url":"https://www.youtube.com/channel/UCI_xIqMJa1Oirfjx5-ykylA?sub_confirmation=1"
         }
     },
     "home":{

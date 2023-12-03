@@ -22,10 +22,11 @@ Footer          Done            Done
 portfolio section modal content
 testimonial section images of client and testimonials
 github repo creation and project github link integration
+T&C Page content
+Privacy policy Page content
 
 #### DESIGN UPDATION
-blog section view more button in bottom of slider
-portfolio section view more button in bottom of section
+Add modal for projects in Projects page
 
 #### FUNCTIONALITIES
 contact me form integration
@@ -38,10 +39,6 @@ youtube videos section addition on home page
 
 #### PAGE CREATION
 Affilate product listing page 
-Blog listing page 
-Projects listing page
-T&C Page
-Privacy policy Page
 Youtube video listing page
 
 ### HOST
