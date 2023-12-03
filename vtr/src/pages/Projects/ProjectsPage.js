@@ -8,6 +8,10 @@ const ProjectsPage = () => {
   return (
     <div className='vtr_all_projects'>
       <div className="projects_list container">
+        <div className="vtr_tm_main_title" data-text-align="center">
+          <h2>PROjects</h2>
+          <p>Quality means doing it right when no one is looking.</p>
+        </div>
         <ul>
           {projectData.projectPageData.map((item,index)=>(
             <li

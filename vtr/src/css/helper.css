@@ -90,6 +90,12 @@
     text-align: center;
 }
 
+.vtr_truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /*
 ****************************************
 ***** TABLET LANDSCAPE RESPONSIVE ******

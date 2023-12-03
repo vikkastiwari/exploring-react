@@ -53,7 +53,6 @@ Observe and reiterate
 Buy domain and make it public
 
 ### ISSUES
-Uneven card sizes of work section
+Uneven card sizes of work section in home page
 Remove background white image from hero section's hero image
 move all const text to constant file
-when two tabs are open, header sticky behaviour is bugy
