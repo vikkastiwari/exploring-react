@@ -20,10 +20,10 @@ Footer          Done            Done
 <!-- DEC 3 - UPDATE -->
 #### ASSETS CURATION
 portfolio section modal content
-testimonial section images of client and testimonials
-github repo creation and project github link integration
 T&C Page content
 Privacy policy Page content
+github repo creation and project github link integration
+testimonial section images of client and testimonials
 
 #### DESIGN UPDATION
 Add modal for projects in Projects page
@@ -52,3 +52,4 @@ Buy domain and make it public
 ### ISSUES
 Uneven card sizes of work section in home page
 Remove background white image from hero section's hero image
+Header link update and add page specific links

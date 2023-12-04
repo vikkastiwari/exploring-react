@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import "../../css/general.css";
 import "./Header.css";
@@ -20,6 +20,8 @@ const Header = () => {
     setCurrentRoute(location?.pathname);
     if(currentRoute !== '/'){
       setIsSticky(true);
+    }else{
+      setIsSticky(false);
     }
     console.log(`The current URL is ${location?.pathname}`);
   }, [currentRoute, location]);
@@ -63,7 +65,7 @@ const Header = () => {
         link.removeEventListener("click", scrollEvent);
       };
     });
-  },[]);
+  },[currentRoute]);
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
@@ -117,14 +119,21 @@ const Header = () => {
           <div className={`menu ${isHamDrawerOpen ? 'open' : ''}`}>
             <ul className="anchor_nav">
               {headerData.navElements.map((item, index) => (
-                <li 
-                  key={index} 
-                  onClick={() => navActiveState(index)} 
-                  className={index === isActiveIndex ? "current" : ""}
-                >
-                  <a href={`#${item.route}`}>{item.name}</a>
-                </li>
-              ))}
+                (item.allActive && currentRoute !== '/') || (currentRoute === '/') ? 
+                  <li
+                    key={index} 
+                    onClick={() => navActiveState(index)} 
+                    className={index === isActiveIndex ? "current" : ""}
+                  >
+                    {
+                      item.isLink ? 
+                      <Link to={item.route}>{item.name}</Link> :
+                      <a href={`${item.route}`}>{item.name}</a>
+                    }
+                  </li> :
+                  ''
+                )
+              )}
               <li className="download_cv">
                 <a href={headerData.download.url} target='_blank' rel="noreferrer">
                   {headerData.download.name}

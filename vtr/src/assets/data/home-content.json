@@ -6,27 +6,39 @@
         "navElements":[
             {
                 "name":"Home",
-                "route":"home"
+                "isLink":true,
+                "allActive":true,
+                "route":"/"
             },
             {
                 "name":"About",
-                "route":"about"
+                "isLink":false,
+                "allActive":false,
+                "route":"#about"
             },
             {
                 "name":"Service",
-                "route":"service"
+                "isLink":false,
+                "allActive":false,
+                "route":"#service"
             },
             {
                 "name":"Portfolio",
-                "route":"portfolio"
+                "isLink":true,
+                "allActive":true,
+                "route":"/projects.html"
             },
             {
-                "name":"Experience",
-                "route":"experience"
+                "name":"YouTube",
+                "isLink":true,
+                "allActive":true,
+                "route":"/videos.html"
             },
             {
                 "name":"Blog",
-                "route":"blog"
+                "isLink":true,
+                "allActive":true,
+                "route":"/blogs.html"
             }
         ],
         "download":{
