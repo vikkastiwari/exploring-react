@@ -17,7 +17,7 @@ Subscribe       Done            Done
 Contact Me      Done            Done
 Footer          Done            Done
 
-<!-- DEC 3 - UPDATE -->
+<!-- DEC 6 - UPDATE -->
 #### ASSETS CURATION
 portfolio section modal content
 T&C Page content
@@ -27,7 +27,6 @@ testimonial section images of client and testimonials
 
 #### DESIGN UPDATION
 Add modal for projects in Projects page
-Add link of you tube on videos page and leave coming soon message
 
 #### FUNCTIONALITIES
 contact me form integration
@@ -38,7 +37,6 @@ faq section - PH2
 youtube videos section addition on home page - PH2
 
 #### PAGE CREATION
-404 handling page
 Affilate product listing page  - PH2
 Youtube video listing page - PH2
 

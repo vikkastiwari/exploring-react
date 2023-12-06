@@ -1,0 +1,11 @@
+.vtr_page_not_found {
+    position: relative;
+    margin: 160px auto;
+    height: calc(100vh - 320px);
+    text-align: center;
+}
+
+.vtr_page_not_found img {
+    width: 400px;
+    height: 400px;
+}

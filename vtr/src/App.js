@@ -6,13 +6,14 @@ import Footer from '../src/sections/Header/Header';
 import Header from '../src/sections/Footer/Footer';
 import HomePage from './pages/Home/HomePage';
 import BlogsPage from './pages/Blogs/BlogsPage';
-import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import Loader from './components/Loader/Loader';
 import ProjectsPage from './pages/Projects/ProjectsPage';
 import VideosPage from './pages/Videos/VideosPage';
 import TermsPage from './pages/TC/TermsPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicy/PrivacyPolicyPage';
 import AffilatesPage from './pages/Affilates/AffilatesPage';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Loader from './components/Loader/Loader';
+import PageNotFound from './components/PageNotFound/PageNotFound';
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
             <Route path='/terms-of-service.html' element={<TermsPage />} />
             <Route path='/privacy-policy.html' element={<PrivacyPolicyPage />} />
             <Route path='/favourite-products.html' element={<AffilatesPage />} />
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
           <Footer />
         </div>
