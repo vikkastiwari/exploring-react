@@ -27,19 +27,20 @@ testimonial section images of client and testimonials
 
 #### DESIGN UPDATION
 Add modal for projects in Projects page
+Add link of you tube on videos page and leave coming soon message
 
 #### FUNCTIONALITIES
 contact me form integration
-download button resume - download or make it subscribe button
-blur image lazy loading implementation
+blur image lazy loading implementation - PH2
 
 #### SECTION ADDITION
-faq section
-youtube videos section addition on home page
+faq section - PH2
+youtube videos section addition on home page - PH2
 
 #### PAGE CREATION
-Affilate product listing page 
-Youtube video listing page
+404 handling page
+Affilate product listing page  - PH2
+Youtube video listing page - PH2
 
 ### HOST
 Integrate form with firebase
@@ -50,6 +51,5 @@ Observe and reiterate
 Buy domain and make it public
 
 ### ISSUES
-Uneven card sizes of work section in home page
-Remove background white image from hero section's hero image
-Header link update and add page specific links
+Uneven card sizes of work section in home page - PH2
+Remove background white image from hero section's hero image - PH2
