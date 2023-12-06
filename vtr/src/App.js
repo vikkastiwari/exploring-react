@@ -9,6 +9,7 @@ import BlogsPage from './pages/Blogs/BlogsPage';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Loader from './components/Loader/Loader';
 import ProjectsPage from './pages/Projects/ProjectsPage';
+import VideosPage from './pages/Videos/VideosPage';
 import TermsPage from './pages/TC/TermsPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicy/PrivacyPolicyPage';
 import AffilatesPage from './pages/Affilates/AffilatesPage';
@@ -43,6 +44,7 @@ function App() {
             <Route exact path='/' element={<HomePage />} />
             <Route path='/blogs.html' element={<BlogsPage />} />
             <Route path='/projects.html' element={<ProjectsPage />} />
+            <Route path='/videos.html' element={<VideosPage />} />
             <Route path='/terms-of-service.html' element={<TermsPage />} />
             <Route path='/privacy-policy.html' element={<PrivacyPolicyPage />} />
             <Route path='/favourite-products.html' element={<AffilatesPage />} />

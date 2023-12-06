@@ -53,3 +53,4 @@ Buy domain and make it public
 ### ISSUES
 Uneven card sizes of work section in home page - PH2
 Remove background white image from hero section's hero image - PH2
+on other pages route effect is triggered thrice

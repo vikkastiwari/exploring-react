@@ -1,0 +1,5 @@
+.vtr_videos {
+    position: relative;
+    margin: 160px auto;
+    height: calc(100vh - 320px);
+}
