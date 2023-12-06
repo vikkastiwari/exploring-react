@@ -10,7 +10,6 @@ import JsonData from "../../assets/data/home-content.json";
 const Header = () => {
   const headerData = JsonData.header;
   const [isSticky, setIsSticky] = useState(false);
-  const [isActiveIndex, setIsActiveIndex] = useState(0);
   const [isHamDrawerOpen, setIsHamDrawerOpen] = useState(false);
   const [currentRoute, setCurrentRoute] = useState('/');
   const location = useLocation();
@@ -29,11 +28,6 @@ const Header = () => {
 
   const hbDrawerHandler = () => {
     setIsHamDrawerOpen(!isHamDrawerOpen);
-  }
-
-  const navActiveState = (index) => {
-    setIsActiveIndex(index);
-    hbDrawerHandler();
   }
 
   /**
@@ -74,21 +68,6 @@ const Header = () => {
     if(currentRoute === '/'){
       scrollPosition >= 80 ? setIsSticky(true) : setIsSticky(false);
     }
-
-    /* ********* Dynamic Nav Active On Scroll Logic ************ */ 
-    for (const [index, section] of headerData.navElements.entries()) {
-      const element = document.getElementById(section.name?.toLowerCase());
-      if (element) {
-        const elementTop = element.offsetTop;
-        const elementHeight = element.clientHeight;
-
-        // Note: 145 is the padding top added in each section
-        if (scrollPosition+145 >= elementTop && scrollPosition < elementTop + elementHeight) {
-          console.log("scrollPosition:",scrollPosition,",elementTop:",elementTop,",elementHeight:",elementHeight);
-          setIsActiveIndex(index);
-        }
-      }
-    }
   };
 
   useEffect(() => {
@@ -122,8 +101,7 @@ const Header = () => {
                 (item.allActive && currentRoute !== '/') || (currentRoute === '/') ? 
                   <li
                     key={index} 
-                    onClick={() => navActiveState(index)} 
-                    className={index === isActiveIndex ? "current" : ""}
+                    onClick={() => hbDrawerHandler()} 
                   >
                     {
                       item.isLink ? 
