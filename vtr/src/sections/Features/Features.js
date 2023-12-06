@@ -6,7 +6,7 @@ const Features = () => {
   const featuresData = JsonData.features;
 
   return (
-    <Section>
+    <Section id="features">
       <div className="vtr_tm_features vtr_section_padding">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">

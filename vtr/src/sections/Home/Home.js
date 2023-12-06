@@ -91,7 +91,7 @@ const Home = () => {
         </div>
 
         <div className="vtr_tm_down">
-          <a className="anchor" href="/">
+          <a className="anchor" href="#features">
             <DownIcon className="vtr-color-white" style={{width:'35px',height:'35px'}} />
           </a>
         </div>
