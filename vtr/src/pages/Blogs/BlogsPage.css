@@ -24,22 +24,22 @@
 
 /*
 ****************************************
-***** TABLET LANDSCAPE RESPONSIVE ******
-****************************************
-*/
-@media (max-width: 1199px) {
-    .vtr_all_blogs ul {
-        margin-bottom: -24px;
-    }
-}
-
-/*
-****************************************
 ****** TABLET PORTRAIT RESPONSIVE ******
 ****************************************
 */
 @media (max-width: 1023px) {
     .vtr_all_blogs ul li {
         width: 50%;
+    }
+}
+
+/*
+*******************************
+****** MOBILE RESPONSIVE ******
+*******************************
+*/
+@media (max-width: 749px) {
+    .vtr_all_blogs ul li {
+        width: 100%;
     }
 }
