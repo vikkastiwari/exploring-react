@@ -20,7 +20,7 @@ const ProjectsPage = () => {
               style={{visibility: "visible", animationDuration: '1s'}}
             >
               <div className='project_card_wrp'>
-                <ProjectCard item={item} />
+                <ProjectCard item={item} index={index} />
               </div>
             </li>
           ))}

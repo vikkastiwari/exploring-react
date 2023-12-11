@@ -1,28 +1,14 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 import "./Work.css";
 import JsonData from '../../assets/data/home-content.json';
 import Section from "../../components/Section/Section";
-import Modal from "../../components/Modal/Modal";
-import thumb_4x2 from '../../assets/img/thumb/4-2.jpg';
+
 import ProjectCard from "../../components/Cards/ProjectCard/ProjectCard";
 
 const Work = () => {
-  const [isOpened, setIsOpened] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(0);
   const portfolioData = JsonData.portfolio;
   const commonData = JsonData.common;
-
-  const openHandler = (index) => {
-    setCurrentIndex(index);
-    setIsOpened(true);
-    console.log(index,"index");
-  }
-
-  const closeHandler = () => {
-    setIsOpened(false);
-  }
 
   return (
     <>
@@ -47,9 +33,8 @@ const Work = () => {
                   <li
                     key={index}
                     className="grid-item"
-                    onClick={openHandler.bind(null,index)}
                   >
-                    <ProjectCard item={item} />
+                    <ProjectCard item={item} index={index} />
                   </li>
                 ))}
               </ul>
@@ -62,33 +47,6 @@ const Work = () => {
           </div>
         </div>
       </Section>
-
-      <Modal isOpen={isOpened} isClose={closeHandler}>
-        <div className="modal_popup_informations">
-          <div className="image">
-            <img src={thumb_4x2} alt={portfolioData.list[currentIndex].popup.alt} />
-            <div
-              className="main"
-              style={{backgroundImage:`url(${require(`../../assets/img/work/${portfolioData.list[currentIndex].popup.src}`)})`}}
-              data-img-url="img/modal/2.jpg"
-            ></div>
-          </div>
-          <div className="details">
-            <h3>{portfolioData.list[currentIndex].popup.title}</h3>
-            <span>
-              <a href={portfolioData.list[currentIndex].popup.url}>{portfolioData.list[currentIndex].popup.subtitle}</a>
-            </span>
-            <div></div>
-          </div>
-          <div className="text">
-            {portfolioData.list[currentIndex].popup.desc.map((item,index)=>(
-              <p key={index}>
-                {item}
-              </p>
-            ))}
-          </div>
-        </div>
-      </Modal>
     </>
   );
 };
