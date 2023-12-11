@@ -4,14 +4,15 @@ const TermsPage = () => {
   return (
     <div className="vtr_all_privacy container">
       <h2>Vikas Tiwari Terms of Service</h2>
-      <h4>TERMS OF SERVICE</h4>
-      <p>OVERVIEW</p>
+      <p>These terms and conditions outline the rules and regulations 
+        for the use of [Your Website Name]'s Website, 
+        located at [Your Website URL].
+      </p>
+      
+      <h4>OVERVIEW</h4>
       <p>
-        This website is operated by [Vikas Tiwari, A venture of Igneus
-        Technologies PRIVATE LIMITED]. Throughout the site, the terms “we”, “us”
-        and “our” refer to [Vikas Tiwari, A venture of Igneus Technologies
-        PRIVATE LIMITED]. [Vikas Tiwari, A venture of Igneus Technologies
-        PRIVATE LIMITED] offers this website, including all information, tools
+        This website is operated by [Vikas Tiwari]. Throughout the site, the terms “we”, “us”
+        and “our” refer to [Vikas Tiwari]. [Vikas Tiwari] offers this website, including all information, tools
         and services available from this site to you, the user, conditioned upon
         your acceptance of all terms, conditions, policies and notices stated
         here.
@@ -34,7 +35,7 @@ const TermsPage = () => {
         acceptance is expressly limited to these Terms of Service.
       </p>
       <p>
-        Any new features or tools which are added to the current store shall
+        Any new features or tools which are added to the current site shall
         also be subject to the Terms of Service. You can review the most current
         version of the Terms of Service at any time on this page. We reserve the
         right to update, change or replace any part of these Terms of Service by
@@ -44,7 +45,7 @@ const TermsPage = () => {
         acceptance of those changes.
       </p>
 
-      <p>SECTION 1 - ONLINE STORE TERMS</p>
+      <h4>SECTION 1 - ONLINE SITE TERMS</h4>
       <p>
         By agreeing to these Terms of Service, you represent that you are at
         least the age of majority in your state or province of residence, or
@@ -58,7 +59,7 @@ const TermsPage = () => {
         immediate termination of your Services.
       </p>
 
-      <p>SECTION 2 - GENERAL CONDITIONS</p>
+      <h4>SECTION 2 - GENERAL CONDITIONS</h4>
       <p>
         We reserve the right to refuse service to anyone for any reason at any
         time. You understand that your content (not including credit card
@@ -74,7 +75,7 @@ const TermsPage = () => {
         otherwise affect these Terms.
       </p>
 
-      <p>SECTION 3 - ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION</p>
+      <h4>SECTION 3 - ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION</h4>
       <p>
         We are not responsible if information made available on this site is not
         accurate, complete or current. The material on this site is provided for
@@ -89,22 +90,22 @@ const TermsPage = () => {
         that it is your responsibility to monitor changes to our site.
       </p>
 
-      <p>SECTION 4 - MODIFICATIONS TO THE SERVICE AND PRICES</p>
+      <h4>SECTION 4 - MODIFICATIONS TO THE SERVICE AND PRICES</h4>
       <p>
-        Prices for our products are subject to change without notice. We reserve
+        Prices for our products/services are subject to change without notice. We reserve
         the right at any time to modify or discontinue the Service (or any part
         or content thereof) without notice at any time. We shall not be liable
         to you or to any third-party for any modification, price change,
         suspension or discontinuance of the Service.
       </p>
 
-      <p>SECTION 5 - PRODUCTS OR SERVICES</p>
+      <h4>SECTION 5 - PRODUCTS OR SERVICES</h4>
       <p>
         Certain products or services may be available exclusively online through
         the website. These products or services may have limited quantities and
         are subject to return or exchange only according to our Return Policy.
         We have made every effort to display as accurately as possible the
-        colors and images of our products that appear at the store. We cannot
+        colors and images of our products that appear at the site. We cannot
         guarantee that your computer monitor's display of any color will be
         accurate. We reserve the right, but are not obligated, to limit the
         sales of our products or Services to any person, geographic region or
@@ -120,7 +121,7 @@ const TermsPage = () => {
         corrected.
       </p>
 
-      <p>SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION</p>
+      <h4>SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION</h4>
       <p>
         We reserve the right to refuse any order you place with us. We may, in
         our sole discretion, limit or cancel quantities purchased per person,
@@ -133,13 +134,13 @@ const TermsPage = () => {
         or prohibit orders that, in our sole judgment, appear to be placed by
         dealers, resellers or distributors. You agree to provide current,
         complete and accurate purchase and account information for all purchases
-        made at our store. You agree to promptly update your account and other
+        made at our site. You agree to promptly update your account and other
         information, including your email address and credit card numbers and
         expiration dates, so that we can complete your transactions and contact
         you as needed. For more detail, please review our Returns Policy.
       </p>
 
-      <p>SECTION 7 - OPTIONAL TOOLS</p>
+      <h4>SECTION 7 - OPTIONAL TOOLS</h4>
       <p>
         We may provide you with access to third-party tools over which we
         neither monitor nor have any control nor input. You acknowledge and
@@ -156,11 +157,11 @@ const TermsPage = () => {
         to these Terms of Service.
       </p>
 
-      <p>SECTION 8 - THIRD-PARTY LINKS</p>
+      <h4>SECTION 8 - THIRD-PARTY LINKS</h4>
       <p>
         Certain content, products and services available via our Service may
         include materials from third-parties. Third-party links on this site may
-        direct you to third-party websites that are not affiliated with us. We
+        direct you to third-party websites that may or may not be affiliated with us. We
         are not responsible for examining or evaluating the content or accuracy
         and we do not warrant and will not have any liability or responsibility
         for any third-party materials or websites, or for any other materials,
@@ -173,7 +174,7 @@ const TermsPage = () => {
         third-party products should be directed to the third-party.
       </p>
 
-      <p>SECTION 9 - USER COMMENTS, FEEDBACK AND OTHER SUBMISSIONS</p>
+      <h4>SECTION 9 - USER COMMENTS, FEEDBACK AND OTHER SUBMISSIONS</h4>
       <p>
         If, at our request, you send certain specific submissions (for example
         contest entries) or without a request from us you send creative ideas,
@@ -201,13 +202,13 @@ const TermsPage = () => {
         posted by you or any third-party.
       </p>
 
-      <p>SECTION 10 - PERSONAL INFORMATION</p>
+      <h4>SECTION 10 - PERSONAL INFORMATION</h4>
       <p>
-        Your submission of personal information through the store is governed by
+        Your submission of personal information through the site is governed by
         our Privacy Policy.
       </p>
 
-      <p>SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS</p>
+      <h4>SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS</h4>
       <p>
         Occasionally there may be information on our site or in the Service that
         contains typographical errors, inaccuracies or omissions that may relate
@@ -225,7 +226,7 @@ const TermsPage = () => {
         modified or updated.
       </p>
 
-      <p>SECTION 12 - PROHIBITED USES</p>
+      <h4>SECTION 12 - PROHIBITED USES</h4>
       <p>
         In addition to other prohibitions as set forth in the Terms of Service,
         you are prohibited from using the site or its content: (a) for any
@@ -248,7 +249,7 @@ const TermsPage = () => {
         any related website for violating any of the prohibited uses.
       </p>
 
-      <p>SECTION 13 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY</p>
+      <h4>SECTION 13 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY</h4>
       <p>
         We do not guarantee, represent or warrant that your use of our service
         will be uninterrupted, timely, secure or error-free. We do not warrant
@@ -283,10 +284,9 @@ const TermsPage = () => {
         permitted by law.
       </p>
 
-      <p>SECTION 14 - INDEMNIFICATION</p>
+      <h4>SECTION 14 - INDEMNIFICATION</h4>
       <p>
-        You agree to indemnify, defend and hold harmless [Vikas Tiwari, A
-        venture of Igneus Technologies PRIVATE LIMITED] and our parent,
+        You agree to indemnify, defend and hold harmless [Vikas Tiwari] and our parent,
         subsidiaries, affiliates, partners, officers, directors, agents,
         contractors, licensors, service providers, subcontractors, suppliers,
         interns and employees, harmless from any claim or demand, including
@@ -296,7 +296,7 @@ const TermsPage = () => {
         a third-party.
       </p>
 
-      <p>SECTION 15 - SEVERABILITY</p>
+      <h4>SECTION 15 - SEVERABILITY</h4>
       <p>
         In the event that any provision of these Terms of Service is determined
         to be unlawful, void or unenforceable, such provision shall nonetheless
@@ -306,7 +306,7 @@ const TermsPage = () => {
         enforceability of any other remaining provisions.
       </p>
 
-      <p>SECTION 16 - TERMINATION</p>
+      <h4>SECTION 16 - TERMINATION</h4>
       <p>
         The obligations and liabilities of the parties incurred prior to the
         termination date shall survive the termination of this agreement for all
@@ -321,7 +321,7 @@ const TermsPage = () => {
         access to our Services (or any part thereof).
       </p>
 
-      <p>SECTION 17 - ENTIRE AGREEMENT</p>
+      <h4>SECTION 17 - ENTIRE AGREEMENT</h4>
       <p>
         The failure of us to exercise or enforce any right or provision of these
         Terms of Service shall not constitute a waiver of such right or
@@ -335,14 +335,14 @@ const TermsPage = () => {
         Service shall not be construed against the drafting party.
       </p>
 
-      <p>SECTION 18 - GOVERNING LAW</p>
+      <h4>SECTION 18 - GOVERNING LAW</h4>
       <p>
         These Terms of Service and any separate agreements whereby we provide
         you Services shall be governed by and construed in accordance with the
         laws of India and jurisdiction of Mumbai, Maharashtra
       </p>
 
-      <p>SECTION 19 - CHANGES TO TERMS OF SERVICE</p>
+      <h4>SECTION 19 - CHANGES TO TERMS OF SERVICE</h4>
       <p>
         You can review the most current version of the Terms of Service at any
         time at this page. We reserve the right, at our sole discretion, to
@@ -353,10 +353,10 @@ const TermsPage = () => {
         Terms of Service constitutes acceptance of those changes.
       </p>
 
-      <p>SECTION 20 - CONTACT INFORMATION</p>
+      <h4>SECTION 20 - CONTACT INFORMATION</h4>
       <p>
         Questions about the Terms of Service should be sent to us at
-        team@tiwarivikas.in
+        vikas@tiwarivikas.com
       </p>
     </div>
   );

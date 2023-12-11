@@ -4,7 +4,7 @@ const PrivacyPolicyPage = () => {
   return (
     <>
       <div className="vtr_all_privacy container">
-        <h1>Vikas Tiwari Privacy Policy</h1>
+        <h2>Vikas Tiwari Privacy Policy</h2>
         <p>This Privacy Policy describes how your personal information is collected, 
           used, and shared when you visit [Website URL] (the “Site”).
         </p>
