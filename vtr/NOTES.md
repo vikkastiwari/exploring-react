@@ -17,11 +17,9 @@ Subscribe       Done            Done
 Contact Me      Done            Done
 Footer          Done            Done
 
-<!-- DEC 6 - UPDATE -->
+<!-- DEC 11 - UPDATE -->
 #### ASSETS CURATION
 portfolio section modal content
-T&C Page content
-Privacy policy Page content
 github repo creation and project github link integration
 testimonial section images of client and testimonials
 
@@ -53,3 +51,4 @@ Buy domain and make it public
 Uneven card sizes of work section in home page - PH2
 Remove background white image from hero section's hero image - PH2
 on other pages route effect is triggered thrice
+move static content to const file
