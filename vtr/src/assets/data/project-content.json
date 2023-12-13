@@ -3,46 +3,235 @@
     "desc":"Quality means doing it right when no one is looking.",
     "projectPageData": [
         {
-            "title":"Omnifood",
-            "category":"Html5 & Css3",
+            "title":"Drawing App",
+            "category":"Electron Js",
             "url":"/",
-            "src":"preview_om.png",
-            "alt":"project preview img"
+            "src":"preview_amzone.png",
+            "alt":"project preview img",
+            "popup":{
+                "title":"Omnifood - Food business landing page",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - HTML5, CSS3 ",
+                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
+                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
+                ],
+                "src":"omnifood.png",
+                "alt":"project preview img"
+            }
         },
         {
             "title":"EList Generator",
             "category":"React",
             "url":"/",
             "src":"preview_el.png",
-            "alt":"project preview img"
+            "alt":"project preview img",
+            "popup":{
+                "title":"Elist Generator - Dynamic list generator",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - React, Firebase, Data table, Jsx, Css",
+                    "The Elist Generator is a dynamic list generator project created using React, a popular JavaScript library for building user interfaces. The project's tech stack includes React for the frontend, allowing for the creation of a responsive and interactive user interface.",
+                    "The Elist Generator enables users to easily generate and manage dynamic lists, enhancing efficiency and organization. With its sleek design and user-friendly interface, this project showcases the power of React in delivering a seamless and intuitive experience for users dealing with dynamic lists."
+                ],
+                "src":"elistgen.png",
+                "alt":"project preview img"
+            }
+        },
+        {
+            "title":"Socket Server",
+            "category":"Express, Socket.io",
+            "url":"/",
+            "src":"preview_amzone.png",
+            "alt":"project preview img",
+            "popup":{
+                "title":"Omnifood - Food business landing page",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - HTML5, CSS3 ",
+                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
+                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
+                ],
+                "src":"omnifood.png",
+                "alt":"project preview img"
+            }
         },
         {
             "title":"Recipe App",
             "category":"Angular",
             "url":"/",
             "src":"preview_recipe.png",
-            "alt":"project preview img"
+            "alt":"project preview img",
+            "popup":{
+                "title":"Recipe App",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - Angular 14, RXJS, Typescript, Html, Css",
+                    "The Recipe Application is a modern and efficient project developed using Angular and Ngrx, showcasing a robust tech stack.",
+                    "This project focuses on managing recipes and incorporates authentication for a secure user experience. Users can create accounts, log in securely, and enjoy personalized features. ",
+                    "Angular's component-based architecture facilitates a modular and organized codebase, while Ngrx efficiently manages the application state, ensuring smooth data flow and consistent user interactions."
+                ],
+                "src":"recipe.png",
+                "alt":"project preview img"
+            }
         },
         {
-            "title":"Investment Calculator",
+            "title":"Web Scrapper",
+            "category":"Electron Js, Puppeteer",
+            "url":"/",
+            "src":"preview_amzone.png",
+            "alt":"project preview img",
+            "popup":{
+                "title":"Omnifood - Food business landing page",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - HTML5, CSS3 ",
+                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
+                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
+                ],
+                "src":"omnifood.png",
+                "alt":"project preview img"
+            }
+        },
+        {
+            "title":"Omnifood",
+            "category":"Html5 & Css3",
+            "url":"/",
+            "src":"preview_om.png",
+            "alt":"project preview img",
+            "popup":{
+                "title":"Omnifood - Food business landing page",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - HTML5, CSS3 ",
+                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
+                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
+                ],
+                "src":"omnifood.png",
+                "alt":"project preview img"
+            }
+        },
+        {
+            "title":"MediHub V2",
+            "category":"Express Js",
+            "url":"/",
+            "src":"preview_amzone.png",
+            "alt":"project preview img",
+            "popup":{
+                "title":"Omnifood - Food business landing page",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - HTML5, CSS3 ",
+                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
+                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
+                ],
+                "src":"omnifood.png",
+                "alt":"project preview img"
+            }
+        },
+        {
+            "title":"Burger Builder",
             "category":"React",
             "url":"/",
-            "src":"preview_invest.png",
-            "alt":"project preview img"
+            "src":"preview_amzone.png",
+            "alt":"project preview img",
+            "popup":{
+                "title":"Omnifood - Food business landing page",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - HTML5, CSS3 ",
+                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
+                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
+                ],
+                "src":"omnifood.png",
+                "alt":"project preview img"
+            }
         },
         {
             "title":"Shopit ecommerece",
             "category":"Angular",
             "url":"/",
             "src":"preview_shop.png",
-            "alt":"project preview img"
+            "alt":"project preview img",
+            "popup":{
+                "title":"Shopit - Shop now",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - Angular 14, RXJS, Typescript, Html, Css",
+                    "The ecommerce application is built on a robust tech stack centered around Angular, a powerful front-end framework.",
+                    "Angular provides a seamless and dynamic user interface, ensuring a smooth and responsive shopping experience. The application leverages TypeScript for efficient development and enhanced code quality.",
+                    "The responsive design ensures a consistent and engaging experience across various devices, including desktops, tablets, and smartphones."
+                ],
+                "src":"w2.jpg",
+                "alt":"project preview img"
+            }
+        },
+        {
+            "title":"Investment Calculator",
+            "category":"React",
+            "url":"/",
+            "src":"preview_invest.png",
+            "alt":"project preview img",
+            "popup":{
+                "title":"Investment Calculator",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - React, Jsx, Css",
+                    "The project focuses on investment calculation, providing users with a streamlined platform to assess and analyze their investment portfolios.",
+                    "With a responsive design and real-time updates, users can make informed decisions and monitor their investments with ease.",
+                    "The responsive design ensures a consistent and engaging experience across various devices, including desktops, tablets, and smartphones."
+                ],
+                "src":"expense.png",
+                "alt":"project preview img"
+            }
+        },
+        {
+            "title":"Task Manager",
+            "category":"Nest",
+            "url":"/",
+            "src":"preview_amzone.png",
+            "alt":"project preview img",
+            "popup":{
+                "title":"Amzone - Amazon Clone",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - React, Jsx, Css",
+                    "The Amazon Clone application is built using a robust tech stack centered around React and Google Authentication.",
+                    "This project's tech stack combines the flexibility of React with the authentication reliability of Google, resulting in a smooth and trustworthy user experience. The application replicates key features of the Amazon platform, providing a familiar and user-friendly environment for online shopping."
+                ],
+                "src":"amazon.png",
+                "alt":"project preview img"
+            }
         },
         {
             "title":"AmZone",
             "category":"React",
             "url":"/",
             "src":"preview_amzone.png",
-            "alt":"project preview img"
+            "alt":"project preview img",
+            "popup":{
+                "title":"Amzone - Amazon Clone",
+                "subtitle":"Github Link",
+                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "desc":[
+                    "Tech Stack - React, Jsx, Css",
+                    "The Amazon Clone application is built using a robust tech stack centered around React and Google Authentication.",
+                    "This project's tech stack combines the flexibility of React with the authentication reliability of Google, resulting in a smooth and trustworthy user experience. The application replicates key features of the Amazon platform, providing a familiar and user-friendly environment for online shopping."
+                ],
+                "src":"amazon.png",
+                "alt":"project preview img"
+            }
         }
     ]
 }

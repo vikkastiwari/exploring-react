@@ -3,11 +3,14 @@ import { Link } from "react-router-dom";
 import "./Work.css";
 import JsonData from '../../assets/data/home-content.json';
 import Section from "../../components/Section/Section";
+import ProjectJsonData from '../../assets/data/project-content.json';
 
 import ProjectCard from "../../components/Cards/ProjectCard/ProjectCard";
 
 const Work = () => {
   const portfolioData = JsonData.portfolio;
+  const projectData = ProjectJsonData;
+
   const commonData = JsonData.common;
 
   return (
@@ -29,13 +32,14 @@ const Work = () => {
               <ul
                 className="gallery_zoom grid"
               >
-                {portfolioData.list.map((item,index)=>(
-                  <li
-                    key={index}
-                    className="grid-item"
-                  >
-                    <ProjectCard item={item} index={index} />
-                  </li>
+                {projectData.projectPageData.map((item,index)=>(
+                  (index < 6) ? 
+                    <li
+                      key={index}
+                      className="grid-item"
+                    >
+                      <ProjectCard item={item} index={index} />
+                    </li> : ''
                 ))}
               </ul>
             </div>

@@ -19,8 +19,9 @@ Footer          Done            Done
 
 <!-- DEC 11 - UPDATE -->
 #### ASSETS CURATION
-portfolio section modal content
 github repo creation and project github link integration
+portfolio section project content
+blog section project content
 testimonial section images of client and testimonials
 
 #### DESIGN UPDATION

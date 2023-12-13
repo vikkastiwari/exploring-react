@@ -4,12 +4,12 @@ import './ProjectCard.css';
 import thumb_1x1 from '../../../assets/img/thumb/1-1.jpg';
 import Modal from "../../Modal/Modal";
 import thumb_4x2 from '../../../assets/img/thumb/4-2.jpg';
-import JsonData from '../../../assets/data/home-content.json';
+import ProjectJsonData from '../../../assets/data/project-content.json';
 
 const ProjectCard = (props) => {
     const [isOpened, setIsOpened] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const portfolioData = JsonData.portfolio;
+    const portfolioData = ProjectJsonData;
   
     const openHandler = (index) => {
       setCurrentIndex(index);
@@ -41,22 +41,22 @@ const ProjectCard = (props) => {
             <Modal isOpen={isOpened} isClose={closeHandler}>
                 <div className="modal_popup_informations">
                 <div className="image">
-                <img src={thumb_4x2} alt={portfolioData.list[currentIndex].popup.alt} />
+                <img src={thumb_4x2} alt={portfolioData.projectPageData[currentIndex].popup.alt} />
                 <div
                     className="main"
-                    style={{backgroundImage:`url(${require(`../../../assets/img/work/${portfolioData.list[currentIndex].popup.src}`)})`}}
+                    style={{backgroundImage:`url(${require(`../../../assets/img/work/${portfolioData.projectPageData[currentIndex].popup.src}`)})`}}
                     data-img-url="img/modal/2.jpg"
                 ></div>
                 </div>
                 <div className="details">
-                <h3>{portfolioData.list[currentIndex].popup.title}</h3>
+                <h3>{portfolioData.projectPageData[currentIndex].popup.title}</h3>
                 <span>
-                    <a href={portfolioData.list[currentIndex].popup.url}>{portfolioData.list[currentIndex].popup.subtitle}</a>
+                    <a href={portfolioData.projectPageData[currentIndex].popup.url}>{portfolioData.projectPageData[currentIndex].popup.subtitle}</a>
                 </span>
                 <div></div>
                 </div>
                 <div className="text">
-                {portfolioData.list[currentIndex].popup.desc.map((item,index)=>(
+                {portfolioData.projectPageData[currentIndex].popup.desc.map((item,index)=>(
                     <p key={index}>
                     {item}
                     </p>
