@@ -30,7 +30,7 @@
             "popup":{
                 "title":"Elist Generator - Dynamic list generator",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari/EList-Generator",
                 "desc":[
                     "Tech Stack - React, Firebase, Data table, Jsx, Css",
                     "The Elist Generator is a dynamic list generator project created using React, a popular JavaScript library for building user interfaces. The project's tech stack includes React for the frontend, allowing for the creation of a responsive and interactive user interface.",
@@ -67,7 +67,7 @@
             "popup":{
                 "title":"Recipe App",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari/angular-projects/tree/main/RECIPE",
                 "desc":[
                     "Tech Stack - Angular 14, RXJS, Typescript, Html, Css",
                     "The Recipe Application is a modern and efficient project developed using Angular and Ngrx, showcasing a robust tech stack.",
@@ -87,7 +87,7 @@
             "popup":{
                 "title":"Omnifood - Food business landing page",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari/web-scrapper",
                 "desc":[
                     "Tech Stack - Express, Javascript, Socket.io",
                     "The Dynamic Data Aggregator is a powerful web application crafted with Electron.js and Puppeteer, designed to effortlessly scrape and compile real-time data from the web. ",
@@ -184,7 +184,7 @@
             "popup":{
                 "title":"Investment Calculator",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari/exploring-react/tree/main/investment%20calculator",
                 "desc":[
                     "Tech Stack - React, Jsx, Css",
                     "The project focuses on investment calculation, providing users with a streamlined platform to assess and analyze their investment portfolios.",
@@ -224,7 +224,7 @@
             "popup":{
                 "title":"Amzone - Amazon Clone",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari/amazon-clone",
                 "desc":[
                     "Tech Stack - React, Jsx, Css",
                     "The Amazon Clone application is built using a robust tech stack centered around React and Google Authentication.",
