@@ -3,19 +3,19 @@
     "desc":"Quality means doing it right when no one is looking.",
     "projectPageData": [
         {
-            "title":"Drawing App",
-            "category":"Electron Js",
+            "title":"Collabora Draw",
+            "category":"Angular, Socket Server",
             "url":"/",
             "src":"preview_amzone.png",
             "alt":"project preview img",
             "popup":{
-                "title":"Omnifood - Food business landing page",
+                "title":"CollaboraDraw - Real-time Collaborative Drawing App with Socket Server",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari/CollaboraDraw",
                 "desc":[
-                    "Tech Stack - HTML5, CSS3 ",
-                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
-                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
+                    "Tech Stack - Angular, Ts, Socket Server, HTML, CSS",
+                    "CollaboraDraw is an innovative drawing application that takes creativity to the next level by enabling real-time collaboration among multiple users. ",
+                    "Built using ElectronJS and powered by a robust Socket Server, this project brings artists, designers, and creative minds together in a shared digital canvas."
                 ],
                 "src":"omnifood.png",
                 "alt":"project preview img"
@@ -47,14 +47,13 @@
             "src":"preview_amzone.png",
             "alt":"project preview img",
             "popup":{
-                "title":"Omnifood - Food business landing page",
+                "title":"CollaboraDraw Socket Server",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari/socket-server",
                 "desc":[
-                    "Tech Stack - HTML5, CSS3 ",
-                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
-                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
-                ],
+                    "Tech Stack - Express, Javascript, Socket.io",
+                    "Experience the thrill of creating art with others simultaneously. CollaboraDraw allows multiple users to draw, sketch, and design together in real time, breaking down geographical barriers.",
+                    "The underlying Socket Server technology ensures instant communication between users, updating the canvas in real time. This dynamic connection allows for a smooth collaborative drawing experience, with changes reflected instantaneously for all participants."                ],
                 "src":"omnifood.png",
                 "alt":"project preview img"
             }
@@ -90,9 +89,9 @@
                 "subtitle":"Github Link",
                 "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
                 "desc":[
-                    "Tech Stack - HTML5, CSS3 ",
-                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
-                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
+                    "Tech Stack - Express, Javascript, Socket.io",
+                    "The Dynamic Data Aggregator is a powerful web application crafted with Electron.js and Puppeteer, designed to effortlessly scrape and compile real-time data from the web. ",
+                    "Using Puppeteer, a headless browser automation tool, the Dynamic Data Aggregator navigates through websites, mimicking user interactions to gather dynamic content such as live prices, stock updates, or real-time news."
                 ],
                 "src":"omnifood.png",
                 "alt":"project preview img"
@@ -124,13 +123,14 @@
             "src":"preview_amzone.png",
             "alt":"project preview img",
             "popup":{
-                "title":"Omnifood - Food business landing page",
+                "title":"MediHub V2 - Medical logistics hub",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari/medihub.v2",
                 "desc":[
-                    "Tech Stack - HTML5, CSS3 ",
-                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
-                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
+                    "Tech Stack - Express Js, HTML5, CSS3 ",
+                    "MedLogistics Hub is a cutting-edge web application developed with Express.js, designed to streamline and optimize the coordination of medical pickups and deliveries within local healthcare ecosystems.",
+                    "It contains medical user end portal, consumer user end portal, authentication module, sendgrid mailing service and more.",
+                    "This innovative platform serves as a central hub, connecting medical facilities and end-users to efficiently manage the transportation of crucial medical supplies, samples, and equipment."
                 ],
                 "src":"omnifood.png",
                 "alt":"project preview img"
@@ -143,13 +143,13 @@
             "src":"preview_amzone.png",
             "alt":"project preview img",
             "popup":{
-                "title":"Omnifood - Food business landing page",
+                "title":"Burger Builder - Build your delicious burger",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari/burger-builder",
                 "desc":[
-                    "Tech Stack - HTML5, CSS3 ",
-                    "Omni Food, a cutting-edge food business landing page, showcases a seamless blend of technology and design with its robust tech stack. Built using HTML5 and CSS3, the project delivers a visually stunning and responsive user interface. ",
-                    "The use of HTML5 ensures a dynamic and interactive user experience, while CSS3 enhances the aesthetics, ensuring a modern and engaging design. Omni Food's tech stack not only provides a visually appealing landing page for the food business but also ensures a smooth and enjoyable browsing experience for users."
+                    "Tech Stack - React, Firebase, Jsx, Css",
+                    "A dynamic web application that puts the power of burger creation in the hands of users! Say goodbye to fixed menus and hello to a customizable culinary experience. ",
+                    "Once the perfect burger is crafted, users can seamlessly proceed to the ordering process. The application provides a streamlined checkout experience, allowing users to review and place their order."
                 ],
                 "src":"omnifood.png",
                 "alt":"project preview img"
@@ -202,13 +202,14 @@
             "src":"preview_amzone.png",
             "alt":"project preview img",
             "popup":{
-                "title":"Amzone - Amazon Clone",
+                "title":"Task Manager App",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari/Task-Manager",
                 "desc":[
-                    "Tech Stack - React, Jsx, Css",
-                    "The Amazon Clone application is built using a robust tech stack centered around React and Google Authentication.",
-                    "This project's tech stack combines the flexibility of React with the authentication reliability of Google, resulting in a smooth and trustworthy user experience. The application replicates key features of the Amazon platform, providing a familiar and user-friendly environment for online shopping."
+                    "Tech Stack - Nest, Typescript",
+                    "Introducing our cutting-edge project, a robust Task Manager built on the powerful NestJS framework with a seamlessly integrated authentication module. This project offers an efficient and secure solution for managing tasks within your organization or personal projects.",
+                    "Effortlessly organize and track tasks with our intuitive task management system. Enjoy features such as task creation, editing, and completion, ensuring a streamlined workflow for your projects.",
+                    "Prioritize security with our seamlessly integrated authentication module. Safeguard your task management system by implementing robust user authentication mechanisms, including secure password storage and token-based authentication."
                 ],
                 "src":"amazon.png",
                 "alt":"project preview img"

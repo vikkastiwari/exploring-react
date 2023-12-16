@@ -90,3 +90,70 @@
     opacity: .1;
     transition: all .3s ease
 }
+
+/*
+*************************
+****** MODAL STYLE ******
+*************************
+*/
+.vtr_tm_modalbox .modal_popup_informations {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left
+}
+
+.vtr_tm_modalbox .modal_popup_informations .image {
+    position: relative;
+    margin-bottom: 37px;
+    padding-top: 40px;
+}
+
+.vtr_tm_modalbox .modal_popup_informations .image img {
+    position: relative;
+    opacity: 0;
+    min-width: 100%
+}
+
+.vtr_tm_modalbox .modal_popup_informations .image .main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 12px
+}
+
+.vtr_tm_modalbox .modal_popup_informations .details {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px
+}
+
+.vtr_tm_modalbox .modal_popup_informations .details span a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: Jost,sans-serif;
+    font-size: 16px
+}
+
+.vtr_tm_modalbox .modal_popup_informations .details h3 {
+    font-size: 22px;
+    margin-bottom: 3px
+}
+
+.vtr_tm_modalbox .modal_popup_informations .text {
+    width: 100%;
+    float: left
+}
+
+.vtr_tm_modalbox .modal_popup_informations .text p {
+    margin-bottom: 15px
+}
+
+.vtr_tm_modalbox .modal_popup_informations .text p:last-child {
+    margin-bottom: 0
+}
