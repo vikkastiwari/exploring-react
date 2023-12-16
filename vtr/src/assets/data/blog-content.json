@@ -55,6 +55,33 @@
             "imgSrc":"b6.webp",
             "alt":"technical blog img 6",
             "desc":"Understand how dependency injection works behind the scenes."
+        },
+        {
+            "tags":["angular","lifecycle","ngOnChanges"],
+            "title":"ngOnChanges() Exposed — Angular",
+            "rank":"7",
+            "url":"https://tiwarivikas.medium.com/ngonchanges-exposed-angular-4448d19b0e16",
+            "imgSrc":"b6.webp",
+            "alt":"technical blog img 7",
+            "desc":"We will discuss about ngOnchanges() life cycle hook with example."
+        },
+        {
+            "tags":["angular","dom","manipulation"],
+            "title":"A Guide to DOM Manipulation in Angular 14: Improved Performance",
+            "rank":"8",
+            "url":"https://tiwarivikas.medium.com/a-guide-to-dom-manipulation-in-angular-14-improved-performance-65f0d7478d8d",
+            "imgSrc":"b6.webp",
+            "alt":"technical blog img 8",
+            "desc":"Let's explore fundamental techniques for manipulating the DOM in Angular 14"
+        },
+        {
+            "tags":["linux","commands"],
+            "title":"Must Know — Linux Terminal Commands",
+            "rank":"9",
+            "url":"https://medium.com/@tiwarivikas/must-know-linux-terminal-commands-50849671eebd",
+            "imgSrc":"b6.webp",
+            "alt":"technical blog img 9",
+            "desc":"Explore must know linux terminal commands."
         }
     ]
 }

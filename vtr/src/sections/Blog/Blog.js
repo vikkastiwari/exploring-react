@@ -2,11 +2,13 @@ import { Link } from 'react-router-dom';
 
 import './Blog.css';
 import JsonData from '../../assets/data/home-content.json';
+import BlogJsonData from '../../assets/data/blog-content.json';
 import Section from "../../components/Section/Section";
 import BlogCard from '../../components/Cards/BlogCard/BlogCard';
 
 const Blog = () => {
-  const blogData = JsonData.blog;
+  const blogSectionData = JsonData.blog;
+  const blogsData = BlogJsonData;
   const commonData = JsonData.common;
 
   return (
@@ -14,13 +16,14 @@ const Blog = () => {
       <div className="vtr_tm_blogs vtr_section_padding">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">
-            <span>{blogData.title}</span>
-            <h3>{blogData.heading}</h3>
-            <p>{blogData.desc}</p>
+            <span>{blogSectionData.title}</span>
+            <h3>{blogSectionData.heading}</h3>
+            <p>{blogSectionData.desc}</p>
           </div>
           <div className="blogs_list vtr_slider">
             <ul className='hr_scroll'>
-              {blogData.lists.map((item,index)=>(
+              {blogsData.blogPageData.map((item,index)=>(
+                index < 6 ?
                 <li
                   key={index}
                   className="fadeInUp"
@@ -29,7 +32,7 @@ const Blog = () => {
                   <div className='blog_card_wrp'>
                     <BlogCard item={item} />
                   </div>
-                </li>
+                </li> : ''
               ))}
             </ul>
           </div>
