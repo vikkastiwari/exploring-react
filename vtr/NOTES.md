@@ -17,16 +17,14 @@ Subscribe       Done            Done
 Contact Me      Done            Done
 Footer          Done            Done
 
-<!-- DEC 11 - UPDATE -->
+<!-- DEC 17 - UPDATE -->
 #### ASSETS CURATION
 portfolio section project image
-blog section image
-testimonial section images of client and testimonials
+testimonial section images of client and testimonials - PH2
 
 #### DESIGN UPDATION
 
 #### FUNCTIONALITIES
-contact me form integration
 blur image lazy loading implementation - PH2
 
 #### SECTION ADDITION
