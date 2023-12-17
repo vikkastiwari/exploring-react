@@ -34,7 +34,7 @@ faq section - PH2
 youtube videos section addition on home page - PH2
 
 #### PAGE CREATION
-Add pages of About and Services as well and structure it in a way that on home page it shows sections by sliding into view and on other pages it takes to its specific page - PH2
+Add pages of About, contact and Services as well and structure it in a way that on home page it shows sections by sliding into view and on other pages it takes to its specific page - PH2
 Affilate product listing page  - PH2
 Youtube video listing page - PH2
 Activities video listing page - PH2

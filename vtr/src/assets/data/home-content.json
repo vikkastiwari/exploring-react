@@ -11,12 +11,6 @@
                 "route":"/"
             },
             {
-                "name":"About",
-                "isLink":false,
-                "allActive":false,
-                "route":"#about"
-            },
-            {
                 "name":"Service",
                 "isLink":false,
                 "allActive":false,
@@ -29,16 +23,22 @@
                 "route":"/projects.html"
             },
             {
-                "name":"YouTube",
-                "isLink":true,
-                "allActive":true,
-                "route":"/videos.html"
-            },
-            {
                 "name":"Blog",
                 "isLink":true,
                 "allActive":true,
                 "route":"/blogs.html"
+            },
+            {
+                "name":"About",
+                "isLink":false,
+                "allActive":false,
+                "route":"#about"
+            },
+            {
+                "name":"Contact",
+                "isLink":true,
+                "allActive":false,
+                "route":"#contact"
             }
         ],
         "download":{

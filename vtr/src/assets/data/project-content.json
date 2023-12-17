@@ -6,7 +6,7 @@
             "title":"Collabora Draw",
             "category":"Angular, Socket Server",
             "url":"/",
-            "src":"preview_amzone.png",
+            "src":"preview_draw.png",
             "alt":"project preview img",
             "popup":{
                 "title":"CollaboraDraw - Real-time Collaborative Drawing App with Socket Server",
@@ -44,7 +44,7 @@
             "title":"Socket Server",
             "category":"Express, Socket.io",
             "url":"/",
-            "src":"preview_amzone.png",
+            "src":"preview_scoket.png",
             "alt":"project preview img",
             "popup":{
                 "title":"CollaboraDraw Socket Server",
@@ -82,10 +82,10 @@
             "title":"Web Scrapper",
             "category":"Electron Js, Puppeteer",
             "url":"/",
-            "src":"preview_amzone.png",
+            "src":"preview_webs.png",
             "alt":"project preview img",
             "popup":{
-                "title":"Omnifood - Food business landing page",
+                "title":"Web Scrapper",
                 "subtitle":"Github Link",
                 "url":"https://github.com/vikkastiwari/web-scrapper",
                 "desc":[
@@ -120,7 +120,7 @@
             "title":"MediHub V2",
             "category":"Express Js",
             "url":"/",
-            "src":"preview_amzone.png",
+            "src":"preview_medihub.png",
             "alt":"project preview img",
             "popup":{
                 "title":"MediHub V2 - Medical logistics hub",
@@ -140,7 +140,7 @@
             "title":"Burger Builder",
             "category":"React",
             "url":"/",
-            "src":"preview_amzone.png",
+            "src":"preview_burger.png",
             "alt":"project preview img",
             "popup":{
                 "title":"Burger Builder - Build your delicious burger",
@@ -164,7 +164,7 @@
             "popup":{
                 "title":"Shopit - Shop now",
                 "subtitle":"Github Link",
-                "url":"https://github.com/vikkastiwari/HTML-CSS/blob/master/omnifood/index.html",
+                "url":"https://github.com/vikkastiwari",
                 "desc":[
                     "Tech Stack - Angular 14, RXJS, Typescript, Html, Css",
                     "The ecommerce application is built on a robust tech stack centered around Angular, a powerful front-end framework.",
@@ -199,7 +199,7 @@
             "title":"Task Manager",
             "category":"Nest",
             "url":"/",
-            "src":"preview_amzone.png",
+            "src":"preview_task_manager.png",
             "alt":"project preview img",
             "popup":{
                 "title":"Task Manager App",
