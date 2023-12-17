@@ -37,8 +37,8 @@
             {
                 "name":"Contact",
                 "isLink":true,
-                "allActive":false,
-                "route":"#contact"
+                "allActive":true,
+                "route":"/"
             }
         ],
         "download":{
