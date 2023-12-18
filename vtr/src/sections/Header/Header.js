@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from 'react-router-dom';
+import { logEvent } from "firebase/analytics";
+import ReactGA from 'react-ga';
 
 import "../../css/general.css";
 import "./Header.css";
@@ -7,7 +9,7 @@ import logoLight from "../../assets/img/logo/logo-light.png";
 import logoDark from "../../assets/img/logo/logo-dark.png";
 import JsonData from "../../assets/data/home-content.json";
 
-const Header = () => {
+const Header = ({analytics}) => {
   const headerData = JsonData.header;
   const [isSticky, setIsSticky] = useState(false);
   const [isHamDrawerOpen, setIsHamDrawerOpen] = useState(false);
@@ -15,6 +17,9 @@ const Header = () => {
   const location = useLocation();
 
   useEffect(() => {
+    // Analytics pageview event
+    ReactGA.pageview(location,location?.pathname);
+    
     window.scrollTo(0, 0);
     setCurrentRoute(location?.pathname);
     if(currentRoute !== '/'){
@@ -26,8 +31,9 @@ const Header = () => {
   }, [currentRoute, location]);
 
 
-  const hbDrawerHandler = () => {
+  const hbDrawerHandler = (index, itemName) => {
     setIsHamDrawerOpen(!isHamDrawerOpen);
+    logEvent(analytics,`nav_index_clicked_${index}`,{itemName});
   }
 
   /**
@@ -101,7 +107,7 @@ const Header = () => {
                 (item.allActive && currentRoute !== '/') || (currentRoute === '/') ? 
                   <li
                     key={index} 
-                    onClick={() => hbDrawerHandler()} 
+                    onClick={() => hbDrawerHandler(index,item.name)} 
                   >
                     {
                       item.isLink ? 
@@ -112,7 +118,7 @@ const Header = () => {
                   ''
                 )
               )}
-              <li className="download_cv">
+              <li className="download_cv" onClick={() => {logEvent(analytics,'yt_subscribed')}}>
                 <a href={headerData.download.url} target='_blank' rel="noreferrer">
                   {headerData.download.name}
                 </a>

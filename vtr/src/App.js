@@ -1,9 +1,11 @@
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+import { Analytics } from './Analytics';
+
 import './App.css';
-import Footer from '../src/sections/Header/Header';
-import Header from '../src/sections/Footer/Footer';
+import Header from '../src/sections/Header/Header';
+import Footer from '../src/sections/Footer/Footer';
 import HomePage from './pages/Home/HomePage';
 import BlogsPage from './pages/Blogs/BlogsPage';
 import ProjectsPage from './pages/Projects/ProjectsPage';
@@ -17,6 +19,7 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 
 function App() {
 
+  const analytics = Analytics;
   useEffect(() => {
     const fetchData = async () => {
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -40,7 +43,7 @@ function App() {
       <Loader />
       <div className='vtr-page-wrapper'>
         <div className='vtr_tm_all_wrap'>
-          <Header />
+          <Header analytics={analytics} />
           <Routes>
             <Route exact path='/' element={<HomePage />} />
             <Route path='/blogs.html' element={<BlogsPage />} />
