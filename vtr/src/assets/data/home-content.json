@@ -235,12 +235,12 @@
         "inputList":[
             {
                 "type":"text",
-                "id":"name",
+                "id":"fullname",
                 "placeholder":"Your Name"
             },
             {
-                "type":"text",
-                "id":"email",
+                "type":"email",
+                "id":"emailId",
                 "placeholder":"Your Email"
             },
             {

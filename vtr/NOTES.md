@@ -23,6 +23,7 @@ portfolio section project image
 testimonial section images of client and testimonials - PH2
 
 #### DESIGN UPDATION
+Add return to homepage link in 404 page - PH2
 
 #### FUNCTIONALITIES
 blur image lazy loading implementation - PH2
