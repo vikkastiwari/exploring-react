@@ -39,8 +39,8 @@ Youtube video listing page - PH2
 Activities video listing page - PH2
 
 ### HOST
-Integrate form with firebase
-Integrate Analytics
+Integrate form with firebase - done
+Integrate Analytics -done
 SEO optimization
 HOST with free domain on web.app
 Observe and reiterate
@@ -51,3 +51,10 @@ Uneven card sizes of work section in home page - PH2
 Remove background white image from hero section's hero image - PH2
 on other pages route effect is triggered thrice
 move static content to const file
+
+### MISC
+Google-Ads Integration
+Api Key restriction is set
+Integrate captcha in forms
+set scripts for staging and prod build with deployment
+Set Actions with Git
