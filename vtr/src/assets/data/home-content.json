@@ -6,39 +6,23 @@
         "navElements":[
             {
                 "name":"Home",
-                "isLink":true,
-                "allActive":true,
-                "route":"/"
+                "route":""
             },
             {
                 "name":"Service",
-                "isLink":false,
-                "allActive":false,
-                "route":"#service"
+                "route":"services"
             },
             {
                 "name":"Portfolio",
-                "isLink":true,
-                "allActive":true,
-                "route":"/projects"
+                "route":"projects"
             },
             {
                 "name":"Blog",
-                "isLink":true,
-                "allActive":true,
-                "route":"/blogs"
-            },
-            {
-                "name":"About",
-                "isLink":false,
-                "allActive":false,
-                "route":"#about"
+                "route":"blogs"
             },
             {
                 "name":"Contact",
-                "isLink":true,
-                "allActive":true,
-                "route":"/"
+                "route":"contact"
             }
         ],
         "download":{

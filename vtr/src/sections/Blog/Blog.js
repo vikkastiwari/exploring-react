@@ -12,7 +12,7 @@ const Blog = () => {
   const commonData = JsonData.common;
 
   return (
-    <Section id="blog">
+    <Section id="blogs">
       <div className="vtr_tm_blogs vtr_section_padding">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">

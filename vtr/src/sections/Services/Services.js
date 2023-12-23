@@ -8,7 +8,7 @@ const Services = () => {
   const servicesData = JsonData.services;
 
   return (
-    <Section id="service">
+    <Section id="services">
       <div className="vtr_tm_services vtr_section_padding">
         <div className="container">
           <div className="vtr_tm_main_title" data-text-align="center">

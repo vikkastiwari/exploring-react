@@ -23,6 +23,7 @@ portfolio section project image
 testimonial section images of client and testimonials - PH2
 
 #### DESIGN UPDATION
+Header - Videos, Affilate,
 Add return to homepage link in 404 page - PH2
 
 #### FUNCTIONALITIES
@@ -42,7 +43,6 @@ Activities video listing page - PH2
 Integrate form with firebase - done
 Integrate Analytics -done
 SEO optimization
-HOST with free domain on web.app
 Observe and reiterate
 Buy domain and make it public
 
@@ -58,3 +58,4 @@ Api Key restriction is set
 Integrate captcha in forms
 set scripts for staging and prod build with deployment
 Set Actions with Git
+Add auth for form

@@ -16,6 +16,8 @@ import AffilatesPage from './pages/Affilates/AffilatesPage';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Loader from './components/Loader/Loader';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import ServicesPage from './pages/Services/ServicesPage';
+import ContactPage from './pages/Contact/ContactPage';
 
 function App() {
 
@@ -54,6 +56,8 @@ function App() {
             <Route exact path='/' element={<HomePage />} />
             <Route exact path='/blogs' element={<BlogsPage />} />
             <Route path='/projects' element={<ProjectsPage />} />
+            <Route path='/services' element={<ServicesPage />} />
+            <Route path='/contact' element={<ContactPage />} />
             <Route path='/videos' element={<VideosPage />} />
             <Route path='/terms-of-service' element={<TermsPage />} />
             <Route path='/privacy-policy' element={<PrivacyPolicyPage />} />

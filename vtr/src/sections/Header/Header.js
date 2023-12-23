@@ -104,19 +104,18 @@ const Header = ({analytics}) => {
           </div>
           <div className={`menu ${isHamDrawerOpen ? 'open' : ''}`}>
             <ul className="anchor_nav">
-              {headerData.navElements.map((item, index) => (
-                (item.allActive && currentRoute !== '/') || (currentRoute === '/') ? 
+              {
+                headerData.navElements.map((item, index) => (
                   <li
                     key={index} 
                     onClick={() => hbDrawerHandler(index,item.name)} 
                   >
                     {
-                      item.isLink ? 
-                      <Link to={item.route}>{item.name}</Link> :
-                      <a href={`${item.route}`}>{item.name}</a>
+                      currentRoute !== '/' ? 
+                      <Link to={`/${item.route}`}>{item.name}</Link> :
+                      <a href={`#${item.route}`}>{item.name}</a>
                     }
-                  </li> :
-                  ''
+                  </li> 
                 )
               )}
               <li className="download_cv" onClick={() => {logEvent(analytics,'yt_subscribed')}}>
