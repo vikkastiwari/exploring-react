@@ -42,26 +42,18 @@ const Home = () => {
                   </div>
                   <div className="social">
                       <ul>
-                        <li>
-                          <a href="/">
-                            <FaYoutube className="vtr-fs-16 vtr-color-white" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <FaLinkedinIn className="vtr-fs-16 vtr-color-white" />
-                          </a>
-                        </li>
-                        <li>  
-                          <a href="/">
-                            <FaBloggerB className="vtr-fs-16 vtr-color-white" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <PiGithubLogoFill className="vtr-fs-16 vtr-color-white" />
-                          </a>
-                        </li>
+                        {
+                          homeData?.social?.map((item, index) => (
+                            <li key={index}>
+                              <a href={item?.url}>
+                                {index === 0 ? <FaYoutube className="vtr-fs-16 vtr-color-white" /> : ''}
+                                {index === 1 ? <FaLinkedinIn className="vtr-fs-16 vtr-color-white" /> : ''}
+                                {index === 2 ? <FaBloggerB className="vtr-fs-16 vtr-color-white" /> : ''}
+                                {index === 3 ? <PiGithubLogoFill className="vtr-fs-16 vtr-color-white" /> : ''}
+                              </a>
+                            </li>
+                          )
+                        )}
                       </ul>
                     </div>
                 </div>

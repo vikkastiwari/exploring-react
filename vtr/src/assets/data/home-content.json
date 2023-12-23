@@ -36,7 +36,25 @@
         "name":["Vikas","Tiwari"],
         "job":"Web Developer from India",
         "desc":"I'm a enthusiast for all things tech. I can bring your ideas to life. Allow me to help you communicate your technical concepts effectively.",
-        "button":"Connect"
+        "button":"Connect",
+        "social":[
+            {
+                "icon":"FaYoutube",
+                "url":"https://www.youtube.com/@programmersmode"
+            },
+            {
+                "icon":"FaLinkedinIn",
+                "url":"https://www.linkedin.com/in/vikas-tiwari-1b051818b/"
+            },
+            {
+                "icon":"FaBloggerB",
+                "url":"https://tiwarivikas.medium.com/"
+            },
+            {
+                "icon":"PiGithubLogoFill",
+                "url":"https://github.com/vikkastiwari"
+            }
+        ]
     },
     "features":{
         "title":"",
