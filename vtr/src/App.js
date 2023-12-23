@@ -20,6 +20,12 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 function App() {
 
   const analytics = Analytics;
+  if (process.env.REACT_ENV !== 'production') {
+    // analytics.disable();
+    console.log("local running");
+  }else{
+    console.log("prod running");
+  }
   useEffect(() => {
     const fetchData = async () => {
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -46,12 +52,12 @@ function App() {
           <Header analytics={analytics} />
           <Routes>
             <Route exact path='/' element={<HomePage />} />
-            <Route path='/blogs.html' element={<BlogsPage />} />
-            <Route path='/projects.html' element={<ProjectsPage />} />
-            <Route path='/videos.html' element={<VideosPage />} />
-            <Route path='/terms-of-service.html' element={<TermsPage />} />
-            <Route path='/privacy-policy.html' element={<PrivacyPolicyPage />} />
-            <Route path='/favourite-products.html' element={<AffilatesPage />} />
+            <Route path='/blogs' element={<BlogsPage />} />
+            <Route path='/projects' element={<ProjectsPage />} />
+            <Route path='/videos' element={<VideosPage />} />
+            <Route path='/terms-of-service' element={<TermsPage />} />
+            <Route path='/privacy-policy' element={<PrivacyPolicyPage />} />
+            <Route path='/favourite-products' element={<AffilatesPage />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
           <Footer />

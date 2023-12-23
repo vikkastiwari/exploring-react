@@ -20,13 +20,13 @@
                 "name":"Portfolio",
                 "isLink":true,
                 "allActive":true,
-                "route":"/projects.html"
+                "route":"/projects"
             },
             {
                 "name":"Blog",
                 "isLink":true,
                 "allActive":true,
-                "route":"/blogs.html"
+                "route":"/blogs"
             },
             {
                 "name":"About",
@@ -265,11 +265,11 @@
         "list":[
             {
                 "name":"Terms & Condition",
-                "route":"/terms-of-service.html"
+                "route":"/terms-of-service"
             },
             {
                 "name":"Privacy Policy",
-                "route":"/privacy-policy.html"
+                "route":"/privacy-policy"
             }
         ]
     }

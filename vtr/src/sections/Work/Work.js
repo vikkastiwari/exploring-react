@@ -44,7 +44,7 @@ const Work = () => {
               </ul>
             </div>
             <div className="vtr_tm_button vtr_align_center">
-              <Link to="/projects.html" className="anchor">
+              <Link to="/projects" className="anchor">
                 {commonData.viewMoreBtnText}
               </Link>
             </div>
