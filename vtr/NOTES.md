@@ -34,10 +34,9 @@ faq section - PH2
 youtube videos section addition on home page - PH2
 
 #### PAGE CREATION
-Add pages of About, contact and Services as well and structure it in a way that on home page it shows sections by sliding into view and on other pages it takes to its specific page - PH2
 Affilate product listing page  - PH2
 Youtube video listing page - PH2
-Activities video listing page - PH2
+Activities & video listing page - PH2
 
 ### HOST
 Integrate form with firebase - done
@@ -50,12 +49,24 @@ Buy domain and make it public
 Uneven card sizes of work section in home page - PH2
 Remove background white image from hero section's hero image - PH2
 on other pages route effect is triggered thrice
-move static content to const file
+animation is jerky on projects page
 
 ### MISC
 Google-Ads Integration
+Validate and add more ga events accordingly
 Api Key restriction is set
 Integrate captcha in forms
 set scripts for staging and prod build with deployment
 Set Actions with Git
 Add auth for form
+optimise images and utilise firebase cdn for images
+
+### P0 TASKS
+- update project sections images
+- testimonial sections content update - remove image or add avatar
+- fix service page design issue
+- seo optimization
+- in contact section update left section with social links and icons
+
+### P1 TASKS
+- design new logo for website

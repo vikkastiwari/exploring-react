@@ -1,6 +1,7 @@
 {
     "common":{
-        "viewMoreBtnText":"View More"
+        "viewMoreBtnText":"View More",
+        "backToHomeText":"Back to Home"
     },
     "header":{
         "navElements":[

@@ -37,10 +37,10 @@ const Blog = () => {
             </ul>
           </div>
           <div className="vtr_tm_button vtr_align_center">
-              <Link to="/blogs" className="anchor">
-                {commonData.viewMoreBtnText}
-              </Link>
-            </div>
+            <Link to="/blogs" className="anchor">
+              {commonData.viewMoreBtnText}
+            </Link>
+          </div>
         </div>
       </div>
     </Section>
