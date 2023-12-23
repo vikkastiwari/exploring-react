@@ -52,7 +52,7 @@ function App() {
           <Header analytics={analytics} />
           <Routes>
             <Route exact path='/' element={<HomePage />} />
-            <Route path='/blogs' element={<BlogsPage />} />
+            <Route exact path='/blogs' element={<BlogsPage />} />
             <Route path='/projects' element={<ProjectsPage />} />
             <Route path='/videos' element={<VideosPage />} />
             <Route path='/terms-of-service' element={<TermsPage />} />

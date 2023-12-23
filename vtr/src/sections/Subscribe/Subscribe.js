@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ReactGA from 'react-ga';
 
 import "./Subscribe.css";
 import JsonData from "../../assets/data/home-content.json";
@@ -15,6 +16,7 @@ const Subscribe = () => {
   });
   const [userData, setUserData] = useState({
     email: "",
+    timeStamp: "",
   });
 
   let name, value;
@@ -27,14 +29,22 @@ const Subscribe = () => {
 
   const submitForm = async (event) => {
     event.preventDefault();
-    const { email } = userData;
+    const { email, timeStamp } = {...userData, timeStamp:new Date(Date.now()).toDateString()};
+
     if (email) {
-      const res = await SubscribeNewsletter({ email });
+      const res = await SubscribeNewsletter({ email, timeStamp });
 
       if (res) {
         setUserData({
-          email:''
+          email:'',
+          timeStamp:''
         });
+        ReactGA.event({
+          category:"form",
+          action:"newsletter subscribed",
+          label:"subscriber"
+        });
+
         toastHandler("Data sucessfully submitted.", "success");
       } else {
         toastHandler("Something went wrong!", "error");

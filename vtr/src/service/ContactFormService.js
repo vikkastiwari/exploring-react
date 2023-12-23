@@ -13,7 +13,7 @@ export const SubmitForm = async ({fullName, emailId, phone, subject, message}) =
     );
 };
 
-export const SubscribeNewsletter = async ({ email }) => {
+export const SubscribeNewsletter = async ({ email, timeStamp }) => {
   return await fetch(
     process.env.REACT_APP_DB_BASE_URL+ApiPath.USER_SUBSCRIBE_DATA,
     {
@@ -21,7 +21,7 @@ export const SubscribeNewsletter = async ({ email }) => {
       headers: {
         "Content-Type":"application/json",
       },
-      body: JSON.stringify({ email })
+      body: JSON.stringify({ email, timeStamp })
     }
   );
 };

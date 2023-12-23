@@ -14,7 +14,6 @@ const ProjectCard = (props) => {
   const openHandler = (index) => {
     setCurrentIndex(index);
     setIsOpened(true);
-    console.log(index, "index");
   };
 
   const closeHandler = () => {

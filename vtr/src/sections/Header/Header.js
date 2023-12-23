@@ -33,7 +33,8 @@ const Header = ({analytics}) => {
 
   const hbDrawerHandler = (index, itemName) => {
     setIsHamDrawerOpen(!isHamDrawerOpen);
-    logEvent(analytics,`nav_index_clicked_${index}`,{itemName});
+    if(index || index===0)
+      logEvent(analytics,'nav_index_clicked',{index,name:itemName});
   }
 
   /**

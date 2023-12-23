@@ -9,7 +9,6 @@ const ScrollToTop = () => {
     const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
     const progress = (scrollTop / totalHeight) * 100;
     setScrollProgress(progress);
-    console.log(progress);
   };
 
   const scrollToTop = () => {
