@@ -4,7 +4,9 @@ import Services from '../../sections/Services/Services';
 const ServicesPage = () => {
 
   return (
-    <Services></Services>
+    <div className='vtr_all_services'>
+      <Services></Services>
+    </div>
   );
 }
 

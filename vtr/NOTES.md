@@ -53,6 +53,7 @@ animation is jerky on projects page
 
 ### MISC
 Google-Ads Integration
+Add buy me coffee or gift link
 Validate and add more ga events accordingly
 Api Key restriction is set
 Integrate captcha in forms
@@ -64,9 +65,8 @@ optimise images and utilise firebase cdn for images
 ### P0 TASKS
 - update project sections images
 - testimonial sections content update - remove image or add avatar
-- fix service page design issue
+- in contact section update left section with social community links and icons
 - seo optimization
-- in contact section update left section with social links and icons
 
 ### P1 TASKS
 - design new logo for website
