@@ -178,31 +178,31 @@
     "testimonial":{
         "thumb_37x45": "37-45.jpg",
         "title":"Testimonial",
-        "heading":"What My Clients Say",
+        "heading":"What My Clients/Colleagues Say",
         "desc":"Discover the impact of my work through the lens of client success stories",
         "clientImage":[
+            {"src":"c3.jpg","alt":"client profile data 3"},
             {"src":"c1.jpg","alt":"client profile data 1"},
             {"src":"c2.jpg","alt":"client profile data 2"},
-            {"src":"c3.jpg","alt":"client profile data 3"},
             {"src":"c4.jpg","alt":"client profile data 4"}
         ],
         "clientName":[
-            {"name":"James Cameron","org":"pepperfry"},
-            {"name":"Alan Walker","org":"unstop"},
-            {"name":"David Parker","org":"factitious"},
-            {"name":"Anna Barbera","org":"u2c"}
+            {"name":"Aashish Shirvastava","org":"Sr. Software Engineer"},
+            {"name":"Sadhna Sharnagat","org":"Sr. Software Engineer"},
+            {"name":"Rajat Bhandari","org":"Data Scientist"},
+            {"name":"Riveshu Trivedi","org":"Product Manager"}
         ],
         "clientJob":[
-            {"job":"Aroa Founder"},
-            {"job":"Singer"},
-            {"job":"Senior Designer"},
-            {"job":"Vivaco Group"}
+            {"job":"Sr. Software Engineer"},
+            {"job":"Sr. Software Engineer"},
+            {"job":"Data Scientist"},
+            {"job":"Product Manager"}
         ],
         "clientMessage":[
-            {"message":"Loved the template design and customer support from Marketify team! I am a noob in programming with very little knowledge about coding but the Marketify team helped me to launch my resume website from editing to uploading the template successfully."},
-            {"message":"Minimal design, incredibly well documented, and an absolute pleasure to use! The customer support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful! I can recommend this to anyone."},
-            {"message":"Wonderful support. Immediate response and they return with an easy fix and clear information. Applied the fix and it worked like a charm. You can definately trust this producer. Overall great quality service and code. Thanks a lot Marketify team!"},
-            {"message":"Super easy to update in a code editor. All the code is labeled with comments and laid out nicely. The documentation is great and the support via live chat was perfect. They helped me out super quick when I had a minor code customization."}
+            {"message":"I had a pleasure working with Vikas, he is quick learner and helped in project stuff and features, and he has good technical knowledge and technical skills set. I am sure he will not disappoint at any time in any project."},
+            {"message":"Angular maestro with a flair for RxJS, Vikas is your go-to software virtuoso. A true team collaborator, he weaves code seamlessly, turning projects into masterpieces. From enhancing UI/UX to optimizing performance, Vikas blends skill and camaraderie, transforming challenges into triumphs. With a keen eye for detail and a knack for innovation, he brings a fresh perspective to every task. Elevate your development game with Vikas, where Angular expertise and collaborative spirit converge for exceptional results."},
+            {"message":"Highly recommend Vikas as a skilled Software Developer. I have seen his dedication to perfection and proficiency across a vivid set of coding languages, that make him an invaluable asset to any company he's working at."},
+            {"message":"I had the privilege of working closely with Vikas, a standout developer at Pepperfry. He consistently delivers high-quality solutions, showcasing deep technical expertise. Vikas also has a product mindset and goes beyond his role by contributing to the problem-solving process of the platform. His contributions were instrumental in the success of our product, highlighting his ability to tackle complex challenges."}
         ]
     },
     "blog":{

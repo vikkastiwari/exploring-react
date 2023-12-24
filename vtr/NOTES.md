@@ -17,7 +17,7 @@ Subscribe       Done            Done
 Contact Me      Done            Done
 Footer          Done            Done
 
-<!-- DEC 17 - UPDATE -->
+<!-- DEC 24 - UPDATE -->
 #### ASSETS CURATION
 portfolio section project image
 testimonial section images of client and testimonials - PH2
@@ -63,8 +63,7 @@ Add auth for form
 optimise images and utilise firebase cdn for images
 
 ### P0 TASKS
-- update project sections images
-- testimonial sections content update - remove image or add avatar
+- testimonial sections content update - add avatar
 - seo optimization
 
 ### P1 TASKS
