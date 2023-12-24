@@ -19,11 +19,9 @@ Footer          Done            Done
 
 <!-- DEC 24 - UPDATE -->
 #### ASSETS CURATION
-portfolio section project image
-testimonial section images of client and testimonials - PH2
 
 #### DESIGN UPDATION
-Header - Videos, Affilate,
+Header - Videos, Affilate, - PH2
 Add return to homepage link in 404 page - PH2
 
 #### FUNCTIONALITIES
@@ -36,11 +34,11 @@ youtube videos section addition on home page - PH2
 #### PAGE CREATION
 Affilate product listing page  - PH2
 Youtube video listing page - PH2
-Activities & video listing page - PH2
+Video listing page - PH2
 
 ### HOST
-Integrate form with firebase - done
 Integrate Analytics -done
+SEO verification key added
 SEO optimization
 Observe and reiterate
 Buy domain and make it public
@@ -61,9 +59,10 @@ set scripts for staging and prod build with deployment
 Set Actions with Git
 Add auth for form
 optimise images and utilise firebase cdn for images
+pwa implementation
 
 ### P0 TASKS
-- testimonial sections content update - add avatar
+- move static tnc and policy content to json
 - seo optimization
 
 ### P1 TASKS
