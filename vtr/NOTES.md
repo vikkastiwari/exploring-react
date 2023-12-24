@@ -65,8 +65,8 @@ optimise images and utilise firebase cdn for images
 ### P0 TASKS
 - update project sections images
 - testimonial sections content update - remove image or add avatar
-- in contact section update left section with social community links and icons
 - seo optimization
 
 ### P1 TASKS
 - design new logo for website
+- in contact section update left section with social community links and icons

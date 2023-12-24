@@ -17,7 +17,7 @@
                     "CollaboraDraw is an innovative drawing application that takes creativity to the next level by enabling real-time collaboration among multiple users. ",
                     "Built using ElectronJS and powered by a robust Socket Server, this project brings artists, designers, and creative minds together in a shared digital canvas."
                 ],
-                "src":"omnifood.png",
+                "src":"draw.png",
                 "alt":"project preview img"
             }
         },
@@ -54,7 +54,7 @@
                     "Tech Stack - Express, Javascript, Socket.io",
                     "Experience the thrill of creating art with others simultaneously. CollaboraDraw allows multiple users to draw, sketch, and design together in real time, breaking down geographical barriers.",
                     "The underlying Socket Server technology ensures instant communication between users, updating the canvas in real time. This dynamic connection allows for a smooth collaborative drawing experience, with changes reflected instantaneously for all participants."                ],
-                "src":"omnifood.png",
+                "src":"socket_server.png",
                 "alt":"project preview img"
             }
         },
@@ -93,7 +93,7 @@
                     "The Dynamic Data Aggregator is a powerful web application crafted with Electron.js and Puppeteer, designed to effortlessly scrape and compile real-time data from the web. ",
                     "Using Puppeteer, a headless browser automation tool, the Dynamic Data Aggregator navigates through websites, mimicking user interactions to gather dynamic content such as live prices, stock updates, or real-time news."
                 ],
-                "src":"omnifood.png",
+                "src":"webscrapper.png",
                 "alt":"project preview img"
             }
         },
@@ -132,7 +132,7 @@
                     "It contains medical user end portal, consumer user end portal, authentication module, sendgrid mailing service and more.",
                     "This innovative platform serves as a central hub, connecting medical facilities and end-users to efficiently manage the transportation of crucial medical supplies, samples, and equipment."
                 ],
-                "src":"omnifood.png",
+                "src":"preview_medihub.png",
                 "alt":"project preview img"
             }
         },
@@ -151,7 +151,7 @@
                     "A dynamic web application that puts the power of burger creation in the hands of users! Say goodbye to fixed menus and hello to a customizable culinary experience. ",
                     "Once the perfect burger is crafted, users can seamlessly proceed to the ordering process. The application provides a streamlined checkout experience, allowing users to review and place their order."
                 ],
-                "src":"omnifood.png",
+                "src":"burger_builder.png",
                 "alt":"project preview img"
             }
         },
@@ -171,7 +171,7 @@
                     "Angular provides a seamless and dynamic user interface, ensuring a smooth and responsive shopping experience. The application leverages TypeScript for efficient development and enhanced code quality.",
                     "The responsive design ensures a consistent and engaging experience across various devices, including desktops, tablets, and smartphones."
                 ],
-                "src":"w2.jpg",
+                "src":"preview_shop.png",
                 "alt":"project preview img"
             }
         },
@@ -197,7 +197,7 @@
         },
         {
             "title":"Task Manager",
-            "category":"Nest",
+            "category":"React, Nest",
             "url":"/",
             "src":"preview_task_manager.png",
             "alt":"project preview img",
@@ -206,12 +206,12 @@
                 "subtitle":"Github Link",
                 "url":"https://github.com/vikkastiwari/Task-Manager",
                 "desc":[
-                    "Tech Stack - Nest, Typescript",
+                    "Tech Stack - React, Nest, Typescript",
                     "Introducing our cutting-edge project, a robust Task Manager built on the powerful NestJS framework with a seamlessly integrated authentication module. This project offers an efficient and secure solution for managing tasks within your organization or personal projects.",
                     "Effortlessly organize and track tasks with our intuitive task management system. Enjoy features such as task creation, editing, and completion, ensuring a streamlined workflow for your projects.",
                     "Prioritize security with our seamlessly integrated authentication module. Safeguard your task management system by implementing robust user authentication mechanisms, including secure password storage and token-based authentication."
                 ],
-                "src":"amazon.png",
+                "src":"task_manager.png",
                 "alt":"project preview img"
             }
         },
