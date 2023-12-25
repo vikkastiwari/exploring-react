@@ -224,15 +224,18 @@
         "innerList":[
             {
                 "title":"Address",
-                "subtitle":"India"
+                "subtitle":"India",
+                "url":""
             },
             {
-                "title":"Email",
-                "subtitle":"XXXXXXXX@gmail.com"
+                "title":"Stay Updated",
+                "subtitle":"linkedin.com/programmersmode",
+                "url":"https://www.linkedin.com/company/programmersmode"
             },
             {
-                "title":"Mobile",
-                "subtitle":"+91 XXXXX XXX90"
+                "title":"Join Squad",
+                "subtitle":"discord/programmersmode",
+                "url":"https://discord.gg/2v5tMqhRTp"
             }
         ],
         "inputList":[

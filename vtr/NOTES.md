@@ -69,7 +69,6 @@ look manifest.json usability
 - Youtube Videos
 
 ### P0 TASKS
-- move static tnc and policy content to json
 - seo optimization
 
 ### P1 TASKS

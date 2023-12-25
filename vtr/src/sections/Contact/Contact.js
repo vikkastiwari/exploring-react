@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { MdAlternateEmail } from "react-icons/md";
-import { FaLocationDot } from "react-icons/fa6";
-import { BsTelephoneFill } from "react-icons/bs";
+import { FaLinkedinIn, FaLocationDot, FaPeopleGroup } from "react-icons/fa6";
 
 import "./Contact.css";
 import JsonData from "../../assets/data/home-content.json";
@@ -93,23 +91,23 @@ const Contact = () => {
                             </i>
                           ) : index === 1 ? (
                             <i className="greenText">
-                              <MdAlternateEmail />
+                              <FaLinkedinIn />
                             </i>
                           ) : (
                             <i className=" purpleText">
-                              <BsTelephoneFill />
+                              <FaPeopleGroup />
                             </i>
                           )}
                         </div>
                         <div className="short">
                           <h3>{item.title}</h3>
                           <span>
-                            {index === 1 ? (
-                              <a href={`mailto:${item.subtitle}`}>
+                            {index === 0 ? (
+                              item.subtitle
+                            ) : (
+                              <a href={`${item.url}`}>
                                 {item.subtitle}
                               </a>
-                            ) : (
-                              item.subtitle
                             )}
                           </span>
                         </div>
