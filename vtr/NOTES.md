@@ -50,8 +50,6 @@ on other pages route effect is triggered thrice
 animation is jerky on projects page
 
 ### MISC
-Google-Ads Integration
-Add buy me coffee or gift link
 Validate and add more ga events accordingly
 Api Key restriction is set
 Integrate captcha in forms
@@ -60,6 +58,15 @@ Set Actions with Git
 Add auth for form
 optimise images and utilise firebase cdn for images
 pwa implementation
+look manifest.json usability
+
+### REVENUE MODEL
+- Google-Ads Integration
+- Add buy me coffee or gift link
+- Affilate Links
+- 
+- Substack(Blogs) - It provides payout in India
+- Youtube Videos
 
 ### P0 TASKS
 - move static tnc and policy content to json

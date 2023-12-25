@@ -1,7 +1,7 @@
 {
     "heading":"Vikas Tiwari - Privacy Policy",
     "desc":"This Privacy Policy describes how your personal information is collected, used, and shared when you visit [Website URL] (the “Site”).",
-    "terms": [
+    "policy": [
         {
             "title":"SECTION 1 - WHAT DO WE DO WITH YOUR INFORMATION?",
             "desc":"When you fill contact form or subscribe to our newsletter, as part of providing service, we collect the personal information you give us such as your name, phone number, email address, and message. When you browse our store, we also automatically receive your computer’s internet protocol (IP) address in order to provide us with information that helps us learn about your browser and operating system. Email marketing: With your permission, we may send you emails about our lastest technical blogs, services and other updates."
@@ -36,6 +36,7 @@
         }
     ],
     "information":{
+        "heading":"QUESTIONS AND CONTACT INFORMATION",
         "desc":"If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our",
         "emailText":"Privacy Compliance Officer at [vikas@tiwarivikas.com]",
         "post":"[Re: Privacy Compliance Officer] [Mumbai, India]"
