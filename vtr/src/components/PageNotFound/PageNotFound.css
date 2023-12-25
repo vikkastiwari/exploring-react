@@ -1,7 +1,7 @@
 .vtr_page_not_found {
     position: relative;
-    margin: 160px auto;
-    height: calc(100vh - 320px);
+    height: calc(100vh - 174px);
+    margin: 100px 0 160px auto;
     text-align: center;
 }
 

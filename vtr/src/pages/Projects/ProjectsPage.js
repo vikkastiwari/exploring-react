@@ -9,6 +9,7 @@ const ProjectsPage = () => {
     <div className='vtr_all_projects'>
       <div className="projects_list container">
         <div className="vtr_tm_main_title" data-text-align="center">
+          <span>{projectData.title}</span>
           <h2>{projectData.heading}</h2>
           <p>{projectData.desc}</p>
         </div>

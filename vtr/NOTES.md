@@ -22,7 +22,6 @@ Footer          Done            Done
 
 #### DESIGN UPDATION
 Header - Videos, Affilate, - PH2
-Add return to homepage link in 404 page - PH2
 
 #### FUNCTIONALITIES
 blur image lazy loading implementation - PH2
@@ -37,8 +36,6 @@ Youtube video listing page - PH2
 Video listing page - PH2
 
 ### HOST
-Integrate Analytics -done
-SEO verification key added
 SEO optimization
 Observe and reiterate
 Buy domain and make it public
@@ -73,4 +70,3 @@ look manifest.json usability
 
 ### P1 TASKS
 - design new logo for website
-- in contact section update left section with social community links and icons
