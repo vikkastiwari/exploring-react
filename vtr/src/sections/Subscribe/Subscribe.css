@@ -62,7 +62,7 @@
     position: relative
 }
 
-.vtr_tm_subscribe .field input[type=text] {
+.vtr_tm_subscribe .field input[type=email] {
     width: 100%;
     height: 72px;
     border-radius: 12px;
@@ -71,7 +71,7 @@
     padding-left: 30px
 }
 
-.vtr_tm_subscribe .field input[type=text]:focus {
+.vtr_tm_subscribe .field input[type=email]:focus {
     outline: none
 }
 
@@ -155,4 +155,9 @@
         height: 55px;
         padding: 0 15px;
     }
+}
+
+.grecaptcha-badge { 
+    bottom: 0;
+    top: 118px;
 }
