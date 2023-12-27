@@ -1,15 +1,19 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { FaLinkedinIn, FaLocationDot, FaPeopleGroup } from "react-icons/fa6";
+import ReactGA from 'react-ga';
+import ReCAPTCHA from "react-google-recaptcha";
 
 import "./Contact.css";
 import JsonData from "../../assets/data/home-content.json";
 import Section from "../../components/Section/Section";
 import Toast from '../../components/Toast/Toast';
 import { SubmitForm } from '../../service/ContactFormService';
+import { ValidateEmail, ValidatePhone, ValidateString } from "../../service/ValidationService";
 
 const Contact = () => {
   const contactData = JsonData.contact;
   const [isToast, setToast] = useState({isVisbile:false, message:'', type:'success'});
+  const recaptchaRef = React.createRef();
   const [userData, setUserData] = useState({
     fullName: "",
     emailId: "",
@@ -28,24 +32,49 @@ const Contact = () => {
 
   const submitForm = async (event) => {
     event.preventDefault();
-    const { fullName, emailId, phone, subject, message } = userData;
-    if(fullName && emailId && phone && subject && message){
-      const res = await SubmitForm({ fullName, emailId, phone, subject, message });
 
-      if(res) {
-        setUserData({
-          fullName: "",
-          emailId: "",
-          phone: "",
-          subject: "",
-          message: "",
-        });
-        toastHandler('Data sucessfully submitted.','success');
-      }else {
-        toastHandler('Something went wrong!','error');
+    try {
+      const { fullName, emailId, phone, subject, message } = userData;
+      const nameValidity = ValidateString(fullName);
+      const emailValidity = ValidateEmail(emailId);
+      const phoneValidity = ValidatePhone(phone);
+      const subjectValidity = ValidateString(subject);
+      const isDataValid = nameValidity && emailValidity && phoneValidity && subjectValidity && message;
+      let token = null;
+
+      if(isDataValid){
+        token = await recaptchaRef.current.executeAsync();
       }
-    } else {
-      toastHandler('Fill out all fields','error');
+  
+      if (isDataValid && token) {
+        const res = await SubmitForm({ fullName, emailId, phone, subject, message });
+        if (res) {
+          setUserData({
+            fullName: "",
+            emailId: "",
+            phone: "",
+            subject: "",
+            message: "",
+          });
+
+          ReactGA.event({
+            category:"form",
+            action:"customer contacted",
+            label:"contact"
+          });
+          toastHandler("Data sucessfully submitted.", "success");
+        } else {
+          toastHandler("Something went wrong!", "error");
+        }
+      } else if((!isDataValid && token) || (!isDataValid && !token)) {
+        toastHandler("Fill out all fields correctly.", "error");
+      } else if(isDataValid && !token) {
+        toastHandler("Verification failed! Try again later.", "error");
+      } else {
+        toastHandler("Something went wrong!", "error");
+      }
+    } catch(error) {
+      console.error(error);
     }
   };
 
@@ -137,23 +166,11 @@ const Contact = () => {
                     </div>
                     <div className="input_list">
                       <ul>
-                        {/* {contactData.inputList.map((item, index) => (
-                          <li key={index}>
-                            <input
-                              type={item.type}
-                              name={item.id}
-                              id={item.id}
-                              placeholder={item.placeholder}
-                              value={userData.fullName}
-                              onChange={postUserData}
-                            />
-                          </li>
-                        ))} */}
-
                         <li>
                           <input
                             type="text"
                             name="fullName"
+                            maxLength="70"
                             id="fullName"
                             placeholder="Full Name"
                             value={userData.fullName}
@@ -165,6 +182,7 @@ const Contact = () => {
                           <input
                             type="text"
                             name="emailId"
+                            maxLength="320"
                             id="emailId"
                             placeholder="Email"
                             value={userData.email}
@@ -174,8 +192,11 @@ const Contact = () => {
                         </li>
                         <li>
                           <input
-                            type="number"
+                            type="text"
+                            pattern="[0-9]+"
                             name="phone"
+                            minLength="10"
+                            maxLength="10"
                             id="phone"
                             placeholder="phone"
                             value={userData.phone}
@@ -187,6 +208,7 @@ const Contact = () => {
                           <input
                             type="text"
                             name="subject"
+                            maxLength="70"
                             id="subject"
                             placeholder="Subject"
                             value={userData.subject}
@@ -199,11 +221,17 @@ const Contact = () => {
                       <textarea
                         name="message"
                         id="message"
+                        maxLength="255"
                         placeholder={contactData.textPlaceholder}
                         value={userData.message}
                         onChange={postUserData}
                       ></textarea>
                     </div>
+                    <ReCAPTCHA 
+                      ref={recaptchaRef}
+                      size="invisible"
+                      sitekey={process.env.REACT_APP_SITE_KEY}
+                    />
                     <div className="vtr_tm_button">
                       <a
                         href="/"

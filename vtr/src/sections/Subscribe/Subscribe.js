@@ -103,7 +103,9 @@ const Subscribe = () => {
                   <div className="field">
                     <input
                       type="email"
+                      autoComplete="off"
                       name="email"
+                      maxLength="255"
                       placeholder={subscribeData.placeholder}
                       value={userData.email}
                       onChange={postUserData}
