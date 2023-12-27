@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+// import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
 import ReactGA from 'react-ga';
 
 const firebaseConfig = {
@@ -15,4 +16,13 @@ const TrackingId = process.env.REACT_APP_TRACKING_ID;
 
 ReactGA.initialize(TrackingId);
 const app = initializeApp(firebaseConfig);
+
+// const appCheck = initializeAppCheck(app, {
+//   provider: new ReCaptchaV3Provider(''),
+
+//   // Optional argument. If true, the SDK automatically refreshes App Check
+//   // tokens as needed.
+//   isTokenAutoRefreshEnabled: true
+// }); 
+
 export const Analytics = getAnalytics(app);
