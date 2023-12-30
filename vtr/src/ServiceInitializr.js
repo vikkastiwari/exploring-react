@@ -1,6 +1,8 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-// import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
+import { getDatabase } from "firebase/database";
+
+import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
 import ReactGA from 'react-ga';
 
 const firebaseConfig = {
@@ -17,12 +19,16 @@ const TrackingId = process.env.REACT_APP_TRACKING_ID;
 ReactGA.initialize(TrackingId);
 const app = initializeApp(firebaseConfig);
 
-// const appCheck = initializeAppCheck(app, {
-//   provider: new ReCaptchaV3Provider(''),
+console.log("Environment:",process.env.REACT_APP_ENV);
+if (process.env.REACT_APP_ENV === "local" || process.env.REACT_APP_ENV === "default") {
+  window.FIREBASE_APPCHECK_DEBUG_TOKEN=true
+  console.log('FIREBASE_APPCHECK_DEBUG_MODE:','enabled');
+}
 
-//   // Optional argument. If true, the SDK automatically refreshes App Check
-//   // tokens as needed.
-//   isTokenAutoRefreshEnabled: true
-// }); 
+initializeAppCheck(app, {
+  provider: new ReCaptchaV3Provider(process.env.REACT_APP_SITE_KEY),
+  isTokenAutoRefreshEnabled: true
+}); 
 
+export const Database = getDatabase();
 export const Analytics = getAnalytics(app);
