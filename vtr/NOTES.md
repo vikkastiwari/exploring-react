@@ -66,7 +66,6 @@ look manifest.json usability
 - Youtube Videos
 
 ### P0 TASKS
-- form validation
 - captcha integration in web app
 - app check registration
 - seo optimization

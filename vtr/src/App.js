@@ -22,7 +22,7 @@ import ContactPage from './pages/Contact/ContactPage';
 function App() {
 
   const analytics = Analytics;
-  if (process.env.REACT_APP_ENV !== 'production') {
+  if (process.env.REACT_APP_ENV === 'local') {
     // analytics.disable();
     console.log("local running");
   }else{
