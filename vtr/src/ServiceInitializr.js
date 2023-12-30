@@ -20,7 +20,7 @@ ReactGA.initialize(TrackingId);
 const app = initializeApp(firebaseConfig);
 
 console.log("Environment:",process.env.REACT_APP_ENV);
-if (process.env.REACT_APP_ENV === "local" || process.env.REACT_APP_ENV === "default") {
+if (process.env.REACT_APP_ENV === "local") {
   window.FIREBASE_APPCHECK_DEBUG_TOKEN=true
   console.log('FIREBASE_APPCHECK_DEBUG_MODE:','enabled');
 }

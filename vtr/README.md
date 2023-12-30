@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Tools
 - SEO - Google search console
+- Google Recaptcha
+- Google Cloud
+- React GA
