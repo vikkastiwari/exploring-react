@@ -1,19 +1,17 @@
 import React, { useState } from "react";
 import { FaLinkedinIn, FaLocationDot, FaPeopleGroup } from "react-icons/fa6";
 import ReactGA from 'react-ga';
-import ReCAPTCHA from "react-google-recaptcha";
 
 import "./Contact.css";
 import JsonData from "../../assets/data/home-content.json";
 import Section from "../../components/Section/Section";
 import Toast from '../../components/Toast/Toast';
-import { SubmitForm } from '../../service/ContactFormService';
+import { SubmitForm } from '../../service/FormService';
 import { ValidateEmail, ValidatePhone, ValidateString } from "../../service/ValidationService";
 
 const Contact = () => {
   const contactData = JsonData.contact;
   const [isToast, setToast] = useState({isVisbile:false, message:'', type:'success'});
-  const recaptchaRef = React.createRef();
   const [userData, setUserData] = useState({
     fullName: "",
     emailId: "",
@@ -30,25 +28,18 @@ const Contact = () => {
     setUserData({ ...userData, [name]: value });
   };
 
-  const submitForm = async (event) => {
+  const submitForm = (event) => {
     event.preventDefault();
-
+    const submitForm = SubmitForm;
     try {
-      const { fullName, emailId, phone, subject, message } = userData;
-      const nameValidity = ValidateString(fullName);
-      const emailValidity = ValidateEmail(emailId);
-      const phoneValidity = ValidatePhone(phone);
-      const subjectValidity = ValidateString(subject);
-      const isDataValid = nameValidity && emailValidity && phoneValidity && subjectValidity && message;
-      let token = null;
-
-      if(isDataValid){
-        token = await recaptchaRef.current.executeAsync();
-      }
-  
-      if (isDataValid && token) {
-        const res = await SubmitForm({ fullName, emailId, phone, subject, message });
-        if (res) {
+      const nameValidity = ValidateString(userData?.fullName);
+      const emailValidity = ValidateEmail(userData?.emailId);
+      const phoneValidity = ValidatePhone(userData?.phone);
+      const subjectValidity = ValidateString(userData?.subject);
+      const isDataValid = nameValidity && emailValidity && phoneValidity && subjectValidity && userData?.message;
+      
+      if (isDataValid) {
+        submitForm(userData).then(() => {
           setUserData({
             fullName: "",
             emailId: "",
@@ -63,18 +54,17 @@ const Contact = () => {
             label:"contact"
           });
           toastHandler("Data sucessfully submitted.", "success");
-        } else {
+        })
+        .catch((error) => {
+          console.error(error);
           toastHandler("Something went wrong!", "error");
-        }
-      } else if((!isDataValid && token) || (!isDataValid && !token)) {
-        toastHandler("Fill out all fields correctly.", "error");
-      } else if(isDataValid && !token) {
-        toastHandler("Verification failed! Try again later.", "error");
-      } else {
-        toastHandler("Something went wrong!", "error");
+        });
+      }else {
+        toastHandler("Fill out fields correctly.", "error");
       }
     } catch(error) {
       console.error(error);
+      toastHandler("Something went wrong!", "error");
     }
   };
 
@@ -185,7 +175,7 @@ const Contact = () => {
                             maxLength="320"
                             id="emailId"
                             placeholder="Email"
-                            value={userData.email}
+                            value={userData.emailId}
                             onChange={postUserData}
                             required
                           />
@@ -227,11 +217,6 @@ const Contact = () => {
                         onChange={postUserData}
                       ></textarea>
                     </div>
-                    <ReCAPTCHA 
-                      ref={recaptchaRef}
-                      size="invisible"
-                      sitekey={process.env.REACT_APP_SITE_KEY}
-                    />
                     <div className="vtr_tm_button">
                       <a
                         href="/"

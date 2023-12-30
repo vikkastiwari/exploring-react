@@ -1,22 +1,23 @@
 import React, { useState } from "react";
 import ReactGA from 'react-ga';
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 
 import "./Subscribe.css";
 import JsonData from "../../assets/data/home-content.json";
 import Section from "../../components/Section/Section";
 import Toast from "../../components/Toast/Toast";
-import { SubscribeNewsletter } from "../../service/ContactFormService";
+import { SubscribeNewsletter } from "../../service/FormService";
 import { ValidateEmail } from "../../service/ValidationService";
 
 const Subscribe = () => {
   const subscribeData = JsonData.subscirbe;
+  const subscribeNewsletter = SubscribeNewsletter;
   const [isToast, setToast] = useState({
     isVisbile: false,
     message: "",
     type: "success",
   });
-  const recaptchaRef = React.createRef();
+  // const recaptchaRef = React.createRef();
   const [userData, setUserData] = useState({
     email: "",
     timeStamp: "",
@@ -29,20 +30,14 @@ const Subscribe = () => {
     setUserData({ ...userData, [name]: value });
   };
 
-  const submitForm = async (event) => {
+  const submitForm = (event) => {
     event.preventDefault();
     try {
-      const { email, timeStamp } = {...userData, timeStamp:new Date(Date.now()).toDateString()};
-      const emailValidity = ValidateEmail(email) ?? false;
-      let token = null;
-
-      if(emailValidity){
-        token = await recaptchaRef.current.executeAsync();
-      }
+      const data = {...userData, timeStamp:new Date(Date.now()).toDateString()};
+      const emailValidity = ValidateEmail(data?.email) ?? false;
   
-      if (emailValidity && token) {
-        const res = await SubscribeNewsletter({ email, timeStamp });
-        if (res) {
+      if (emailValidity) {
+        subscribeNewsletter(data).then(() => {
           setUserData({
             email:'',
             timeStamp:''
@@ -53,18 +48,17 @@ const Subscribe = () => {
             label:"subscriber"
           });
           toastHandler("Data sucessfully submitted.", "success");
-        } else {
+        })
+        .catch((error) => {
+          console.error(error);
           toastHandler("Something went wrong!", "error");
-        }
-      } else if((!emailValidity && token) || (!emailValidity && !token)) {
-        toastHandler("Fill out fields correctly.", "error");
-      } else if(emailValidity && !token) {
-        toastHandler("Verification failed! Try again later.", "error");
+        });
       } else {
-        toastHandler("Something went wrong!", "error");
+        toastHandler("Fill out fields correctly.", "error");
       }
     } catch(error) {
       console.error(error);
+      toastHandler("Something went wrong!", "error");
     }
   };
 
@@ -115,11 +109,6 @@ const Subscribe = () => {
                       type="submit"
                       value={subscribeData.value}
                       onClick={submitForm}
-                    />
-                    <ReCAPTCHA 
-                      ref={recaptchaRef}
-                      size="invisible"
-                      sitekey={process.env.REACT_APP_SITE_KEY}
                     />
                   </div>
                 </div>

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { Analytics } from './Analytics';
+import { Analytics } from './ServiceInitializr';
 
 import './App.css';
 import Header from '../src/sections/Header/Header';
