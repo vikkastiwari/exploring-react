@@ -1,8 +1,6 @@
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { Analytics } from './ServiceInitializr';
-
 import './App.css';
 import Header from '../src/sections/Header/Header';
 import Footer from '../src/sections/Footer/Footer';
@@ -20,8 +18,6 @@ import ServicesPage from './pages/Services/ServicesPage';
 import ContactPage from './pages/Contact/ContactPage';
 
 function App() {
-
-  const analytics = Analytics;
   if (process.env.REACT_APP_ENV === 'local') {
     // analytics.disable();
     console.log("local running");
@@ -51,7 +47,7 @@ function App() {
       <Loader />
       <div className='vtr-page-wrapper'>
         <div className='vtr_tm_all_wrap'>
-          <Header analytics={analytics} />
+          <Header />
           <Routes>
             <Route exact path='/' element={<HomePage />} />
             <Route exact path='/blogs' element={<BlogsPage />} />

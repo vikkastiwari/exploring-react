@@ -1,5 +1,4 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import { getDatabase } from "firebase/database";
 
 import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
@@ -31,4 +30,3 @@ initializeAppCheck(app, {
 }); 
 
 export const Database = getDatabase();
-export const Analytics = getAnalytics(app);

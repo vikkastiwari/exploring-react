@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from 'react-router-dom';
-import { logEvent } from "firebase/analytics";
 import ReactGA from 'react-ga';
 
 import "../../css/general.css";
@@ -9,11 +8,10 @@ import logoLight from "../../assets/img/logo/logo-light.png";
 import logoDark from "../../assets/img/logo/logo-dark.png";
 import JsonData from "../../assets/data/home-content.json";
 
-const Header = ({analytics}) => {
+const Header = () => {
   const headerData = JsonData.header;
   const [isSticky, setIsSticky] = useState(false);
   const [isHamDrawerOpen, setIsHamDrawerOpen] = useState(false);
-  const [currentRoute, setCurrentRoute] = useState('/');
   const location = useLocation();
 
   useEffect(() => {
@@ -21,20 +19,25 @@ const Header = ({analytics}) => {
     ReactGA.pageview(location,location?.pathname);
     
     window.scrollTo(0, 0);
-    setCurrentRoute(location?.pathname);
-    if(currentRoute !== '/'){
+    if(location?.pathname !== '/'){
       setIsSticky(true);
     }else{
       setIsSticky(false);
     }
     console.log(`The current URL is ${location?.pathname}`);
-  }, [currentRoute, location]);
+  }, [location]);
 
 
   const hbDrawerHandler = (index, itemName) => {
     setIsHamDrawerOpen(!isHamDrawerOpen);
-    if(index || index===0)
-      logEvent(analytics,'nav_index_clicked',{index,name:itemName});
+    if(index || index===0){
+      ReactGA.event({
+        category:"Header",
+        action:itemName,
+        label:"nav_index_clicked",
+        value:index
+      });
+    }
   }
 
   /**
@@ -66,13 +69,13 @@ const Header = ({analytics}) => {
         link.removeEventListener("click", scrollEvent);
       };
     });
-  },[currentRoute]);
+  },[location?.pathname]);
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
 
     /* ********* Header Sticky Logic ************ */ 
-    if(currentRoute === '/'){
+    if(location?.pathname === '/'){
       scrollPosition >= 80 ? setIsSticky(true) : setIsSticky(false);
     }
   };
@@ -111,14 +114,22 @@ const Header = ({analytics}) => {
                     onClick={() => hbDrawerHandler(index,item.name)} 
                   >
                     {
-                      currentRoute !== '/' ? 
+                      location?.pathname !== '/' ? 
                       <Link to={`/${item.route}`}>{item.name}</Link> :
                       <a href={`#${item.route}`}>{item.name}</a>
                     }
                   </li> 
                 )
               )}
-              <li className="download_cv" onClick={() => {logEvent(analytics,'yt_subscribed')}}>
+              <li 
+                className="download_cv" 
+                onClick={() => {
+                  ReactGA.event({
+                    category:"Header",
+                    action:'yt_subscribed',
+                    label:"Subscribe button"
+                  })}
+                }>
                 <a href={headerData.download.url} target='_blank' rel="noreferrer">
                   {headerData.download.name}
                 </a>

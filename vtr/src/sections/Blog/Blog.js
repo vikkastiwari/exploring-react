@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 import './Blog.css';
 import JsonData from '../../assets/data/home-content.json';
@@ -37,7 +38,13 @@ const Blog = () => {
             </ul>
           </div>
           <div className="vtr_tm_button vtr_align_center">
-            <Link to="/blogs" className="anchor">
+            <Link to="/blogs" className="anchor" onClick={() => {
+              ReactGA.event({
+                category:"Button",
+                action:"blog_vm_btn_clicked",
+                label:"View more button"
+              })}
+            }>
               {commonData.viewMoreBtnText}
             </Link>
           </div>

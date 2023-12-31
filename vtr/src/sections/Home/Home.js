@@ -45,7 +45,7 @@ const Home = () => {
                         {
                           homeData?.social?.map((item, index) => (
                             <li key={index}>
-                              <a href={item?.url}>
+                              <a href={item?.url} target="_blank" rel="noreferrer">
                                 {index === 0 ? <FaYoutube className="vtr-fs-16 vtr-color-white" /> : ''}
                                 {index === 1 ? <FaLinkedinIn className="vtr-fs-16 vtr-color-white" /> : ''}
                                 {index === 2 ? <FaBloggerB className="vtr-fs-16 vtr-color-white" /> : ''}

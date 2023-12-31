@@ -2,22 +2,7 @@
 Min Width = 360px
 Min Height = 600px
 
-#### make all sections mobile responsive - 4 break points --> mobile | tablet | laptop | desktop
-                Mobile          Other
-Header          Done            Done
-Home            Done            Done
-Features        Done            Done
-About           Done            Done
-Services        Done            Done
-Portfolio       Done            Done
-Experience      Done            Done
-Testimonials    Done            Done
-Blog            Done            Done
-Subscribe       Done            Done
-Contact Me      Done            Done
-Footer          Done            Done
-
-<!-- DEC 24 - UPDATE -->
+<!-- DEC 30 - UPDATE -->
 #### ASSETS CURATION
 
 #### DESIGN UPDATION
@@ -48,11 +33,7 @@ animation is jerky on projects page
 
 ### MISC
 Validate and add more ga events accordingly
-Api Key restriction is set
-Integrate captcha in forms
-set scripts for staging and prod build with deployment
 Set Actions with Git
-Add auth for form
 optimise images and utilise firebase cdn for images
 pwa implementation
 look manifest.json usability
@@ -66,9 +47,11 @@ look manifest.json usability
 - Youtube Videos
 
 ### P0 TASKS
-- captcha integration in web app
-- app check registration
+- Add more GA events
 - seo optimization
+- google ad Integration
+- Buy domain and make it public
+- Look into how indexing can be done - how we can increase foot fall
 
 ### P1 TASKS
 - design new logo for website
