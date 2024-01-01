@@ -152,12 +152,6 @@
     }
 
     .vtr_tm_subscribe .field input[type=submit]{
-        height: 55px;
         padding: 0 15px;
     }
-}
-
-.grecaptcha-badge { 
-    bottom: 0;
-    top: 118px;
 }

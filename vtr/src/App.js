@@ -25,6 +25,15 @@ function App() {
     console.log("prod running");
   }
   useEffect(() => {
+
+    /**
+     * @descirption reCaptcha privacy policy widget added
+     */ 
+    const element = document.getElementById("fire_app_check_[DEFAULT]");
+    if (element) {
+      element.style.display = 'block';
+    }
+
     const fetchData = async () => {
       await new Promise(resolve => setTimeout(resolve, 1000));
       // Loader fade out added

@@ -13,3 +13,9 @@
     float: left;
     position: relative
 }
+
+.grecaptcha-badge { 
+    bottom: 0;
+    top: 118px;
+    z-index: 999;
+}

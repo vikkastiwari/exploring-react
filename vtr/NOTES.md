@@ -2,7 +2,7 @@
 Min Width = 360px
 Min Height = 600px
 
-<!-- DEC 30 - UPDATE -->
+<!-- JAN 1 - UPDATE -->
 #### ASSETS CURATION
 
 #### DESIGN UPDATION
@@ -28,18 +28,20 @@ Buy domain and make it public
 ### ISSUES
 Uneven card sizes of work section in home page - PH2
 Remove background white image from hero section's hero image - PH2
-on other pages route effect is triggered thrice
 animation is jerky on projects page
+Move dynamic headings to const json file
+Google ad Integration - Ad blocking recovery - Start recovering lost revenue from ad blockers by allowing your users to enable ads
 
 ### MISC
 Validate and add more ga events accordingly
 Set Actions with Git
+User engagement improvement
 optimise images and utilise firebase cdn for images
 pwa implementation
 look manifest.json usability
 
 ### REVENUE MODEL
-- Google-Ads Integration
+- Google-Ads Integration - done
 - Add buy me coffee or gift link
 - Affilate Links
 - 
@@ -49,9 +51,15 @@ look manifest.json usability
 ### P0 TASKS
 - Add more GA events
 - seo optimization
-- google ad Integration
 - Buy domain and make it public
 - Look into how indexing can be done - how we can increase foot fall
 
 ### P1 TASKS
 - design new logo for website
+
+### Analaytics Event
+- Blogs click
+- Testimonial click
+- Project click
+- Social icon click
+- Connect and View portfolio btn click
