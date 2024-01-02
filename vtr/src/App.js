@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './App.css';
+import './ServiceInitializr';
+import './service/AuthService';
 import Header from '../src/sections/Header/Header';
 import Footer from '../src/sections/Footer/Footer';
 import HomePage from './pages/Home/HomePage';

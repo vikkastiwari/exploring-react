@@ -41,7 +41,7 @@ const Header = () => {
   }
 
   /**
-   * Description - Code for adding smooth scroll on click of links
+   * @description - code for adding smooth scroll on click of links
    * Note: This code added for smooth scroll on cross browser
    */ 
   useEffect(()=>{

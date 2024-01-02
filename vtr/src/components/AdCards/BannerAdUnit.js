@@ -4,7 +4,7 @@ const BannerAdUnit = () => {
 
     useEffect(() => {
         /**
-         * @description Load Ads only if no Ads are loaded
+         * @description load Ads only if no Ads are loaded
          */ 
         const adsbygoogleElements = document.querySelectorAll('.adsbygoogle');
         const adsLoaded = Array?.from(adsbygoogleElements)?.some((element) => {

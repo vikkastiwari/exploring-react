@@ -1,7 +1,7 @@
 import { ref, set } from 'firebase/database';
 
 import { ApiPath } from '../environment/ApiPath';
-import { Database } from '../ServiceInitializr';
+import { Database } from './RdbService';
 
 const db = Database;
 
