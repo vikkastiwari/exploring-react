@@ -1,6 +1,6 @@
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const phoneRegex = /^\d+$/;
-const stringRegex = /^[a-zA-Z-_|,./@&()[]& ]+$/;
+const stringRegex = /^[a-zA-Z ]+$/;
 
 export const ValidateEmail = (value) => {
     return emailRegex.test(value);
