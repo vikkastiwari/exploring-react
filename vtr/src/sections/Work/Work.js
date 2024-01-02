@@ -34,7 +34,7 @@ const Work = () => {
                 className="gallery_zoom grid"
               >
                 {projectData.projectPageData.map((item,index)=>(
-                  (index < 6) ? 
+                  (index < 3) ? 
                     <li
                       key={index}
                       className="grid-item"

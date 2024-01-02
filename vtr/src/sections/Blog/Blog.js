@@ -24,7 +24,7 @@ const Blog = () => {
           <div className="blogs_list vtr_slider">
             <ul className='hr_scroll'>
               {blogsData.blogPageData.map((item,index)=>(
-                index < 6 ?
+                index < 4 ?
                 <li
                   key={index}
                   className="fadeInUp"

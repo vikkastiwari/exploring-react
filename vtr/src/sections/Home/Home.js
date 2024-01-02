@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { FaYoutube, FaLinkedinIn, FaBloggerB } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
 
@@ -36,9 +37,9 @@ const Home = () => {
                 <p className="text">{homeData.desc}</p>
                 <div className="buttons">
                   <div className="vtr_tm_button">
-                    <a className="anchor" href="#contact">
+                    <Link to="/contact" className="anchor">
                       {homeData.button}
-                    </a>
+                    </Link>
                   </div>
                   <div className="social">
                       <ul>

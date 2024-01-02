@@ -113,11 +113,7 @@ const Header = () => {
                     key={index} 
                     onClick={() => hbDrawerHandler(index,item.name)} 
                   >
-                    {
-                      location?.pathname !== '/' ? 
-                      <Link to={`/${item.route}`}>{item.name}</Link> :
-                      <a href={`#${item.route}`}>{item.name}</a>
-                    }
+                    <Link to={`/${item.route}`}>{item.name}</Link> 
                   </li> 
                 )
               )}

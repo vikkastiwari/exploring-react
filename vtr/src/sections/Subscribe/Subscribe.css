@@ -1,8 +1,12 @@
+.vtr_tm_subscribe {
+    margin-bottom: 160px;
+}
+
 .vtr_tm_subscribe,.vtr_tm_subscribe .inner {
     width: 100%;
     height: auto;
     clear: both;
-    float: left
+    float: left;
 }
 
 .vtr_tm_subscribe .inner {
