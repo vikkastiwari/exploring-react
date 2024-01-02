@@ -31,6 +31,9 @@ Remove background white image from hero section's hero image - PH2
 animation is jerky on projects page
 Move dynamic headings to const json file
 Google ad Integration - Ad blocking recovery - Start recovering lost revenue from ad blockers by allowing your users to enable ads
+GA events are not getting tracked
+Contact form validation issue
+Google Ad - policy compliant
 
 ### MISC
 Validate and add more ga events accordingly
