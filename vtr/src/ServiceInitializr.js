@@ -18,10 +18,16 @@ const firebaseConfig = {
 };
 
 /**
- * @description analytics & app init
+ * @description firebase app init
  */
-ReactGA.initialize(firebaseConfig?.measurementId);
 const app = initializeApp(firebaseConfig);
+
+/**
+ * @description GA4 analytics init
+ */
+if (process.env.REACT_APP_ENV !== "local") {
+  ReactGA.initialize(firebaseConfig?.measurementId);
+}
 
 /**
  * @description enable debug mode - appCheck token

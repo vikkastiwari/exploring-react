@@ -16,9 +16,9 @@ faq section - PH2
 youtube videos section addition on home page - PH2
 
 #### PAGE CREATION
-Affilate product listing page  - PH2
+Blog view page
 Youtube video listing page - PH2
-Video listing page - PH2
+Affilate product listing page  - PH2
 
 ### HOST
 SEO optimization
@@ -28,11 +28,9 @@ Uneven card sizes of work section in home page - PH2
 Remove background white image from hero section's hero image - PH2
 Move dynamic headings to const json file
 Google ad Integration - Ad blocking recovery - Start recovering lost revenue from ad blockers by allowing your users to enable ads
-GA events are not getting tracked
 Google Ad - policy compliant
 
 ### MISC
-Validate and add more ga events accordingly
 Set Actions with Git
 User engagement improvement
 optimise images and utilise firebase cdn for images
@@ -48,7 +46,6 @@ look manifest.json usability
 - Youtube Videos
 
 ### P0 TASKS
-- Add more GA events
 - seo optimization
 - Look into how indexing can be done - how we can increase foot fall
 
@@ -57,10 +54,3 @@ look manifest.json usability
 
 ### IMPROVEMENT
 - Ensure CSP is effective against XSS attacks
-
-### Analaytics Event
-- Blogs click
-- Testimonial click
-- Project click
-- Social icon click
-- Connect and View portfolio btn click

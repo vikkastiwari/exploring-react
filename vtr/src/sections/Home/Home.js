@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FaYoutube, FaLinkedinIn, FaBloggerB } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
+import ReactGA from 'react-ga4';
 
 import "./Home.css";
 import JsonData from '../../assets/data/home-content.json';
@@ -45,7 +46,14 @@ const Home = () => {
                       <ul>
                         {
                           homeData?.social?.map((item, index) => (
-                            <li key={index}>
+                            <li key={index} onClick={() => {
+                              ReactGA.event({
+                                category:"Social Links",
+                                action:"social_link_clicked",
+                                label:item?.url,
+                                value:+index
+                              })
+                            }}>
                               <a href={item?.url} target="_blank" rel="noreferrer">
                                 {index === 0 ? <FaYoutube className="vtr-fs-16 vtr-color-white" /> : ''}
                                 {index === 1 ? <FaLinkedinIn className="vtr-fs-16 vtr-color-white" /> : ''}
