@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 /**
  * @description service init handler
@@ -16,12 +16,11 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
   measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
-const trackingId = process.env.REACT_APP_TRACKING_ID;
 
 /**
  * @description analytics & app init
  */
-ReactGA.initialize(trackingId);
+ReactGA.initialize(firebaseConfig?.measurementId);
 const app = initializeApp(firebaseConfig);
 
 /**

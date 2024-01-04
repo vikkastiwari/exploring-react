@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from 'react-router-dom';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 import "../../css/general.css";
 import "./Header.css";
@@ -16,7 +16,7 @@ const Header = () => {
 
   useEffect(() => {
     // Analytics pageview event
-    ReactGA.pageview(location,location?.pathname);
+    ReactGA.send({ hitType: "pageview", page: location?.pathname, title: "Page Visited" });
     
     window.scrollTo(0, 0);
     if(location?.pathname !== '/'){
@@ -124,8 +124,8 @@ const Header = () => {
                     category:"Header",
                     action:'yt_subscribed',
                     label:"Subscribe button"
-                  })}
-                }>
+                  })
+                }}>
                 <a href={headerData.download.url} target='_blank' rel="noreferrer">
                   {headerData.download.name}
                 </a>

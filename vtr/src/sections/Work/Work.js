@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 import "./Work.css";
 import JsonData from '../../assets/data/home-content.json';
@@ -50,8 +50,8 @@ const Work = () => {
                   category:"Button",
                   action:"project_vm_btn_clicked",
                   label:"View more button"
-                })}
-              }>
+                })
+              }}>
                 {commonData.viewMoreBtnText}
               </Link>
             </div>

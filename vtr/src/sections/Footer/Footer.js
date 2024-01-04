@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 import JsonData from '../../assets/data/home-content.json';
 import Section from "../../components/Section/Section";
@@ -41,8 +41,8 @@ const Footer = () => {
                       category:"Social",
                       action:"linkedIn_visited",
                       label:"LinkedIn"
-                    })}
-                  }
+                    })
+                  }}
                 >
                   {footerData.name}&nbsp; 
                 </a>
@@ -62,8 +62,8 @@ const Footer = () => {
                         category:"Misc page",
                         action:"misc_page_visited",
                         label:item.name
-                      })}
-                    }>
+                      })
+                    }}>
                       {item.name}
                     </Link>
                   </li>

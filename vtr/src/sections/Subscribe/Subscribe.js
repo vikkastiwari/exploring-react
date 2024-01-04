@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import ReactGA from 'react-ga';
-// import ReCAPTCHA from "react-google-recaptcha";
+import ReactGA from 'react-ga4';
 
 import "./Subscribe.css";
 import JsonData from "../../assets/data/home-content.json";

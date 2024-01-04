@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaLinkedinIn, FaLocationDot, FaPeopleGroup } from "react-icons/fa6";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 import "./Contact.css";
 import JsonData from "../../assets/data/home-content.json";
