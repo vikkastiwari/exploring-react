@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import "./About.css";
 import Section from "../../components/Section/Section";
 import JsonData from '../../assets/data/home-content.json';
@@ -82,9 +84,9 @@ const About = () => {
                 ))}
               </div>
               <div className="vtr_tm_button">
-                <a className="anchor" href="#portfolio">
+                <Link to='/projects' className="anchor">
                   {aboutData.btnText}
-                </a>
+                </Link>
               </div>
             </div>
           </div>

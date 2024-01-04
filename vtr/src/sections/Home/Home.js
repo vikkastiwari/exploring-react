@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { FaYoutube, FaLinkedinIn, FaBloggerB } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
 
@@ -36,16 +37,16 @@ const Home = () => {
                 <p className="text">{homeData.desc}</p>
                 <div className="buttons">
                   <div className="vtr_tm_button">
-                    <a className="anchor" href="#contact">
+                    <Link to="/contact" className="anchor">
                       {homeData.button}
-                    </a>
+                    </Link>
                   </div>
                   <div className="social">
                       <ul>
                         {
                           homeData?.social?.map((item, index) => (
                             <li key={index}>
-                              <a href={item?.url}>
+                              <a href={item?.url} target="_blank" rel="noreferrer">
                                 {index === 0 ? <FaYoutube className="vtr-fs-16 vtr-color-white" /> : ''}
                                 {index === 1 ? <FaLinkedinIn className="vtr-fs-16 vtr-color-white" /> : ''}
                                 {index === 2 ? <FaBloggerB className="vtr-fs-16 vtr-color-white" /> : ''}

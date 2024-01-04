@@ -1,11 +1,19 @@
+import { useEffect } from 'react';
+
 import "./TermsPage.css";
 import TermsJsonData from '../../assets/data/tnc-content.json';
 
 const TermsPage = () => {
   const termsJsonData = TermsJsonData;
+  useEffect(() => {
+    document.title = 'Terms of services - Vikas Tiwari - Learn | Apply | Evolve';
+    return () => {
+      document.title = 'Vikas Tiwari - Learn | Apply | Evolve';
+    };
+  }, []);
 
   return (
-    <div className="vtr_all_privacy container">
+    <div className="vtr_all_terms container">
       <h2>{termsJsonData?.heading}</h2>
       <p>{termsJsonData?.desc}</p>
       

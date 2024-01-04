@@ -35,8 +35,7 @@ const Contact = () => {
       const nameValidity = ValidateString(userData?.fullName);
       const emailValidity = ValidateEmail(userData?.emailId);
       const phoneValidity = ValidatePhone(userData?.phone);
-      const subjectValidity = ValidateString(userData?.subject);
-      const isDataValid = nameValidity && emailValidity && phoneValidity && subjectValidity && userData?.message;
+      const isDataValid = nameValidity && emailValidity && phoneValidity && userData?.subject && userData?.message;
       
       if (isDataValid) {
         submitForm(userData).then(() => {

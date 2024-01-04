@@ -2,22 +2,7 @@
 Min Width = 360px
 Min Height = 600px
 
-#### make all sections mobile responsive - 4 break points --> mobile | tablet | laptop | desktop
-                Mobile          Other
-Header          Done            Done
-Home            Done            Done
-Features        Done            Done
-About           Done            Done
-Services        Done            Done
-Portfolio       Done            Done
-Experience      Done            Done
-Testimonials    Done            Done
-Blog            Done            Done
-Subscribe       Done            Done
-Contact Me      Done            Done
-Footer          Done            Done
-
-<!-- DEC 24 - UPDATE -->
+<!-- JAN 1 - UPDATE -->
 #### ASSETS CURATION
 
 #### DESIGN UPDATION
@@ -37,28 +22,25 @@ Video listing page - PH2
 
 ### HOST
 SEO optimization
-Observe and reiterate
-Buy domain and make it public
 
 ### ISSUES
 Uneven card sizes of work section in home page - PH2
 Remove background white image from hero section's hero image - PH2
-on other pages route effect is triggered thrice
-animation is jerky on projects page
+Move dynamic headings to const json file
+Google ad Integration - Ad blocking recovery - Start recovering lost revenue from ad blockers by allowing your users to enable ads
+GA events are not getting tracked
+Google Ad - policy compliant
 
 ### MISC
 Validate and add more ga events accordingly
-Api Key restriction is set
-Integrate captcha in forms
-set scripts for staging and prod build with deployment
 Set Actions with Git
-Add auth for form
+User engagement improvement
 optimise images and utilise firebase cdn for images
 pwa implementation
 look manifest.json usability
 
 ### REVENUE MODEL
-- Google-Ads Integration
+- Google-Ads Integration - done
 - Add buy me coffee or gift link
 - Affilate Links
 - 
@@ -66,10 +48,19 @@ look manifest.json usability
 - Youtube Videos
 
 ### P0 TASKS
-- form validation
-- captcha integration in web app
-- app check registration
+- Add more GA events
 - seo optimization
+- Look into how indexing can be done - how we can increase foot fall
 
 ### P1 TASKS
 - design new logo for website
+
+### IMPROVEMENT
+- Ensure CSP is effective against XSS attacks
+
+### Analaytics Event
+- Blogs click
+- Testimonial click
+- Project click
+- Social icon click
+- Connect and View portfolio btn click

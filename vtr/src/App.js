@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { Analytics } from './ServiceInitializr';
-
 import './App.css';
+import './ServiceInitializr';
+import './service/AuthService';
 import Header from '../src/sections/Header/Header';
 import Footer from '../src/sections/Footer/Footer';
 import HomePage from './pages/Home/HomePage';
@@ -20,15 +20,22 @@ import ServicesPage from './pages/Services/ServicesPage';
 import ContactPage from './pages/Contact/ContactPage';
 
 function App() {
-
-  const analytics = Analytics;
-  if (process.env.REACT_APP_ENV !== 'production') {
+  if (process.env.REACT_APP_ENV === 'local') {
     // analytics.disable();
     console.log("local running");
   }else{
     console.log("prod running");
   }
   useEffect(() => {
+
+    /**
+     * @descirption reCaptcha privacy policy widget added
+     */ 
+    const element = document.getElementById("fire_app_check_[DEFAULT]");
+    if (element) {
+      element.style.display = 'block';
+    }
+
     const fetchData = async () => {
       await new Promise(resolve => setTimeout(resolve, 1000));
       // Loader fade out added
@@ -51,7 +58,7 @@ function App() {
       <Loader />
       <div className='vtr-page-wrapper'>
         <div className='vtr_tm_all_wrap'>
-          <Header analytics={analytics} />
+          <Header />
           <Routes>
             <Route exact path='/' element={<HomePage />} />
             <Route exact path='/blogs' element={<BlogsPage />} />

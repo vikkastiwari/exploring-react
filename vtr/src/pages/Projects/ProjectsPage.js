@@ -1,10 +1,18 @@
+import { useEffect } from 'react';
+
 import './ProjectsPage.css';
 import ProjectJsonData from '../../assets/data/project-content.json';
 import ProjectCard from '../../components/Cards/ProjectCard/ProjectCard';
 
 const ProjectsPage = () => {
   const projectData = ProjectJsonData;
-
+  useEffect(() => {
+    document.title = 'Showcasing Our Masterpieces: A Portfolio of Web Excellence - Vikas Tiwari - Learn | Apply | Evolve';
+    return () => {
+      document.title = 'Vikas Tiwari - Learn | Apply | Evolve';
+    };
+  }, []);
+  
   return (
     <div className='vtr_all_projects'>
       <div className="projects_list container">

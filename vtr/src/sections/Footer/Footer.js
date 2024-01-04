@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import ReactGA from 'react-ga';
 
 import JsonData from '../../assets/data/home-content.json';
 import Section from "../../components/Section/Section";
@@ -35,6 +36,13 @@ const Footer = () => {
                   href={footerData.linkedIn}
                   rel="noreferrer"
                   target="_blank"
+                  onClick={() => {
+                    ReactGA.event({
+                      category:"Social",
+                      action:"linkedIn_visited",
+                      label:"LinkedIn"
+                    })}
+                  }
                 >
                   {footerData.name}&nbsp; 
                 </a>
@@ -49,7 +57,15 @@ const Footer = () => {
               <ul>
                 {footerData.list.map((item,index)=>(
                   <li key={index}>
-                    <Link to={item.route}>{item.name}</Link>
+                    <Link to={item.route} target="_blank" onClick={() => {
+                      ReactGA.event({
+                        category:"Misc page",
+                        action:"misc_page_visited",
+                        label:item.name
+                      })}
+                    }>
+                      {item.name}
+                    </Link>
                   </li>
                 ))}
               </ul>

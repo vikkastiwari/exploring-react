@@ -1,8 +1,16 @@
+import { useEffect } from 'react';
+
 import "./PrivacyPolicyPage.css";
 import PrivacyPolicyJsonData from '../../assets/data/policy-content.json';
 
 const PrivacyPolicyPage = () => {
   const privacyPolicyJsonData = PrivacyPolicyJsonData;
+  useEffect(() => {
+    document.title = 'Privacy policy - Vikas Tiwari - Learn | Apply | Evolve';
+    return () => {
+      document.title = 'Vikas Tiwari - Learn | Apply | Evolve';
+    };
+  }, []);
 
   return (
     <>
