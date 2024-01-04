@@ -22,17 +22,13 @@ Video listing page - PH2
 
 ### HOST
 SEO optimization
-Observe and reiterate
-Buy domain and make it public
 
 ### ISSUES
 Uneven card sizes of work section in home page - PH2
 Remove background white image from hero section's hero image - PH2
-animation is jerky on projects page
 Move dynamic headings to const json file
 Google ad Integration - Ad blocking recovery - Start recovering lost revenue from ad blockers by allowing your users to enable ads
 GA events are not getting tracked
-Contact form validation issue
 Google Ad - policy compliant
 
 ### MISC
@@ -54,11 +50,13 @@ look manifest.json usability
 ### P0 TASKS
 - Add more GA events
 - seo optimization
-- Buy domain and make it public
 - Look into how indexing can be done - how we can increase foot fall
 
 ### P1 TASKS
 - design new logo for website
+
+### IMPROVEMENT
+- Ensure CSP is effective against XSS attacks
 
 ### Analaytics Event
 - Blogs click

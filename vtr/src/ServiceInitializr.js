@@ -16,12 +16,12 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
   measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
-const TrackingId = process.env.REACT_APP_TRACKING_ID;
+const trackingId = process.env.REACT_APP_TRACKING_ID;
 
 /**
  * @description analytics & app init
  */
-ReactGA.initialize(TrackingId);
+ReactGA.initialize(trackingId);
 const app = initializeApp(firebaseConfig);
 
 /**

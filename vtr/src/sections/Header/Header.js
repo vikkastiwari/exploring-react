@@ -33,9 +33,9 @@ const Header = () => {
     if(index || index===0){
       ReactGA.event({
         category:"Header",
-        action:itemName,
+        action:itemName ?? 'drawer toggle',
         label:"nav_index_clicked",
-        value:index
+        value:+index ?? -1
       });
     }
   }
