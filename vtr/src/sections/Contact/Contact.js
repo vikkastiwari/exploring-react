@@ -6,6 +6,7 @@ import "./Contact.css";
 import JsonData from "../../assets/data/home-content.json";
 import Section from "../../components/Section/Section";
 import Toast from '../../components/Toast/Toast';
+import BannerAdUnit from '../../components/AdCards/BannerAdUnit';
 import { SubmitForm } from '../../service/FormService';
 import { ValidateEmail, ValidatePhone, ValidateString } from "../../service/ValidationService";
 
@@ -85,6 +86,7 @@ const Contact = () => {
               <h3>{contactData.subtitle}</h3>
               <p>{contactData.desc}</p>
             </div>
+            <BannerAdUnit />
             <div className="contact_inner">
               <div
                 className="left fadeInLeft"

@@ -1,6 +1,6 @@
 {
     "heading":"Vikas Tiwari - Privacy Policy",
-    "desc":"This Privacy Policy describes how your personal information is collected, used, and shared when you visit [Website URL] (the “Site”).",
+    "desc":"This Privacy Policy describes how your personal information is collected, used, and shared when you visit [tiwarivikas.in] (the “Site”).",
     "policy": [
         {
             "title":"SECTION 1 - WHAT DO WE DO WITH YOUR INFORMATION?",
@@ -8,7 +8,7 @@
         },
         {
             "title":"SECTION 2 - CONSENT",
-            "desc":"1 --> How do you get my consent? - When you provide us with personal information to enquire about our services or subscribe to our newsletter, we imply that you consent to our collecting it and using it for that specific reason only. If we ask for your personal information for a secondary reason, like marketing, we will either ask you directly for your expressed consent, or provide you with an opportunity to say no. 2 --> How do I withdraw my consent? - If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at [vikas@tiwarivikas.com]"
+            "desc":"1 --> How do you get my consent? - When you provide us with personal information to enquire about our services or subscribe to our newsletter, we imply that you consent to our collecting it and using it for that specific reason only. If we ask for your personal information for a secondary reason, like marketing, we will either ask you directly for your expressed consent, or provide you with an opportunity to say no. 2 --> How do I withdraw my consent? - If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at [tiwarivikas.in/contact]"
         },
         {
             "title":"SECTION 3 - DISCLOSURE",
@@ -38,7 +38,7 @@
     "information":{
         "heading":"QUESTIONS AND CONTACT INFORMATION",
         "desc":"If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our",
-        "emailText":"Privacy Compliance Officer at [vikas@tiwarivikas.com]",
+        "emailText":"Privacy Compliance Officer at [tiwarivikas.in/contact]",
         "post":"[Re: Privacy Compliance Officer] [Mumbai, India]"
     }
 }

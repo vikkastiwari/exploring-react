@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import './BannerAdUnit.css';
 
 const BannerAdUnit = () => {
 
@@ -17,7 +18,7 @@ const BannerAdUnit = () => {
     }, []);
 
     return (
-        <div>
+        <div className='vtr_adcard_wrapper'>
             <ins className="adsbygoogle"
                 style={{display:"block"}}
                 data-ad-client="ca-pub-4200323012008566"

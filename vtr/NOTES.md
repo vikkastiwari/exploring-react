@@ -57,3 +57,4 @@ look manifest.json usability
 ### IMPROVEMENT
 - Ensure CSP is effective against XSS attacks
 - Add website back links to medium popular articles.
+- Migrate from create react app to vite

@@ -26,8 +26,8 @@ function App() {
   }else{
     console.log("prod running");
   }
-  useEffect(() => {
 
+  useEffect(() => {
     /**
      * @descirption reCaptcha privacy policy widget added
      */ 
@@ -49,8 +49,20 @@ function App() {
         pagerContainer.classList.add('visible');
       }
     };
-
     fetchData();
+  }, []);
+
+  useEffect(() => {
+    /**
+     * @description disable right click handler
+     */ 
+    const handleContextmenu = (event) => {
+      event.preventDefault()
+    }
+    document.addEventListener('contextmenu', handleContextmenu)
+    return function cleanup() {
+      document.removeEventListener('contextmenu', handleContextmenu)
+    }
   }, []);
 
   return (

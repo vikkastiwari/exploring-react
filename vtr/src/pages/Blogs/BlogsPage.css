@@ -43,3 +43,12 @@
         width: 100%;
     }
 }
+
+.vtr_all_blogs .vtr_tm_subscribe .container{
+    padding: 0;
+}
+
+.vtr_all_blogs .vtr_tm_subscribe.vtr_section_padding {
+    padding: 0;
+    margin: 24px 0;
+}
