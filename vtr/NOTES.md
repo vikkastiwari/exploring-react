@@ -14,6 +14,7 @@ blur image lazy loading implementation - PH2
 #### SECTION ADDITION
 faq section - PH2
 youtube videos section addition on home page - PH2
+Add skills section on homepage
 
 #### PAGE CREATION
 Blog view page
@@ -29,6 +30,7 @@ Remove background white image from hero section's hero image - PH2
 Move dynamic headings to const json file
 Google ad Integration - Ad blocking recovery - Start recovering lost revenue from ad blockers by allowing your users to enable ads
 Google Ad - policy compliant
+subscribe input design issue
 
 ### MISC
 Set Actions with Git
@@ -54,3 +56,4 @@ look manifest.json usability
 
 ### IMPROVEMENT
 - Ensure CSP is effective against XSS attacks
+- Add website back links to medium popular articles.

@@ -41,7 +41,9 @@ if (process.env.REACT_APP_ENV === "local") {
 /**
  * @description utility function to initialize appCheck
  */ 
-initializeAppCheck(app, {
-  provider: new ReCaptchaV3Provider(process.env.REACT_APP_SITE_KEY),
-  isTokenAutoRefreshEnabled: true
-}); 
+if (process.env.REACT_APP_ENV !== "local") {
+  initializeAppCheck(app, {
+    provider: new ReCaptchaV3Provider(process.env.REACT_APP_SITE_KEY),
+    isTokenAutoRefreshEnabled: true
+  }); 
+}
