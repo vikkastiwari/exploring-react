@@ -6,7 +6,7 @@ import "./Contact.css";
 import JsonData from "../../assets/data/home-content.json";
 import Section from "../../components/Section/Section";
 import Toast from '../../components/Toast/Toast';
-import BannerAdUnit from '../../components/AdCards/BannerAdUnit';
+import BannerAdUnit from '../../components/AdCards/BannerAdUnit/BannerAdUnit';
 import { SubmitForm } from '../../service/FormService';
 import { ValidateEmail, ValidatePhone, ValidateString } from "../../service/ValidationService";
 

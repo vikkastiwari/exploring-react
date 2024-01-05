@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import './ProjectsPage.css';
 import ProjectJsonData from '../../assets/data/project-content.json';
 import ProjectCard from '../../components/Cards/ProjectCard/ProjectCard';
-import BannerAdUnit from '../../components/AdCards/BannerAdUnit';
+import BannerAdUnit from '../../components/AdCards/BannerAdUnit/BannerAdUnit';
 import { useMobileDetect, useTabletDetect } from '../../service/ScreenSizeService';
 
 
