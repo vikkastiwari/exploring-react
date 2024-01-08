@@ -1,9 +1,9 @@
 import { ref, set } from 'firebase/database';
 
 import { ApiPath } from '../environment/ApiPath';
-import { Database } from './RdbService';
+import { databaseInstance } from './FirebaseService';
 
-const db = Database;
+const db = databaseInstance;
 
 export const SubscribeNewsletter = (data) => {
   const userName = data?.email?.split('@')[0];

@@ -70,6 +70,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### Tools Reference
+
+#### Website
 - SEO 
     - Google search console
     - Bings - Webmaster 
@@ -81,3 +83,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - React GA4
 - Domain - GoDaddy
 - Google Adsense 
+
+#### Optimization
+- [caniuse.com](https://caniuse.com/)

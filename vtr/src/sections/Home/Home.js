@@ -8,9 +8,9 @@ import JsonData from '../../assets/data/home-content.json';
 import heroBanner from "../../assets/img/hero/bg.jpg";
 import vt from "../../assets/img/hero/vt.png";
 import vtbg from "../../assets/img/thumb/vt-bg.jpg";
-import { ReactComponent as AngularIcon } from "../../assets/icons/tech/angular.svg";
-import { ReactComponent as ReactIcon } from "../../assets/icons/tech/reactjs.svg";
-import { ReactComponent as NodeIcon } from "../../assets/icons/tech/nodejs.svg";
+import angularIcon from "../../assets/icons/tech/angular.svg";
+import reactIcon from "../../assets/icons/tech/reactjs.svg";
+import nodeIcon from "../../assets/icons/tech/nodejs.svg";
 import { ReactComponent as DownIcon } from "../../assets/icons/misc/down.svg";
 import Section from "../../components/Section/Section";
 
@@ -72,19 +72,19 @@ const Home = () => {
             </div>
             <div className="right">
               <div className="image">
-                <img src={vtbg} alt="" />
+                <img className="vtbg" src={vtbg} alt='vikas tiwari bg' />
                 <div
                   className="main"
                   style={{ backgroundImage: `url(${vt})` }}
                 ></div>
                 <span className="icon t1">
-                  <ReactIcon className="svg" />
+                  <img src={reactIcon} alt='react-icon' />
                 </span>
                 <span className="icon t2">
-                  <AngularIcon className="svg" />
+                  <img src={angularIcon} alt='angular-icon' />
                 </span>
                 <span className="icon node t3">
-                  <NodeIcon className="svg" />
+                  <img src={nodeIcon} alt='angular-icon' />
                 </span>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Home = () => {
 
         <div className="vtr_tm_down">
           <a className="anchor" href="#features">
-            <DownIcon className="vtr-color-white" style={{width:'35px',height:'35px'}} />
+            <DownIcon className="vtr-color-white" />
           </a>
         </div>
       </div>

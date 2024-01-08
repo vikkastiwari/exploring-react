@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
 import ReactGA from 'react-ga4';
+import { getDatabase } from "firebase/database";
 
 /**
  * @description service init handler
@@ -21,6 +22,11 @@ const firebaseConfig = {
  * @description firebase app init
  */
 const app = initializeApp(firebaseConfig);
+
+/**
+ * @description exports realtimeDatabase instance of sdk
+ */ 
+export const databaseInstance = getDatabase();
 
 /**
  * @description GA4 analytics init

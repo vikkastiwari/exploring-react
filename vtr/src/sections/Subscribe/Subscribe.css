@@ -120,6 +120,7 @@
     .vtr_tm_subscribe .left{
         width: 100%;
         margin-bottom: 14px;
+        padding: 0;
     }
 
     .vtr_tm_subscribe .title{

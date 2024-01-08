@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './service/FirebaseService';
+
 import './index.css';
 import './css/general.css';
 import './css/hamburger.css';
 import './css/animation.css';
 import './css/helper.css';
+import './css/fonts.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

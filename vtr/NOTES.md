@@ -48,6 +48,7 @@ look manifest.json usability
 - Youtube Videos
 
 ### P0 TASKS
+- google not able to index pages due to 404 error
 - seo optimization
 - Look into how indexing can be done - how we can increase foot fall
 

@@ -136,7 +136,10 @@
 .vtr_tm_hero .right .image img {
     position: relative;
     min-width: 100%;
-    opacity: 0
+}
+
+.vtr_tm_hero .right .image img.vtbg {
+    opacity: 0;
 }
 
 .vtr_tm_hero .right .image .main {
@@ -185,6 +188,10 @@
 }
 
 .vtr_tm_hero .icon.t3{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    
     bottom: -24px;
     right: -34px;
 }

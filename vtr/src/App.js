@@ -1,23 +1,27 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './App.css';
-import './ServiceInitializr';
 import './service/AuthService';
-import Header from '../src/sections/Header/Header';
-import Footer from '../src/sections/Footer/Footer';
-import HomePage from './pages/Home/HomePage';
-import BlogsPage from './pages/Blogs/BlogsPage';
-import ProjectsPage from './pages/Projects/ProjectsPage';
-import VideosPage from './pages/Videos/VideosPage';
-import TermsPage from './pages/TC/TermsPage';
-import PrivacyPolicyPage from './pages/PrivacyPolicy/PrivacyPolicyPage';
-import AffilatesPage from './pages/Affilates/AffilatesPage';
+import Header from './sections/Header/Header';
+import Footer from './sections/Footer/Footer';
+import LazyLoad from './hoc/LazyLoad';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Loader from './components/Loader/Loader';
 import PageNotFound from './components/PageNotFound/PageNotFound';
-import ServicesPage from './pages/Services/ServicesPage';
-import ContactPage from './pages/Contact/ContactPage';
+
+/**
+ * @description Lazy load page modules
+ */ 
+const HomePage = LazyLoad(() => import('./pages/Home/HomePage'));
+const BlogsPage = LazyLoad(() => import('./pages/Blogs/BlogsPage'));
+const ProjectsPage = LazyLoad(() => import('./pages/Projects/ProjectsPage'));
+const VideosPage = LazyLoad(() => import('./pages/Videos/VideosPage'));
+const TermsPage = LazyLoad(() => import('./pages/TC/TermsPage'));
+const PrivacyPolicyPage = LazyLoad(() => import('./pages/PrivacyPolicy/PrivacyPolicyPage'));
+const AffilatesPage = LazyLoad(() => import('./pages/Affilates/AffilatesPage'));
+const ServicesPage = LazyLoad(() => import('./pages/Services/ServicesPage'));
+const ContactPage = LazyLoad(() => import('./pages/Contact/ContactPage'));
 
 function App() {
   if (process.env.REACT_APP_ENV === 'local') {
@@ -36,23 +40,6 @@ function App() {
       element.style.display = 'block';
     }
 
-    const fetchData = async () => {
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      // Loader fade out added
-      const loaderContainer = document.querySelector('.vtr-preloader');
-      if (loaderContainer) {
-        loaderContainer.classList.add('fade-out');
-      }
-      // Page made visible
-      const pagerContainer = document.querySelector('.vtr-page-wrapper');
-      if (pagerContainer) {
-        pagerContainer.classList.add('visible');
-      }
-    };
-    fetchData();
-  }, []);
-
-  useEffect(() => {
     /**
      * @description disable right click handler
      */ 
@@ -73,7 +60,7 @@ function App() {
           <Header />
           <Routes>
             <Route exact path='/' element={<HomePage />} />
-            <Route exact path='/blogs' element={<BlogsPage />} />
+            <Route path='/blogs' element={<BlogsPage />} />
             <Route path='/projects' element={<ProjectsPage />} />
             <Route path='/services' element={<ServicesPage />} />
             <Route path='/contact' element={<ContactPage />} />
