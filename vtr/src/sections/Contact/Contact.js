@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { FaLinkedinIn, FaLocationDot, FaPeopleGroup } from "react-icons/fa6";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 import "./Contact.css";
 import JsonData from "../../assets/data/home-content.json";
 import Section from "../../components/Section/Section";
 import Toast from '../../components/Toast/Toast';
+import BannerAdUnit from '../../components/AdCards/BannerAdUnit/BannerAdUnit';
 import { SubmitForm } from '../../service/FormService';
 import { ValidateEmail, ValidatePhone, ValidateString } from "../../service/ValidationService";
 
@@ -85,6 +86,7 @@ const Contact = () => {
               <h3>{contactData.subtitle}</h3>
               <p>{contactData.desc}</p>
             </div>
+            <BannerAdUnit />
             <div className="contact_inner">
               <div
                 className="left fadeInLeft"

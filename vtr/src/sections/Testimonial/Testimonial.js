@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ReactGA from 'react-ga4';
 
 import "./Testimonial.css";
 import Section from "../../components/Section/Section";
@@ -11,6 +12,12 @@ const Testimonial = () => {
 
   const onAvtrClick = (index) => {
     setActiveElement(index);
+    ReactGA.event({
+      category:"Testimonial",
+      action:"avtr_clicked",
+      label:testimonialData.clientName[index]?.name,
+      value:+index
+    })
   }
 
   return (
@@ -31,7 +38,7 @@ const Testimonial = () => {
                       <img src={require(`../../assets/img/thumb/${testimonialData.thumb_37x45}`)} alt="" />
                       <div
                         className="main"
-                        style={{backgroundImage:`url(${require(`../../assets/img/testimonial/${item.src}`)})`}}
+                        style={{backgroundImage:`url(${require(`../../assets/img/testimonial/${item?.src}`)})`}}
                       ></div>
                     </div>
                   </li>
@@ -56,7 +63,7 @@ const Testimonial = () => {
                     {testimonialData.clientMessage.map((item,index) => (
                       <li key={index+1} className={index === activeElement ? "active" : ""} data-index={index+1}>
                         <p>
-                          {item.message}
+                          {item?.message}
                         </p>
                       </li>
                     ))}
@@ -69,7 +76,7 @@ const Testimonial = () => {
                         {testimonialData.clientImage.map((item,index) => (
                           <li key={index} className={`grid-item ${index}`} onClick={onAvtrClick.bind(null,index)}>
                             <span>
-                              <div style={{backgroundImage:`url(${require(`../../assets/img/testimonial/${item.src}`)})`}}></div>
+                              <div style={{backgroundImage:`url(${require(`../../assets/img/testimonial/${item?.src}`)})`}}></div>
                             </span>
                             <span className="hidden">1</span>
                           </li>
@@ -80,15 +87,15 @@ const Testimonial = () => {
                       <ul className="name">
                         {testimonialData.clientName.map((item,index) => (
                           <li key={index} className={index === activeElement ? "active" : ""} data-index={index+1}>
-                            <h3>{item.name}</h3>
-                            <p>{item.org}</p>
+                            <h3>{item?.name}</h3>
+                            <p>{item?.desg}</p>
                           </li>
                         ))}
                       </ul>
                       <ul className="job">
                         {testimonialData.clientName.map((item,index) => (
                           <li key={index} className={index === activeElement ? "active" : ""} data-index={index+1}>
-                            <span>{item.job}</span>
+                            <span>{item?.job}</span>
                           </li>
                         ))}
                       </ul>

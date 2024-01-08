@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ReactGA from 'react-ga4';
 
 import "./ProjectCard.css";
 import thumb_1x1 from "../../../assets/img/thumb/1-1.jpg";
@@ -14,11 +15,21 @@ const ProjectCard = (props) => {
   const openHandler = (index) => {
     setCurrentIndex(index);
     setIsOpened(true);
+    projectClickHandler();
   };
 
   const closeHandler = () => {
     setIsOpened(false);
   };
+
+  const projectClickHandler = () => {
+    ReactGA.event({
+      category:"Projects",
+      action:"project_clicked",
+      label:props.item.title,
+      value:+props.index
+    })
+};
 
   return (
     <>

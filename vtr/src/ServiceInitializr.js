@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 /**
  * @description service init handler
@@ -16,13 +16,18 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
   measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
-const trackingId = process.env.REACT_APP_TRACKING_ID;
 
 /**
- * @description analytics & app init
+ * @description firebase app init
  */
-ReactGA.initialize(trackingId);
 const app = initializeApp(firebaseConfig);
+
+/**
+ * @description GA4 analytics init
+ */
+if (process.env.REACT_APP_ENV !== "local") {
+  ReactGA.initialize(firebaseConfig?.measurementId);
+}
 
 /**
  * @description enable debug mode - appCheck token
@@ -36,7 +41,9 @@ if (process.env.REACT_APP_ENV === "local") {
 /**
  * @description utility function to initialize appCheck
  */ 
-initializeAppCheck(app, {
-  provider: new ReCaptchaV3Provider(process.env.REACT_APP_SITE_KEY),
-  isTokenAutoRefreshEnabled: true
-}); 
+if (process.env.REACT_APP_ENV !== "local") {
+  initializeAppCheck(app, {
+    provider: new ReCaptchaV3Provider(process.env.REACT_APP_SITE_KEY),
+    isTokenAutoRefreshEnabled: true
+  }); 
+}

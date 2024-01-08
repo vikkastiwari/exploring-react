@@ -69,10 +69,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Tools
-- SEO - Google search console
+### Tools Reference
+- SEO 
+    - Google search console
+    - Bings - Webmaster 
 - Google Recaptcha
 - Google Cloud
-- React GA
+    - Identity Providers
+    - APIs & Services
+    - APIs & Services
+- React GA4
 - Domain - GoDaddy
 - Google Adsense 

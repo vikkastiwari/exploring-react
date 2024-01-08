@@ -1,10 +1,21 @@
+import ReactGA from 'react-ga4';
+
 import './BlogCard.css';
 import thumb_42x29 from '../../../assets/img/thumb/42-29.jpg';
 
 const BlogCard = (props) => {
 
+    const blogClickHandler = () => {
+        ReactGA.event({
+            category:"Blogs",
+            action:"blog_clicked",
+            label:props.item.title,
+            value:+props.item.rank
+        })
+    };
+
     return (
-        <div className="vtr_blog_card_wrapper">
+        <div className="vtr_blog_card_wrapper" onClick={blogClickHandler}>
             <div className="image">
                 <a href={props.item.url}  target="_blank" rel="noopener noreferrer">
                 <img src={thumb_42x29} alt="thumb" />

@@ -9,7 +9,7 @@ import Home from '../../sections/Home/Home';
 import Subscribe from '../../sections/Subscribe/Subscribe';
 import Testimonial from '../../sections/Testimonial/Testimonial';
 import Work from '../../sections/Work/Work';
-import BannerAdUnit from '../../components/AdCards/BannerAdUnit';
+import BannerAdUnit from '../../components/AdCards/BannerAdUnit/BannerAdUnit';
 
 const HomePage = () => {
 
